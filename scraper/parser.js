@@ -1,5 +1,7 @@
 import axios from 'axios';
 import * as cheerio from 'cheerio';
+import { response } from 'express';
+import fs from "fs/promises";
 
 export async function scrapeWithCheerio(url){
     const targetUrl = url.startsWith('http') ? url : `https://${url}`;
@@ -22,17 +24,21 @@ export async function scrapeWithCheerio(url){
             success: true
         };
     } catch (error) {
-        return { url, success: false, error: error.message };
+        let failureType = 'Unknown';
+        if (error.code === 'ENOTFOUND') failureType = 'Dead Domain/DNS Error';
+        if (error.code === 'ECONNABORTED') failureType = 'Timeout';
+        if (error.response?.status === 404) failureType = 'Page Missing';
+        return { url, success: false, error: failureType, failureType: failureType, code: error };
     }
 }
 
-function extractPhones(text) {
+export function extractPhones(text) {
     const phoneRegex = /((?:\+|00)[17](?: |\-)?|(?:\+|00)[1-9]\d{0,2}(?: |\-)?|(?:\+|00)1\-\d{3}(?: |\-)?)?(?:\(\d{3,4}\)|\d{3,4})(?: |\-)?\d{3,4}(?: |\-)?\d{3,4}/g;
     const matches = text.match(phoneRegex);
     return matches ? [...new Set(matches.map(p => p.trim()))] : [];
 }
 
-function extractSocials($) {
+export function extractSocials($) {
     const socials = { facebook: null, twitter: null, linkedin: null };
     
     $('a').each((i, el) => {
@@ -47,7 +53,7 @@ function extractSocials($) {
     return socials;
 }
 
-function extractAddress($) {
+export function extractAddress($) {
     let address = $('address').first().text().trim();
     
     if (!address) {
