@@ -4,6 +4,7 @@ import path from "path";
 import { fileURLToPath } from 'url';
 import pLimit from 'p-limit';
 import { scrapeWithCheerio } from "./parser.js";
+import {performDataAnalysis} from "./analysis.js"
 
 const limit = pLimit(50);
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -38,6 +39,7 @@ async function runScraper(){
     );
     const results = await Promise.all(tasks);
     console.log(results);
+    const stats = performDataAnalysis(results);
 } catch (error) {
     console.error("Error reading CSV:", error);
 }
