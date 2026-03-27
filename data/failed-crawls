@@ -21,13 +21,6 @@
     "code": "getaddrinfo ENOTFOUND verdantporch.com"
   },
   {
-    "url": "workitstudio.com",
-    "success": false,
-    "error": "Timeout",
-    "failureType": "Timeout",
-    "code": "timeout of 10000ms exceeded"
-  },
-  {
     "url": "coffee-homemachines.club",
     "success": false,
     "error": "Dead Domain/DNS Error",
@@ -924,13 +917,6 @@
     "code": "getaddrinfo ENOTFOUND when2heartsbeatas1.org"
   },
   {
-    "url": "abreakdisabilityandrespite.com",
-    "success": false,
-    "error": "Page Missing",
-    "failureType": "Page Missing",
-    "code": "Request failed with status code 404"
-  },
-  {
     "url": "galleongc.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
@@ -1092,6 +1078,13 @@
     "code": "getaddrinfo ENOTFOUND roland4fairview.com"
   },
   {
+    "url": "car.hk",
+    "success": false,
+    "error": "Timeout",
+    "failureType": "Timeout",
+    "code": "timeout of 10000ms exceeded"
+  },
+  {
     "url": "petexplain.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
@@ -1213,9 +1206,9 @@
   {
     "url": "myacem.com",
     "success": false,
-    "error": "Timeout",
-    "failureType": "Timeout",
-    "code": "timeout of 10000ms exceeded"
+    "error": "Unknown",
+    "failureType": "Unknown",
+    "code": "certificate has expired"
   },
   {
     "url": "par1cleaners.business.site",

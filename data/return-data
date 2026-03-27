@@ -99,10 +99,15 @@
   },
   {
     "url": "workitstudio.com",
-    "success": false,
-    "error": "Timeout",
-    "failureType": "Timeout",
-    "code": "timeout of 10000ms exceeded"
+    "phones": [],
+    "socials": {
+      "facebook": null,
+      "twitter": null,
+      "linkedin": null
+    },
+    "address": null,
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "coffee-homemachines.club",
@@ -888,7 +893,7 @@
     },
     "address": null,
     "success": true,
-    "methodUsed": "HTTPS-Permissive"
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "steppir.com",
@@ -1050,7 +1055,6 @@
       "081-6470-4941",
       "836141320866",
       "6511845816",
-      "935025296",
       "(402) 512-570",
       "703706348",
       "130563140371",
@@ -1173,13 +1177,13 @@
   {
     "url": "buchanan-edwards.online",
     "phones": [
-      "177459657671",
+      "177459805894",
       "754870121",
-      "000017745965",
-      "761500008408",
-      "222152214217",
-      "618734510",
-      "874716960"
+      "874716960",
+      "000017745980",
+      "581000008408",
+      "222152214365",
+      "808894710"
     ],
     "socials": {
       "facebook": null,
@@ -1640,7 +1644,7 @@
     },
     "address": null,
     "success": true,
-    "methodUsed": "HTTPS-Standard"
+    "methodUsed": "HTTPS-Permissive"
   },
   {
     "url": "gsbphoto.com",
@@ -2393,7 +2397,7 @@
       "119963885",
       "471055194102",
       "261384453872",
-      "1774596561",
+      "1774597838",
       "122763542696",
       "150961560328",
       "1624395672",
@@ -2520,8 +2524,8 @@
   {
     "url": "infinitiofsouthatlanta.com",
     "phones": [
-      "1774596565",
-      "4020276627"
+      "1774598041",
+      "1024751556"
     ],
     "socials": {
       "facebook": null,
@@ -5106,6 +5110,7 @@
   {
     "url": "themacks.wordpress.com",
     "phones": [
+      "6365894215",
       "1764078722"
     ],
     "socials": {
@@ -5911,9 +5916,8 @@
   {
     "url": "kathrynsonmoonlake.com",
     "phones": [
-      "1774591358",
-      "519620003301",
-      "1774596583"
+      "1774592824",
+      "1774598049"
     ],
     "socials": {
       "facebook": null,
@@ -6073,7 +6077,7 @@
     },
     "address": null,
     "success": true,
-    "methodUsed": "HTTP-Fallback"
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "theneedlehouse.com",
@@ -6199,10 +6203,33 @@
   },
   {
     "url": "abreakdisabilityandrespite.com",
-    "success": false,
-    "error": "Page Missing",
-    "failureType": "Page Missing",
-    "code": "Request failed with status code 404"
+    "phones": [
+      "177451433768",
+      "4050010372",
+      "0428 280 474",
+      "616 183 049",
+      "156 161 830",
+      "0400547364",
+      "514861749",
+      "0428280474",
+      "700-8487-6366",
+      "081589310",
+      "440582-7251",
+      "7599559548",
+      "989999771118",
+      "9392-5604-1148",
+      "635-8505-3391",
+      "1774514336",
+      "956799714351"
+    ],
+    "socials": {
+      "facebook": null,
+      "twitter": null,
+      "linkedin": null
+    },
+    "address": null,
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "aestatix.com",
@@ -6261,7 +6288,7 @@
       "144886231891",
       "108396698",
       "261340853949",
-      "1774594301",
+      "873-17745980",
       "138862592154",
       "139190867273",
       "880912682594",
@@ -6273,6 +6300,7 @@
       "794891941028",
       "496624917343",
       "946542143530",
+      "222981050",
       "1692030337",
       "519272427139",
       "599706617343",
@@ -6943,7 +6971,7 @@
   {
     "url": "designedbycarla.com",
     "phones": [
-      "177412988900",
+      "177433486521",
       "219508427187",
       "2971-7918-4867",
       "945486754",
@@ -6964,8 +6992,8 @@
       "635-8505-3391",
       "9392-5604-1148",
       "929212195",
-      "1774129887",
-      "927181051539",
+      "1774334863",
+      "810473045046",
       "783345493185",
       "163282161033",
       "793509388"
@@ -7312,14 +7340,10 @@
   },
   {
     "url": "car.hk",
-    "phones": [],
-    "socials": {
-      "facebook": null,
-      "twitter": null,
-      "linkedin": null
-    },
-    "address": null,
-    "success": true
+    "success": false,
+    "error": "Timeout",
+    "failureType": "Timeout",
+    "code": "timeout of 10000ms exceeded"
   },
   {
     "url": "audinashville.com",
@@ -7401,7 +7425,7 @@
   {
     "url": "aquamarinejewelrystudio.com",
     "phones": [
-      "20260327-1829"
+      "20260327-1854"
     ],
     "socials": {
       "facebook": null,
@@ -7669,9 +7693,7 @@
   },
   {
     "url": "marylandplatingservicinginc.com",
-    "phones": [
-      "252243256"
-    ],
+    "phones": [],
     "socials": {
       "facebook": null,
       "twitter": null,
@@ -8002,7 +8024,7 @@
   {
     "url": "sonicshopper.com",
     "phones": [
-      "66146593040"
+      "162848904930"
     ],
     "socials": {
       "facebook": null,
@@ -8137,8 +8159,6 @@
       "500031270",
       "500070839",
       "501119413",
-      "330740000",
-      "330741451",
       "(973) 770-9330"
     ],
     "socials": {
@@ -8211,9 +8231,9 @@
   {
     "url": "myacem.com",
     "success": false,
-    "error": "Timeout",
-    "failureType": "Timeout",
-    "code": "timeout of 10000ms exceeded"
+    "error": "Unknown",
+    "failureType": "Unknown",
+    "code": "certificate has expired"
   },
   {
     "url": "par1cleaners.business.site",
@@ -8439,7 +8459,7 @@
     },
     "address": null,
     "success": true,
-    "methodUsed": "HTTPS-Permissive"
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "paynespringsumc.org",
@@ -8492,7 +8512,7 @@
     "url": "wilkins-grocery.edan.io",
     "phones": [
       "+1 804-493-8660",
-      "177502859500"
+      "177503004700"
     ],
     "socials": {
       "facebook": null,
@@ -8582,7 +8602,7 @@
     },
     "address": null,
     "success": true,
-    "methodUsed": "HTTPS-Permissive"
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "pcinapa.com",
@@ -8637,7 +8657,7 @@
     },
     "address": "2024 by Carissa St",
     "success": true,
-    "methodUsed": "HTTPS-Permissive"
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "hometheatersystemgainesville.com",
@@ -8705,7 +8725,7 @@
     },
     "address": null,
     "success": true,
-    "methodUsed": "HTTPS-Permissive"
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "knickonwood.com",
@@ -8717,7 +8737,7 @@
     },
     "address": null,
     "success": true,
-    "methodUsed": "HTTP-Fallback"
+    "methodUsed": "HTTPS-Permissive"
   },
   {
     "url": "lukesmma.com",
@@ -8866,7 +8886,7 @@
     },
     "address": null,
     "success": true,
-    "methodUsed": "HTTPS-Permissive"
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "elegantdjservices.com",
@@ -8903,7 +8923,7 @@
     },
     "address": null,
     "success": true,
-    "methodUsed": "HTTPS-Permissive"
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "fccherrick.org",
@@ -8922,7 +8942,7 @@
     },
     "address": null,
     "success": true,
-    "methodUsed": "HTTPS-Permissive"
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "shiftflg.com",
@@ -8969,7 +8989,7 @@
     },
     "address": null,
     "success": true,
-    "methodUsed": "HTTPS-Permissive"
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "prlassociates.net",
@@ -8989,7 +9009,7 @@
     },
     "address": "110 Grant Ave",
     "success": true,
-    "methodUsed": "HTTPS-Permissive"
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "sewardlostlakelodge.com",
@@ -9020,7 +9040,7 @@
     },
     "address": null,
     "success": true,
-    "methodUsed": "HTTPS-Permissive"
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "ehardts.com",
@@ -9045,7 +9065,7 @@
     },
     "address": null,
     "success": true,
-    "methodUsed": "HTTPS-Permissive"
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "skgfitness.training",
@@ -9064,7 +9084,7 @@
     },
     "address": null,
     "success": true,
-    "methodUsed": "HTTPS-Permissive"
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "crazy.builders",
@@ -9131,7 +9151,7 @@
     },
     "address": null,
     "success": true,
-    "methodUsed": "HTTPS-Permissive"
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "reflexdelivery.com",
@@ -9202,7 +9222,7 @@
     },
     "address": null,
     "success": true,
-    "methodUsed": "HTTPS-Permissive"
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "cherrycreektributaries.com",
@@ -9242,7 +9262,7 @@
     },
     "address": null,
     "success": true,
-    "methodUsed": "HTTPS-Permissive"
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "borderwarswrestling.com",
@@ -9691,12 +9711,13 @@
     "url": "phalanxgrpservices.org",
     "phones": [
       "9189-791244",
-      "177459661626",
+      "177459805166",
       "598615916955",
       "149977430186",
       "149992748208",
       "2147483648",
       "(773) 291-1086",
+      "668-046492",
       "945486754",
       "216071924",
       "276-1246-058",
@@ -9725,8 +9746,8 @@
       "9392-5604-1148",
       "8934-994263",
       "573-4695-8449",
-      "1774596614",
-      "620848122805",
+      "1774598049",
+      "772899232507",
       "6441506710",
       "4827-9257-1462",
       "169027657360",
@@ -9987,7 +10008,7 @@
   {
     "url": "change-points.com",
     "phones": [
-      "20260327-1830"
+      "20260327-1854"
     ],
     "socials": {
       "facebook": null,
@@ -10258,15 +10279,7 @@
   },
   {
     "url": "medicalcoatings.org",
-    "phones": [
-      "177459661545",
-      "754870121",
-      "000017745966",
-      "157470008408",
-      "222152214221",
-      "573544913",
-      "126431565"
-    ],
+    "phones": [],
     "socials": {
       "facebook": null,
       "twitter": null,
@@ -10449,7 +10462,7 @@
     },
     "address": null,
     "success": true,
-    "methodUsed": "HTTPS-Permissive"
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "kufflet.com",
@@ -10742,7 +10755,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "clarionstl.com",
@@ -11031,12 +11045,12 @@
   {
     "url": "blueridgechair.com",
     "phones": [
-      "177459664070",
+      "177459807124",
       "754870121",
-      "000017745966",
-      "401870008408",
-      "222152214224",
-      "016694710",
+      "000017745980",
+      "715750008408",
+      "222152214367",
+      "151834510",
       "991376354"
     ],
     "socials": {
@@ -11710,12 +11724,13 @@
     "url": "statelinekids.com",
     "phones": [],
     "socials": {
-      "facebook": null,
+      "facebook": "https://www.facebook.com/StatelineKids",
       "twitter": null,
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "caninereproductivecenter.com",
@@ -12272,7 +12287,7 @@
   {
     "url": "mejina.net",
     "phones": [
-      "20260327-1830"
+      "20260327-1854"
     ],
     "socials": {
       "facebook": null,
@@ -13712,7 +13727,7 @@
     },
     "address": null,
     "success": true,
-    "methodUsed": "HTTP-Fallback"
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "dablawoffice.com",
@@ -15461,7 +15476,7 @@
     },
     "address": null,
     "success": true,
-    "methodUsed": "HTTPS-Permissive"
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "lloydfeinberg.com",
@@ -15891,7 +15906,7 @@
   {
     "url": "mingchienliang.com",
     "phones": [
-      "177434758634",
+      "177422621352",
       "887022285038",
       "092156650",
       "50408925233",
@@ -15901,9 +15916,8 @@
       "700-8487-6366",
       "635-8505-3391",
       "9392-5604-1148",
-      "1774347585",
-      "962172592061",
-      "1134700946"
+      "1774226213",
+      "161645976663"
     ],
     "socials": {
       "facebook": "http://www.facebook.com/",
@@ -16611,7 +16625,7 @@
     },
     "address": null,
     "success": true,
-    "methodUsed": "HTTPS-Permissive"
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "bgkinvestments.com",
