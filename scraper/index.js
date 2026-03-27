@@ -49,7 +49,7 @@ const tasks = websites.map(url => limit(async () => {
 
         const fallbackResult = await scrapeWithPlaywright(url);
         
-        if (fallbackResult.success) {
+        if (fallbackResult && fallbackResult.success) {
             console.log(`✅ Playwright succeeded for ${url}`);
             
             const $ = cheerio.load(`<body>${fallbackResult.text}</body>`);
@@ -68,7 +68,7 @@ const tasks = websites.map(url => limit(async () => {
                 socials: extractSocials($), 
                 address: extractAddress($), 
                 success: true,
-                code: error
+                code: error.message
             }
         }
     }

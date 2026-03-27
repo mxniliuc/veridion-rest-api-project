@@ -2,14 +2,24 @@ import axios from 'axios';
 import * as cheerio from 'cheerio';
 import { response } from 'express';
 import fs from "fs/promises";
+import https from 'https';
+
+const agent = new https.Agent({
+rejectUnauthorized: false,
+minVersion: 'TLSv1',       
+});
 
 export async function scrapeWithCheerio(url){
     const targetUrl = url.startsWith('http') ? url : `https://${url}`;
     try {
         const response = await axios.get(targetUrl, {
-            timeout: 8000,
+            timeout: 10000,
+            httpsAgent: agent,
             headers: {
-                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36'
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36',
+                'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+                'Accept-Language': 'en-US,en;q=0.5',
+                'Referer': 'https://www.google.com/'
             }
         });
 
@@ -28,7 +38,7 @@ export async function scrapeWithCheerio(url){
         if (error.code === 'ENOTFOUND') failureType = 'Dead Domain/DNS Error';
         if (error.code === 'ECONNABORTED') failureType = 'Timeout';
         if (error.response?.status === 404) failureType = 'Page Missing';
-        return { url, success: false, error: failureType, failureType: failureType, code: error };
+        return { url, success: false, error: failureType, failureType: failureType, code: error.message };
     }
 }
 
