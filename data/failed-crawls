@@ -7,13 +7,6 @@
     "code": "getaddrinfo ENOTFOUND melatee.com"
   },
   {
-    "url": "tlalocrivas.com",
-    "success": false,
-    "error": "Unknown",
-    "failureType": "Unknown",
-    "code": "write EPROTO 80B0C2FA01000000:error:0A000410:SSL routines:ssl3_read_bytes:sslv3 alert handshake failure:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:1605:SSL alert number 40\n"
-  },
-  {
     "url": "creativebusinessassociates.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
@@ -70,25 +63,11 @@
     "code": "Request failed with status code 403"
   },
   {
-    "url": "nashvilleucc.org",
-    "success": false,
-    "error": "Unknown",
-    "failureType": "Unknown",
-    "code": "write EPROTO 80B0C2FA01000000:error:0A000410:SSL routines:ssl3_read_bytes:sslv3 alert handshake failure:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:1605:SSL alert number 40\n"
-  },
-  {
-    "url": "azureskies.com",
-    "success": false,
-    "error": "Timeout",
-    "failureType": "Timeout",
-    "code": "timeout of 10000ms exceeded"
-  },
-  {
     "url": "couplescounselingatlanta.com",
     "success": false,
     "error": "Unknown",
     "failureType": "Unknown",
-    "code": "write EPROTO 80B0C2FA01000000:error:0A000410:SSL routines:ssl3_read_bytes:sslv3 alert handshake failure:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:1605:SSL alert number 40\n"
+    "code": "Request failed with status code 409"
   },
   {
     "url": "philstreeppc.com",
@@ -144,7 +123,7 @@
     "success": false,
     "error": "Unknown",
     "failureType": "Unknown",
-    "code": "write EPROTO 80B0C2FA01000000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:1605:SSL alert number 80\n"
+    "code": "Request failed with status code 503"
   },
   {
     "url": "1laurellane.com",
@@ -221,14 +200,7 @@
     "success": false,
     "error": "Unknown",
     "failureType": "Unknown",
-    "code": ""
-  },
-  {
-    "url": "buchanan-edwards.online",
-    "success": false,
-    "error": "Timeout",
-    "failureType": "Timeout",
-    "code": "timeout of 10000ms exceeded"
+    "code": "Request failed with status code 403"
   },
   {
     "url": "busiup.com",
@@ -250,13 +222,6 @@
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
     "code": "getaddrinfo ENOTFOUND scienceeducators.org"
-  },
-  {
-    "url": "gsbphoto.com",
-    "success": false,
-    "error": "Unknown",
-    "failureType": "Unknown",
-    "code": "write EPROTO 80B0C2FA01000000:error:0A000410:SSL routines:ssl3_read_bytes:sslv3 alert handshake failure:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:1605:SSL alert number 40\n"
   },
   {
     "url": "fuecid.shop",
@@ -301,18 +266,11 @@
     "code": "Request failed with status code 404"
   },
   {
-    "url": "seamuspuppy.com",
-    "success": false,
-    "error": "Timeout",
-    "failureType": "Timeout",
-    "code": "timeout of 10000ms exceeded"
-  },
-  {
     "url": "proexecstaffing.com",
     "success": false,
-    "error": "Timeout",
-    "failureType": "Timeout",
-    "code": "timeout of 10000ms exceeded"
+    "error": "Page Missing",
+    "failureType": "Page Missing",
+    "code": "Request failed with status code 404"
   },
   {
     "url": "yingtexun.com",
@@ -427,13 +385,6 @@
     "code": "getaddrinfo ENOTFOUND haqelyaqeen.com"
   },
   {
-    "url": "mutterpasshuellen.eu",
-    "success": false,
-    "error": "Unknown",
-    "failureType": "Unknown",
-    "code": "write EPROTO 80B0C2FA01000000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:1605:SSL alert number 80\n"
-  },
-  {
     "url": "theneumannproject.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
@@ -446,13 +397,6 @@
     "error": "Page Missing",
     "failureType": "Page Missing",
     "code": "Request failed with status code 404"
-  },
-  {
-    "url": "tevisdenise.com",
-    "success": false,
-    "error": "Unknown",
-    "failureType": "Unknown",
-    "code": "connect ECONNREFUSED 199.15.163.139:443"
   },
   {
     "url": "greggardnersbarbershop.com",
@@ -595,13 +539,6 @@
     "code": "getaddrinfo ENOTFOUND growthfutures.net"
   },
   {
-    "url": "drrokh.com",
-    "success": false,
-    "error": "Unknown",
-    "failureType": "Unknown",
-    "code": "Request failed with status code 403"
-  },
-  {
     "url": "shoplakebuoy.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
@@ -613,14 +550,7 @@
     "success": false,
     "error": "Unknown",
     "failureType": "Unknown",
-    "code": "Request failed with status code 403"
-  },
-  {
-    "url": "erichedlund.com",
-    "success": false,
-    "error": "Unknown",
-    "failureType": "Unknown",
-    "code": "write EPROTO 80B0C2FA01000000:error:0A000410:SSL routines:ssl3_read_bytes:sslv3 alert handshake failure:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:1605:SSL alert number 40\n"
+    "code": "Request failed with status code 409"
   },
   {
     "url": "4v21.com",
@@ -628,13 +558,6 @@
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
     "code": "getaddrinfo ENOTFOUND 4v21.com"
-  },
-  {
-    "url": "intfloors.com",
-    "success": false,
-    "error": "Unknown",
-    "failureType": "Unknown",
-    "code": "write EPROTO 80B0C2FA01000000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:1605:SSL alert number 80\n"
   },
   {
     "url": "trihealthbalance.com",
@@ -758,9 +681,9 @@
   {
     "url": "brandibaileyphotos.com",
     "success": false,
-    "error": "Timeout",
-    "failureType": "Timeout",
-    "code": "timeout of 10000ms exceeded"
+    "error": "Dead Domain/DNS Error",
+    "failureType": "Dead Domain/DNS Error",
+    "code": "getaddrinfo ENOTFOUND brandibaileyphotos.com"
   },
   {
     "url": "woodstocklodge246.org",
@@ -782,13 +705,6 @@
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
     "code": "getaddrinfo ENOTFOUND snugharborca.com"
-  },
-  {
-    "url": "emergencyinternational.org",
-    "success": false,
-    "error": "Unknown",
-    "failureType": "Unknown",
-    "code": "connect ECONNREFUSED 69.163.136.50:443"
   },
   {
     "url": "nu-imagepainting.com",
@@ -893,7 +809,7 @@
     "success": false,
     "error": "Unknown",
     "failureType": "Unknown",
-    "code": "write EPROTO 80B0C2FA01000000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:../deps/openssl/openssl/ssl/record/ssl3_record.c:355:\n"
+    "code": "Request failed with status code 403"
   },
   {
     "url": "parisfumc.org",
@@ -907,7 +823,7 @@
     "success": false,
     "error": "Unknown",
     "failureType": "Unknown",
-    "code": "Request failed with status code 403"
+    "code": "Request failed with status code 409"
   },
   {
     "url": "al-advertising-diet-store.com",
@@ -1008,6 +924,13 @@
     "code": "getaddrinfo ENOTFOUND when2heartsbeatas1.org"
   },
   {
+    "url": "abreakdisabilityandrespite.com",
+    "success": false,
+    "error": "Page Missing",
+    "failureType": "Page Missing",
+    "code": "Request failed with status code 404"
+  },
+  {
     "url": "galleongc.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
@@ -1034,13 +957,6 @@
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
     "code": "getaddrinfo ENOTFOUND littlefeetforestschool.org"
-  },
-  {
-    "url": "motinidesigns.com",
-    "success": false,
-    "error": "Unknown",
-    "failureType": "Unknown",
-    "code": "read ECONNRESET"
   },
   {
     "url": "nationalcarousels158.com",
@@ -1134,25 +1050,11 @@
     "code": "getaddrinfo ENOTFOUND king-alexander.com"
   },
   {
-    "url": "deperevfw.net",
-    "success": false,
-    "error": "Timeout",
-    "failureType": "Timeout",
-    "code": "timeout of 10000ms exceeded"
-  },
-  {
     "url": "northsidemeadows.com",
     "success": false,
     "error": "Timeout",
     "failureType": "Timeout",
     "code": "timeout of 10000ms exceeded"
-  },
-  {
-    "url": "myapexhomeinspection.com",
-    "success": false,
-    "error": "Unknown",
-    "failureType": "Unknown",
-    "code": "write EPROTO 80B0C2FA01000000:error:0A000410:SSL routines:ssl3_read_bytes:sslv3 alert handshake failure:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:1605:SSL alert number 40\n"
   },
   {
     "url": "rivertownslp.com",
@@ -1190,25 +1092,11 @@
     "code": "getaddrinfo ENOTFOUND roland4fairview.com"
   },
   {
-    "url": "car.hk",
-    "success": false,
-    "error": "Timeout",
-    "failureType": "Timeout",
-    "code": "timeout of 10000ms exceeded"
-  },
-  {
     "url": "petexplain.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
     "code": "getaddrinfo ENOTFOUND petexplain.com"
-  },
-  {
-    "url": "aquamarinejewelrystudio.com",
-    "success": false,
-    "error": "Timeout",
-    "failureType": "Timeout",
-    "code": "timeout of 10000ms exceeded"
   },
   {
     "url": "hiddenforestdesign.com",
@@ -1241,9 +1129,9 @@
   {
     "url": "creativitythroughconstraints.com",
     "success": false,
-    "error": "Timeout",
-    "failureType": "Timeout",
-    "code": "timeout of 10000ms exceeded"
+    "error": "Page Missing",
+    "failureType": "Page Missing",
+    "code": "Request failed with status code 404"
   },
   {
     "url": "limitlesscounselingservices.com",
@@ -1283,8 +1171,8 @@
   {
     "url": "shah-impex.com",
     "success": false,
-    "error": "Unknown",
-    "failureType": "Unknown",
+    "error": "SSL Handshake Failure",
+    "failureType": "SSL Handshake Failure",
     "code": "write EPROTO 80B0C2FA01000000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:1605:SSL alert number 80\n"
   },
   {
@@ -1309,13 +1197,6 @@
     "code": "getaddrinfo ENOTFOUND d30ufu6vr9yoyg.cloudfront.net"
   },
   {
-    "url": "worldsframedbywords.com",
-    "success": false,
-    "error": "Unknown",
-    "failureType": "Unknown",
-    "code": "write EPROTO 80B0C2FA01000000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:1605:SSL alert number 80\n"
-  },
-  {
     "url": "godsministryfellowship.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
@@ -1327,14 +1208,14 @@
     "success": false,
     "error": "Unknown",
     "failureType": "Unknown",
-    "code": "socket hang up"
+    "code": "Request failed with status code 444"
   },
   {
     "url": "myacem.com",
     "success": false,
-    "error": "Unknown",
-    "failureType": "Unknown",
-    "code": "Request failed with status code 500"
+    "error": "Timeout",
+    "failureType": "Timeout",
+    "code": "timeout of 10000ms exceeded"
   },
   {
     "url": "par1cleaners.business.site",
@@ -1393,13 +1274,6 @@
     "code": "getaddrinfo ENOTFOUND fayreconsulting.com"
   },
   {
-    "url": "lalupitaberwyn.net",
-    "success": false,
-    "error": "Unknown",
-    "failureType": "Unknown",
-    "code": "read ECONNRESET"
-  },
-  {
     "url": "sanchez-lawn-care-and-landscaping-services.business.site",
     "success": false,
     "error": "Page Missing",
@@ -1430,9 +1304,9 @@
   {
     "url": "lukesmma.com",
     "success": false,
-    "error": "Timeout",
-    "failureType": "Timeout",
-    "code": "timeout of 10000ms exceeded"
+    "error": "Dead Domain/DNS Error",
+    "failureType": "Dead Domain/DNS Error",
+    "code": "getaddrinfo ENOTFOUND lukesmma.com"
   },
   {
     "url": "celebaesthetics.com",
@@ -1447,13 +1321,6 @@
     "error": "Page Missing",
     "failureType": "Page Missing",
     "code": "Request failed with status code 404"
-  },
-  {
-    "url": "itlogo.net",
-    "success": false,
-    "error": "Timeout",
-    "failureType": "Timeout",
-    "code": "timeout of 10000ms exceeded"
   },
   {
     "url": "sewardlostlakelodge.com",
@@ -1481,7 +1348,7 @@
     "success": false,
     "error": "Unknown",
     "failureType": "Unknown",
-    "code": "Request failed with status code 403"
+    "code": "Request failed with status code 409"
   },
   {
     "url": "cherrycreektributaries.com",
@@ -1496,13 +1363,6 @@
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
     "code": "getaddrinfo ENOTFOUND marriagecounselingmemphis.com"
-  },
-  {
-    "url": "borderwarswrestling.com",
-    "success": false,
-    "error": "Unknown",
-    "failureType": "Unknown",
-    "code": "connect ECONNREFUSED 154.82.56.69:443"
   },
   {
     "url": "glovemitten.com",
@@ -1589,13 +1449,6 @@
     "code": "getaddrinfo ENOTFOUND hitsforhomeless.com"
   },
   {
-    "url": "innsofcourt.org",
-    "success": false,
-    "error": "Unknown",
-    "failureType": "Unknown",
-    "code": "read ECONNRESET"
-  },
-  {
     "url": "wadeloans.com",
     "success": false,
     "error": "Timeout",
@@ -1617,18 +1470,18 @@
     "code": "getaddrinfo ENOTFOUND slrslingshotrentals.com"
   },
   {
-    "url": "ssmobile.store",
-    "success": false,
-    "error": "Unknown",
-    "failureType": "Unknown",
-    "code": "write EPROTO 80B0C2FA01000000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:1605:SSL alert number 80\n"
-  },
-  {
     "url": "sunnirey.shop",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
     "code": "getaddrinfo ENOTFOUND sunnirey.shop"
+  },
+  {
+    "url": "cloudspeed24x7.com",
+    "success": false,
+    "error": "Dead Domain/DNS Error",
+    "failureType": "Dead Domain/DNS Error",
+    "code": "getaddrinfo ENOTFOUND cloudspeed24x7.com"
   },
   {
     "url": "gambittechconsulting.com",
@@ -1657,20 +1510,6 @@
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
     "code": "getaddrinfo ENOTFOUND carolynsnails.com"
-  },
-  {
-    "url": "cityofmountlaketerrace.com",
-    "success": false,
-    "error": "Unknown",
-    "failureType": "Unknown",
-    "code": "read ECONNRESET"
-  },
-  {
-    "url": "msjudithsewins.com",
-    "success": false,
-    "error": "Unknown",
-    "failureType": "Unknown",
-    "code": "write EPROTO 80B0C2FA01000000:error:0A000410:SSL routines:ssl3_read_bytes:sslv3 alert handshake failure:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:1605:SSL alert number 40\n"
   },
   {
     "url": "myparee.com",
@@ -1743,13 +1582,6 @@
     "code": "getaddrinfo ENOTFOUND tvwelove.com"
   },
   {
-    "url": "blueridgechair.com",
-    "success": false,
-    "error": "Timeout",
-    "failureType": "Timeout",
-    "code": "timeout of 10000ms exceeded"
-  },
-  {
     "url": "htiyos.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
@@ -1768,7 +1600,7 @@
     "success": false,
     "error": "Unknown",
     "failureType": "Unknown",
-    "code": "write EPROTO 80B0C2FA01000000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:1605:SSL alert number 80\n"
+    "code": "Request failed with status code 403"
   },
   {
     "url": "quality-trucking.com",
@@ -1848,13 +1680,6 @@
     "code": "getaddrinfo ENOTFOUND michaelskuceradentistry.com"
   },
   {
-    "url": "statelinekids.com",
-    "success": false,
-    "error": "Timeout",
-    "failureType": "Timeout",
-    "code": "timeout of 10000ms exceeded"
-  },
-  {
     "url": "caninereproductivecenter.com",
     "success": false,
     "error": "Page Missing",
@@ -1876,13 +1701,6 @@
     "code": "getaddrinfo ENOTFOUND mrsbecerra.com"
   },
   {
-    "url": "teitelbaumco.com",
-    "success": false,
-    "error": "Timeout",
-    "failureType": "Timeout",
-    "code": "timeout of 10000ms exceeded"
-  },
-  {
     "url": "vitalaehealingarts.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
@@ -1894,7 +1712,7 @@
     "success": false,
     "error": "Unknown",
     "failureType": "Unknown",
-    "code": "Request failed with status code 502"
+    "code": "Request failed with status code 403"
   },
   {
     "url": "djs-general-service-llc.business.site",
@@ -1911,13 +1729,6 @@
     "code": "getaddrinfo ENOTFOUND graphicmontzter.com"
   },
   {
-    "url": "pdassociation.org",
-    "success": false,
-    "error": "Unknown",
-    "failureType": "Unknown",
-    "code": "connect ECONNREFUSED 75.126.104.237:443"
-  },
-  {
     "url": "centurywebdesign.net",
     "success": false,
     "error": "Dead Domain/DNS Error",
@@ -1927,9 +1738,9 @@
   {
     "url": "holehunterindustries.com",
     "success": false,
-    "error": "Timeout",
-    "failureType": "Timeout",
-    "code": "timeout of 10000ms exceeded"
+    "error": "Unknown",
+    "failureType": "Unknown",
+    "code": "Request failed with status code 403"
   },
   {
     "url": "transtekautosales.com",
@@ -1937,13 +1748,6 @@
     "error": "Timeout",
     "failureType": "Timeout",
     "code": "timeout of 10000ms exceeded"
-  },
-  {
-    "url": "meroscience.org",
-    "success": false,
-    "error": "Unknown",
-    "failureType": "Unknown",
-    "code": "write EPROTO 80B0C2FA01000000:error:0A000410:SSL routines:ssl3_read_bytes:sslv3 alert handshake failure:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:1605:SSL alert number 40\n"
   },
   {
     "url": "gallerycollage.com",
@@ -2037,25 +1841,11 @@
     "code": "getaddrinfo ENOTFOUND drariatirakic.com"
   },
   {
-    "url": "coralgablesrealestatefl.com",
-    "success": false,
-    "error": "Unknown",
-    "failureType": "Unknown",
-    "code": "write EPROTO 80B0C2FA01000000:error:0A000410:SSL routines:ssl3_read_bytes:sslv3 alert handshake failure:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:1605:SSL alert number 40\n"
-  },
-  {
     "url": "vghgroup.org",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
     "code": "getaddrinfo ENOTFOUND vghgroup.org"
-  },
-  {
-    "url": "beckynadesan.com",
-    "success": false,
-    "error": "Unknown",
-    "failureType": "Unknown",
-    "code": "read ECONNRESET"
   },
   {
     "url": "energy-health-oriental-massage.business.site",
@@ -2149,13 +1939,6 @@
     "code": "getaddrinfo ENOTFOUND montcapitalpartners.com"
   },
   {
-    "url": "downeygroupllc.com",
-    "success": false,
-    "error": "Unknown",
-    "failureType": "Unknown",
-    "code": "write EPROTO 80B0C2FA01000000:error:0A00014D:SSL routines:tls_process_key_exchange:legacy sigalg disallowed or unsupported:../deps/openssl/openssl/ssl/statem/statem_clnt.c:2255:\n"
-  },
-  {
     "url": "focusmedicalbillingservices.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
@@ -2210,13 +1993,6 @@
     "error": "Page Missing",
     "failureType": "Page Missing",
     "code": "Request failed with status code 404"
-  },
-  {
-    "url": "lesliehaywood-moore.online",
-    "success": false,
-    "error": "Unknown",
-    "failureType": "Unknown",
-    "code": "connect ECONNREFUSED 173.255.203.251:443"
   },
   {
     "url": "northwest-georgia-regional-commission.business.site",
@@ -2420,6 +2196,13 @@
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
     "code": "getaddrinfo ENOTFOUND getrazuzz.com"
+  },
+  {
+    "url": "diecutstickers.com",
+    "success": false,
+    "error": "Timeout",
+    "failureType": "Timeout",
+    "code": "timeout of 10000ms exceeded"
   },
   {
     "url": "edgeinsurance.biz",

@@ -8,7 +8,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "mazautoglass.com",
@@ -21,7 +22,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "melatee.com",
@@ -34,7 +36,6 @@
     "url": "timent.com",
     "phones": [
       "(954) 274-9020",
-      "944576403",
       "000000000000",
       "000081803053",
       "914031309545",
@@ -47,14 +48,28 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "tlalocrivas.com",
-    "success": false,
-    "error": "Unknown",
-    "failureType": "Unknown",
-    "code": "write EPROTO 80B0C2FA01000000:error:0A000410:SSL routines:ssl3_read_bytes:sslv3 alert handshake failure:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:1605:SSL alert number 40\n"
+    "phones": [
+      "115677524393",
+      "258444806761",
+      "659896438721",
+      "358580636177",
+      "698263678581",
+      "743969213557",
+      "751043798673"
+    ],
+    "socials": {
+      "facebook": null,
+      "twitter": null,
+      "linkedin": null
+    },
+    "address": null,
+    "success": true,
+    "methodUsed": "HTTP-Fallback"
   },
   {
     "url": "creativebusinessassociates.com",
@@ -72,7 +87,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "verdantporch.com",
@@ -111,7 +127,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "kansaslimousin.org",
@@ -125,7 +142,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "kkcger.com",
@@ -141,7 +159,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "maddux.pro",
@@ -161,7 +180,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "postmodern-strings.com",
@@ -175,7 +195,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "takapartners.com",
@@ -186,7 +207,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "techbarstore.com",
@@ -197,7 +219,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "top-salon-hair-salon.business.site",
@@ -224,7 +247,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Permissive"
   },
   {
     "url": "timothyburger.com",
@@ -235,7 +259,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "trueaudio.com",
@@ -248,7 +273,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "venturemediaagency.com",
@@ -261,7 +287,8 @@
       "linkedin": null
     },
     "address": "100 Walnut Ave",
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "garrettwietholter.com",
@@ -339,14 +366,23 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "nashvilleucc.org",
-    "success": false,
-    "error": "Unknown",
-    "failureType": "Unknown",
-    "code": "write EPROTO 80B0C2FA01000000:error:0A000410:SSL routines:ssl3_read_bytes:sslv3 alert handshake failure:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:1605:SSL alert number 40\n"
+    "phones": [
+      "937-698-5867",
+      "458181955714"
+    ],
+    "socials": {
+      "facebook": null,
+      "twitter": null,
+      "linkedin": null
+    },
+    "address": null,
+    "success": true,
+    "methodUsed": "HTTP-Fallback"
   },
   {
     "url": "outforlifeministries.com",
@@ -357,7 +393,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "phack.org",
@@ -370,7 +407,8 @@
       "linkedin": "https://www.linkedin.com/company/pacific-hackers-conference"
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "potomaccanine.com",
@@ -381,21 +419,27 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "azureskies.com",
-    "success": false,
-    "error": "Timeout",
-    "failureType": "Timeout",
-    "code": "timeout of 10000ms exceeded"
+    "phones": [],
+    "socials": {
+      "facebook": null,
+      "twitter": null,
+      "linkedin": null
+    },
+    "address": null,
+    "success": true,
+    "methodUsed": "HTTP-Fallback"
   },
   {
     "url": "couplescounselingatlanta.com",
     "success": false,
     "error": "Unknown",
     "failureType": "Unknown",
-    "code": "write EPROTO 80B0C2FA01000000:error:0A000410:SSL routines:ssl3_read_bytes:sslv3 alert handshake failure:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:1605:SSL alert number 40\n"
+    "code": "Request failed with status code 409"
   },
   {
     "url": "philstreeppc.com",
@@ -423,7 +467,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "smilesbygateway.com",
@@ -441,7 +486,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "solarecon.wordpress.com",
@@ -454,7 +500,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "johnstons-clothiers.business.site",
@@ -483,7 +530,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "completecaredevelopmentcenter.com",
@@ -512,7 +560,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "samantharaiderbrown.com",
@@ -526,7 +575,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "beagibbons.com",
@@ -540,7 +590,7 @@
     "success": false,
     "error": "Unknown",
     "failureType": "Unknown",
-    "code": "write EPROTO 80B0C2FA01000000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:1605:SSL alert number 80\n"
+    "code": "Request failed with status code 503"
   },
   {
     "url": "iam-boeing.com",
@@ -551,7 +601,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Permissive"
   },
   {
     "url": "roux30a.com",
@@ -599,7 +650,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "1laurellane.com",
@@ -628,7 +680,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "candybartending.com",
@@ -669,7 +722,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "kelleyroadrace.com",
@@ -699,7 +753,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "marrs-jonesfuneralhome.com",
@@ -751,7 +806,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "starcomconsulting.com",
@@ -787,7 +843,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "jessicaashwellness.com",
@@ -806,7 +863,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "pctouchservices.com",
@@ -817,7 +875,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Permissive"
   },
   {
     "url": "sharonkinghoge.com",
@@ -828,7 +887,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Permissive"
   },
   {
     "url": "steppir.com",
@@ -839,7 +899,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "highwayonerealestate.com",
@@ -852,7 +913,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "minastollery.com",
@@ -863,7 +925,8 @@
       "linkedin": null
     },
     "address": "2021 Mina St",
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "amwindowcleaning.org",
@@ -885,72 +948,77 @@
       "774859335493",
       "011868826",
       "84309964590",
-      "874374202",
-      "767128042",
-      "1785907587",
-      "1375214217",
-      "569486081",
-      "1032994919",
-      "1757854915",
-      "1200895082",
-      "1611791948",
-      "1473770000",
-      "1241951755",
-      "536843652",
-      "176436849",
+      "2136299557",
+      "882138763",
+      "1332302599",
+      "1940986346",
+      "2131980344",
+      "634687463",
+      "1549505756",
+      "125128627",
+      "3782059367",
+      "517876719",
+      "1419388464",
+      "1606018604",
+      "1744221664",
+      "633231902",
       "66666666667",
       "33333333333",
-      "1118917758",
-      "1605912550",
-      "109868573",
-      "2109519648",
-      "759582743",
-      "1066603990",
-      "1163112048",
-      "343625629",
-      "1561946210",
-      "119236515",
-      "1426046062",
-      "1465804191",
-      "1831038860",
-      "393282258",
-      "1647067741",
-      "3488674878",
-      "698129977",
-      "238488109",
-      "1308909587",
-      "1989269204",
-      "434379161",
-      "2729761374",
-      "473675695",
-      "1672874725",
-      "1190452722",
-      "1994834368",
-      "586388268",
-      "1480964932",
-      "1539294779",
-      "113965681",
-      "2000412693",
-      "980822202",
-      "1031733858",
-      "543735089",
-      "531311051",
-      "328555507",
-      "1228992885",
-      "854102768",
-      "1724021311",
-      "444506086",
-      "542519478",
-      "1140846697",
-      "1057057156"
+      "130504110",
+      "1563600961",
+      "1617057733",
+      "816298814",
+      "1403064852",
+      "1614557174",
+      "1623616622",
+      "1939814367",
+      "1905267510",
+      "466437531",
+      "1344053552",
+      "1554188311",
+      "778131243",
+      "1222595564",
+      "1201427632",
+      "827477684",
+      "2079268499",
+      "2147985214",
+      "224186784",
+      "960386568",
+      "975173990",
+      "479369708",
+      "631082065",
+      "1670714168",
+      "1204152491",
+      "1304823125",
+      "2126373280",
+      "473089234",
+      "585982117",
+      "2020332091",
+      "366528210",
+      "722211304",
+      "230575324",
+      "1648840071",
+      "744874502",
+      "1565113616",
+      "1455239259",
+      "1445243591",
+      "1787385273",
+      "1324407783",
+      "1616539369",
+      "2278130895",
+      "1786729408",
+      "1491648505",
+      "2845181700",
+      "1640531680"
     ],
     "socials": {
       "facebook": "https://www.facebook.com/DubsScrubs",
       "twitter": null,
       "linkedin": null
     },
-    "address": "99        Contact Us     West Chester St",
-    "success": true
+    "address": "99    Rothwear Insight St",
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "figlass.biz",
@@ -964,7 +1032,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "horizons.church",
@@ -981,7 +1050,7 @@
       "081-6470-4941",
       "836141320866",
       "6511845816",
-      "13418351-1258",
+      "935025296",
       "(402) 512-570",
       "703706348",
       "130563140371",
@@ -1004,7 +1073,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "mygoodhorse.weebly.com",
@@ -1019,7 +1089,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "wombatworks.org",
@@ -1070,7 +1141,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "alpha-research-associates-research-institute.business.site",
@@ -1084,7 +1156,7 @@
     "success": false,
     "error": "Unknown",
     "failureType": "Unknown",
-    "code": ""
+    "code": "Request failed with status code 403"
   },
   {
     "url": "astepabovemb.com",
@@ -1095,14 +1167,28 @@
       "linkedin": null
     },
     "address": "2026 A ST",
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "buchanan-edwards.online",
-    "success": false,
-    "error": "Timeout",
-    "failureType": "Timeout",
-    "code": "timeout of 10000ms exceeded"
+    "phones": [
+      "177459657671",
+      "754870121",
+      "000017745965",
+      "761500008408",
+      "222152214217",
+      "618734510",
+      "874716960"
+    ],
+    "socials": {
+      "facebook": null,
+      "twitter": null,
+      "linkedin": null
+    },
+    "address": null,
+    "success": true,
+    "methodUsed": "HTTP-Fallback"
   },
   {
     "url": "busiup.com",
@@ -1183,7 +1269,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "oceancurrent.com",
@@ -1455,12 +1542,14 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "arnoldprint.com",
     "phones": [
-      "(717) 392-5491"
+      "(717) 392-5491",
+      "929744064"
     ],
     "socials": {
       "facebook": null,
@@ -1468,7 +1557,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "deepdivecounseling.net",
@@ -1479,7 +1569,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "forcht-law.com",
@@ -1490,7 +1581,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "graciejoplin.com",
@@ -1523,7 +1615,8 @@
       "linkedin": null
     },
     "address": "360 East 72nd Street",
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "scienceeducators.org",
@@ -1546,14 +1639,20 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "gsbphoto.com",
-    "success": false,
-    "error": "Unknown",
-    "failureType": "Unknown",
-    "code": "write EPROTO 80B0C2FA01000000:error:0A000410:SSL routines:ssl3_read_bytes:sslv3 alert handshake failure:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:1605:SSL alert number 40\n"
+    "phones": [],
+    "socials": {
+      "facebook": null,
+      "twitter": null,
+      "linkedin": null
+    },
+    "address": null,
+    "success": true,
+    "methodUsed": "HTTP-Fallback"
   },
   {
     "url": "pinehavenresort.com",
@@ -1567,7 +1666,8 @@
       "linkedin": null
     },
     "address": "3173 4th Ave",
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "cavachonsofoklahoma.com",
@@ -1578,7 +1678,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "fuecid.shop",
@@ -1622,7 +1723,8 @@
       "linkedin": "https://www.linkedin.com/company/uomo-sport"
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "warnby.com",
@@ -1647,7 +1749,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "gygeneralservices.business.site",
@@ -1685,7 +1788,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "koimountain.com",
@@ -1696,7 +1800,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "pinolevistareimagined.com",
@@ -1707,14 +1812,20 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "seamuspuppy.com",
-    "success": false,
-    "error": "Timeout",
-    "failureType": "Timeout",
-    "code": "timeout of 10000ms exceeded"
+    "phones": [],
+    "socials": {
+      "facebook": null,
+      "twitter": null,
+      "linkedin": null
+    },
+    "address": null,
+    "success": true,
+    "methodUsed": "HTTP-Fallback"
   },
   {
     "url": "aop3d.com",
@@ -1731,8 +1842,9 @@
       "twitter": null,
       "linkedin": null
     },
-    "address": "5 Whistlestop Mall\n                    Rockport, MA 01966\n                    \n                        \n                            🗺️ Open in Maps",
-    "success": true
+    "address": "5 Whistlestop Mall\n                    Rockport, MA 01966\n                    \n                        🗺️ Open in Maps",
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "off-trail.co",
@@ -1745,26 +1857,27 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "proexecstaffing.com",
     "success": false,
-    "error": "Timeout",
-    "failureType": "Timeout",
-    "code": "timeout of 10000ms exceeded"
+    "error": "Page Missing",
+    "failureType": "Page Missing",
+    "code": "Request failed with status code 404"
   },
   {
     "url": "stewartgrain.com",
     "phones": [
       "(765) 986-2254",
       "(217) 759-7938",
-      "6200466-601",
-      "8975492-601",
-      "67001173-001",
-      "45751150-001",
-      "9300599-401",
-      "0450609-001"
+      "6525466-002",
+      "9300493-402",
+      "70251172-002",
+      "50001151-002",
+      "0275605-002",
+      "1350616-002"
     ],
     "socials": {
       "facebook": null,
@@ -1772,7 +1885,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "truyasushica.com",
@@ -1788,7 +1902,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "yingtexun.com",
@@ -1813,7 +1928,8 @@
       "linkedin": "https://www.linkedin.com/company/hyhp"
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "rrrobotictec.com",
@@ -1833,7 +1949,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "justgooglebenhiggins.com",
@@ -1853,7 +1970,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "stitchncluck.com",
@@ -1867,7 +1985,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "ascend-tech.us",
@@ -1901,7 +2020,8 @@
       "linkedin": "https://www.linkedin.com/company/ascendant-software-technology-llc/"
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "buryservices.com",
@@ -1924,7 +2044,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "cleaningsvccolumbiafalls.com",
@@ -1954,7 +2075,7 @@
   {
     "url": "miltongeorgialiving.com",
     "phones": [
-      "177451825989",
+      "177459391987",
       "519850138292",
       "155622335513",
       "2626028960",
@@ -1966,7 +2087,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "smensclub.org",
@@ -1979,7 +2101,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "woodgateapts.net",
@@ -2015,7 +2138,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "fanbladedesigns.com",
@@ -2028,7 +2152,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "ghostmountain.org",
@@ -2039,12 +2164,13 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "lequedagua.com",
     "phones": [
-      "177455338123",
+      "177458781443",
       "212 317 004",
       "242019728",
       "945486754",
@@ -2067,18 +2193,18 @@
       "27356412895",
       "164-4640-915",
       "8762-85501895",
-      "1774553380",
-      "013259758050",
-      "0133116598",
-      "5041-58613474",
+      "1774587812",
+      "556264877006",
+      "313013515",
       "00000000-0000",
-      "000000-0000",
       "0000-0000-0000",
       "456-42661417",
       "4285-9816-8855",
       "76570209-101",
       "405780-996",
-      "6944823961"
+      "6944823961",
+      "5041-58613474",
+      "000000-0000"
     ],
     "socials": {
       "facebook": "https://www.facebook.com/lequedagua.lda/",
@@ -2086,7 +2212,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "lisinoprilfst.com",
@@ -2106,7 +2233,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "semillacenter.org",
@@ -2117,7 +2245,8 @@
       "linkedin": null
     },
     "address": "2742 15th Ave",
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "jrmatheny.com",
@@ -2153,7 +2282,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "madebyjosy.com",
@@ -2171,7 +2301,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "stpunited.org",
@@ -2184,7 +2315,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "thethriftyhijabi.com",
@@ -2202,7 +2334,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "2701jamesmwood.com",
@@ -2218,7 +2351,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "behindthewhitebeard.com",
@@ -2244,7 +2378,8 @@
       "linkedin": null
     },
     "address": "00 pmBy Appointment Only\n\n\n\t\t\t\n\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\t\t\t\t\n\n\n 3001 Carlsbad Blvd Suite",
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "floraottimer.com",
@@ -2258,7 +2393,7 @@
       "119963885",
       "471055194102",
       "261384453872",
-      "1774555270",
+      "1774596561",
       "122763542696",
       "150961560328",
       "1624395672",
@@ -2379,13 +2514,14 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "infinitiofsouthatlanta.com",
     "phones": [
-      "1774555272",
-      "819840273"
+      "1774596565",
+      "4020276627"
     ],
     "socials": {
       "facebook": null,
@@ -2403,7 +2539,8 @@
       "800000000000",
       "000044408920",
       "985006261616",
-      "945266723632"
+      "945266723632",
+      "2521953866"
     ],
     "socials": {
       "facebook": "https://www.facebook.com/johnsoncreekrvresortpark",
@@ -2411,7 +2548,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "liketelevision.com",
@@ -2429,7 +2567,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "allcleanhomes.com",
@@ -2442,7 +2581,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "ericamhill.com",
@@ -2455,7 +2595,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "hypnosishealthworks.com",
@@ -2468,7 +2609,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "rewildyourgarden.com",
@@ -2540,7 +2682,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "shakeprosolutions.com",
@@ -2553,7 +2696,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "themarketinggroupaz.com",
@@ -2588,7 +2732,8 @@
       "linkedin": "https://www.linkedin.com/company/continental-fresh-llc/"
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "marblepolishingmiami.net",
@@ -2602,7 +2747,8 @@
       "linkedin": null
     },
     "address": "1560 NE 191st St",
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "tornadobaseball.com",
@@ -2613,7 +2759,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "hdnavalue.com",
@@ -2624,7 +2771,8 @@
       "linkedin": "https://www.linkedin.com/company/hollingshead-dearden-&-associates"
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "mojoparker.com",
@@ -2637,7 +2785,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "proofpass.com",
@@ -2657,7 +2806,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "spynewsletter.com",
@@ -2677,7 +2827,8 @@
       "linkedin": null
     },
     "address": "11401 Starkey Road",
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "haqelyaqeen.com",
@@ -2688,10 +2839,18 @@
   },
   {
     "url": "mutterpasshuellen.eu",
-    "success": false,
-    "error": "Unknown",
-    "failureType": "Unknown",
-    "code": "write EPROTO 80B0C2FA01000000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:1605:SSL alert number 80\n"
+    "phones": [
+      "621-254-2147",
+      "139328030"
+    ],
+    "socials": {
+      "facebook": null,
+      "twitter": null,
+      "linkedin": null
+    },
+    "address": null,
+    "success": true,
+    "methodUsed": "HTTP-Fallback"
   },
   {
     "url": "theneumannproject.com",
@@ -2747,7 +2906,8 @@
       "linkedin": null
     },
     "address": "3315 Glade Road",
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "vipsmarthomes.com",
@@ -2760,7 +2920,8 @@
       "linkedin": "https://www.linkedin.com/company/vipsmarthomes/"
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "jsdagency.com",
@@ -2771,7 +2932,8 @@
       "linkedin": "https://www.linkedin.com/company/jsdagency"
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "sunnova-solar-oakland.business.site",
@@ -2782,10 +2944,27 @@
   },
   {
     "url": "tevisdenise.com",
-    "success": false,
-    "error": "Unknown",
-    "failureType": "Unknown",
-    "code": "connect ECONNREFUSED 199.15.163.139:443"
+    "phones": [
+      "177434945522",
+      "414369187734",
+      "700-8487-6366",
+      "264752614",
+      "508114831",
+      "4391-9337-6702",
+      "635-8505-3391",
+      "9392-5604-1148",
+      "1774349454",
+      "720101684113",
+      "1134700946"
+    ],
+    "socials": {
+      "facebook": null,
+      "twitter": null,
+      "linkedin": null
+    },
+    "address": null,
+    "success": true,
+    "methodUsed": "HTTP-Fallback"
   },
   {
     "url": "badgertoyotalift.com",
@@ -2806,7 +2985,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "bettoli.realtor",
@@ -2857,7 +3037,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "ropescan.us",
@@ -2877,7 +3058,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "dumpsterrentalalhambraca.com",
@@ -2909,7 +3091,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "salinasidingcompany.com",
@@ -2930,7 +3113,8 @@
       "linkedin": "https://www.linkedin.com/company/75604120/"
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "arisepca.com",
@@ -2943,7 +3127,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "hairbykole.com",
@@ -2968,7 +3153,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "lineoftecnologia.com",
@@ -2988,7 +3174,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "sootheyoursoulmassage.com",
@@ -2999,7 +3186,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "thatpaintgirl.com",
@@ -3051,7 +3239,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "cgllcairheatingandcoolingservices.business.site",
@@ -3076,7 +3265,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "betterbuildco.com",
@@ -3090,7 +3280,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "dreamservicesoftware.com",
@@ -3103,7 +3294,8 @@
       "linkedin": "https://www.linkedin.com/company/dream-service-software"
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "meskauskis.com",
@@ -3114,7 +3306,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "thelocalmanjakemangan.com",
@@ -3444,7 +3637,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "loydayu.com",
@@ -3536,7 +3730,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "markhensonart.com",
@@ -3551,7 +3746,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "tangodown.com",
@@ -3565,7 +3761,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "iambaldianastyles.info",
@@ -3596,7 +3793,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "nefsvt.com",
@@ -3609,7 +3807,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "yourvibrantnutrition.com",
@@ -3634,7 +3833,8 @@
       "linkedin": null
     },
     "address": "151 Main Street",
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "burst-media.com",
@@ -3675,7 +3875,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "hightechautoservicesantamonica.com",
@@ -3703,7 +3904,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "tsunamipolo.org",
@@ -3718,7 +3920,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "bergesenterpriseinc.com",
@@ -3729,7 +3932,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "brooklyntreecompany.com",
@@ -3749,7 +3953,8 @@
       "linkedin": null
     },
     "address": "2026 by DownTown Waco Leave a Comment \n\n  \n      \n        St",
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "paysonhandyman.com",
@@ -3760,7 +3965,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "skdesignbuildllc.com",
@@ -3776,7 +3982,8 @@
       "linkedin": "https://www.linkedin.com/company/s&k-technologies/"
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "adaini.com",
@@ -3787,7 +3994,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "brilliantcityreiki.com",
@@ -3805,7 +4013,8 @@
       "linkedin": "https://www.linkedin.com/company/genfree-llc"
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "gentzlerelectric.com",
@@ -3819,7 +4028,8 @@
       "linkedin": null
     },
     "address": "11545 Pagemill Rd",
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "moorecapitalservices.net",
@@ -3835,7 +4045,8 @@
       "linkedin": null
     },
     "address": "52 Broadway Suite",
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "amendedbeauty.com",
@@ -3860,7 +4071,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "beautifulbodybabes.com",
@@ -3892,7 +4104,8 @@
       "linkedin": null
     },
     "address": "2026 Jana Rose St",
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "pearlcorker.wordpress.com",
@@ -3905,7 +4118,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "skinnerdaylilies.com",
@@ -3916,7 +4130,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "tamalpaistaichi.com",
@@ -3927,7 +4142,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "asahisuperdry.com",
@@ -3938,14 +4154,22 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "drrokh.com",
-    "success": false,
-    "error": "Unknown",
-    "failureType": "Unknown",
-    "code": "Request failed with status code 403"
+    "phones": [
+      "666666666666"
+    ],
+    "socials": {
+      "facebook": null,
+      "twitter": null,
+      "linkedin": null
+    },
+    "address": null,
+    "success": true,
+    "methodUsed": "HTTP-Fallback"
   },
   {
     "url": "highwaydistribution.net",
@@ -3965,7 +4189,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "kellyhohlainteriors.com",
@@ -3991,7 +4216,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "lawrencedy.com",
@@ -4012,7 +4238,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "sullivanswcd.org",
@@ -4034,7 +4261,8 @@
       "linkedin": null
     },
     "address": "64 Ferndale Loomis Road",
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "ergoactives.com",
@@ -4058,7 +4286,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "grpinsurance.com",
@@ -4078,7 +4307,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "laydomsouth.org",
@@ -4091,7 +4321,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "shoplakebuoy.com",
@@ -4111,7 +4342,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "acornlawpc.com",
@@ -4125,21 +4357,31 @@
       "linkedin": null
     },
     "address": "310 N. Westlake Blvd, Suite 100Westlake Village, CA 91362",
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "airelibreavenue.com",
     "success": false,
     "error": "Unknown",
     "failureType": "Unknown",
-    "code": "Request failed with status code 403"
+    "code": "Request failed with status code 409"
   },
   {
     "url": "erichedlund.com",
-    "success": false,
-    "error": "Unknown",
-    "failureType": "Unknown",
-    "code": "write EPROTO 80B0C2FA01000000:error:0A000410:SSL routines:ssl3_read_bytes:sslv3 alert handshake failure:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:1605:SSL alert number 40\n"
+    "phones": [
+      "1774552889",
+      "174206994",
+      "442316649298"
+    ],
+    "socials": {
+      "facebook": null,
+      "twitter": null,
+      "linkedin": null
+    },
+    "address": null,
+    "success": true,
+    "methodUsed": "HTTP-Fallback"
   },
   {
     "url": "imperiumstrategiesllc.com",
@@ -4156,7 +4398,8 @@
       "linkedin": "https://www.linkedin.com/company/imperium-public-strategies"
     },
     "address": "2024 Imperium Public St",
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "4v21.com",
@@ -4167,10 +4410,15 @@
   },
   {
     "url": "intfloors.com",
-    "success": false,
-    "error": "Unknown",
-    "failureType": "Unknown",
-    "code": "write EPROTO 80B0C2FA01000000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:1605:SSL alert number 80\n"
+    "phones": [],
+    "socials": {
+      "facebook": null,
+      "twitter": null,
+      "linkedin": null
+    },
+    "address": null,
+    "success": true,
+    "methodUsed": "HTTP-Fallback"
   },
   {
     "url": "norconindustries.net",
@@ -4239,7 +4487,8 @@
       "linkedin": "https://www.linkedin.com/company/texas-inpatient-consultants-lllp/"
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "trihealthbalance.com",
@@ -4279,7 +4528,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "bubongstore.com",
@@ -4325,7 +4575,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "laflosd.com",
@@ -4348,7 +4599,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "openairchair.com",
@@ -4365,7 +4617,8 @@
       "linkedin": null
     },
     "address": "2400 West Belleview Ave",
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "sushirawsf.com",
@@ -4376,7 +4629,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "verve-medical.com",
@@ -4404,7 +4658,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "jaredshavelson.com",
@@ -4446,7 +4701,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "lgcountryschool.com",
@@ -4461,7 +4717,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "wanakenapinecone.wordpress.com",
@@ -4477,7 +4734,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "clevelandheightsapartments.com",
@@ -4488,7 +4746,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "highqualitypcs.com",
@@ -4513,7 +4772,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "elijahvest.com",
@@ -4553,7 +4813,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "platformtemizlik.com",
@@ -4571,12 +4832,12 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "westtubingcompany.com",
     "phones": [
-      "3767034275",
       "191385823"
     ],
     "socials": {
@@ -4585,7 +4846,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "advance-tcc.com",
@@ -4606,7 +4868,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Permissive"
   },
   {
     "url": "tashahmoore.com",
@@ -4648,25 +4911,29 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "branchedoakmarina.com",
-    "phones": [],
+    "phones": [
+      "7136469741"
+    ],
     "socials": {
       "facebook": "https://www.facebook.com/Branched-Oak-Marina-155307791173595/",
       "twitter": null,
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "brandibaileyphotos.com",
     "success": false,
-    "error": "Timeout",
-    "failureType": "Timeout",
-    "code": "timeout of 10000ms exceeded"
+    "error": "Dead Domain/DNS Error",
+    "failureType": "Dead Domain/DNS Error",
+    "code": "getaddrinfo ENOTFOUND brandibaileyphotos.com"
   },
   {
     "url": "daylilyhealth.org",
@@ -4681,7 +4948,8 @@
       "linkedin": "https://www.linkedin.com/company/daylilyhealth"
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "woodstocklodge246.org",
@@ -4708,7 +4976,8 @@
       "linkedin": null
     },
     "address": "hints:",
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "snugharborca.com",
@@ -4729,7 +4998,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "thermalpd.com",
@@ -4756,14 +5026,20 @@
       "linkedin": "https://www.linkedin.com/company/thermalprocessdevelopment/"
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "emergencyinternational.org",
-    "success": false,
-    "error": "Unknown",
-    "failureType": "Unknown",
-    "code": "connect ECONNREFUSED 69.163.136.50:443"
+    "phones": [],
+    "socials": {
+      "facebook": null,
+      "twitter": null,
+      "linkedin": null
+    },
+    "address": null,
+    "success": true,
+    "methodUsed": "HTTP-Fallback"
   },
   {
     "url": "foxtrailerservice.com",
@@ -4776,7 +5052,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "nomadicbearproductions.com",
@@ -4805,7 +5082,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "powersfamilymedicine.com",
@@ -4822,7 +5100,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "themacks.wordpress.com",
@@ -4835,7 +5114,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "timothylee.us",
@@ -4849,7 +5129,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "nu-imagepainting.com",
@@ -4877,7 +5158,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "coopster.org",
@@ -4895,12 +5177,13 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "directjet.com",
     "phones": [
-      "177403184565",
+      "177434756734",
       "800-299-5381",
       "9500177391",
       "072156182034",
@@ -4915,8 +5198,9 @@
       "4391-9337-6702",
       "635-8505-3391",
       "9392-5604-1148",
-      "1774031845",
-      "109134704378"
+      "1774347566",
+      "534219729651",
+      "1134700946"
     ],
     "socials": {
       "facebook": "https://www.facebook.com/Direct-Jet-Charter-LLC-123777037688095/",
@@ -4924,7 +5208,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "sacreativedesign.com",
@@ -4944,7 +5229,8 @@
       "linkedin": null
     },
     "address": "215 E Putnam avenue suite",
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "sanfranciscowinecenter.com",
@@ -4959,7 +5245,8 @@
       "linkedin": null
     },
     "address": "175 Green St",
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "sceniclandscaping.net",
@@ -5000,7 +5287,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "ohanacrm.com",
@@ -5011,7 +5299,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "pd2llc.com",
@@ -5067,7 +5356,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "studiobsalon.net",
@@ -5085,7 +5375,8 @@
       "linkedin": "https://www.linkedin.com/company/plesk"
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Permissive"
   },
   {
     "url": "sbmobilenails.com",
@@ -5108,7 +5399,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "aether-multimedia-llc.business.site",
@@ -5131,7 +5423,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "cowpaddyfudge.wordpress.com",
@@ -5140,7 +5433,7 @@
       "1771405207",
       "1764078722",
       "1764669441",
-      "1772518873"
+      "1772522099"
     ],
     "socials": {
       "facebook": null,
@@ -5148,7 +5441,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "maquez-kennelz.business.site",
@@ -5198,7 +5492,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "homesforsalescv.com",
@@ -5214,14 +5509,15 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Permissive"
   },
   {
     "url": "1stamc.com",
     "success": false,
     "error": "Unknown",
     "failureType": "Unknown",
-    "code": "write EPROTO 80B0C2FA01000000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:../deps/openssl/openssl/ssl/record/ssl3_record.c:355:\n"
+    "code": "Request failed with status code 403"
   },
   {
     "url": "abbevillecalendar.com",
@@ -5232,7 +5528,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "apollostreams.com",
@@ -5268,7 +5565,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "fitfeetflorida.com",
@@ -5288,7 +5586,8 @@
       "linkedin": null
     },
     "address": "2112 4th Street North St",
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "kaylabeehler.com",
@@ -5299,7 +5598,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "parisfumc.org",
@@ -5324,7 +5624,7 @@
     "success": false,
     "error": "Unknown",
     "failureType": "Unknown",
-    "code": "Request failed with status code 403"
+    "code": "Request failed with status code 409"
   },
   {
     "url": "logansquarelaundry.com",
@@ -5352,7 +5652,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "al-advertising-diet-store.com",
@@ -5384,16 +5685,15 @@
   },
   {
     "url": "bookkeepinglogic.com",
-    "phones": [
-      "100000000000"
-    ],
+    "phones": [],
     "socials": {
       "facebook": null,
       "twitter": null,
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "neomedia-dg.com",
@@ -5422,7 +5722,8 @@
       "linkedin": "https://www.linkedin.com/company/neomedia-design-group"
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "reveportraits.com",
@@ -5453,7 +5754,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "3lechesbake.com",
@@ -5509,7 +5811,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "baypointlabs.com",
@@ -5536,7 +5839,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "feltgoodmusic.com",
@@ -5589,7 +5893,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "childcarecompany.org",
@@ -5600,14 +5905,15 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Permissive"
   },
   {
     "url": "kathrynsonmoonlake.com",
     "phones": [
-      "1774547009",
-      "00826061422418",
-      "1774555286"
+      "1774591358",
+      "519620003301",
+      "1774596583"
     ],
     "socials": {
       "facebook": null,
@@ -5615,7 +5921,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "periogel.net",
@@ -5655,7 +5962,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "prashnercpa.com",
@@ -5668,7 +5976,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "whittiershuttle.com",
@@ -5682,7 +5991,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "aetheradvisors.com",
@@ -5705,7 +6015,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "ageanabrett.com",
@@ -5733,7 +6044,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Permissive"
   },
   {
     "url": "nationalcapitalfitday.com",
@@ -5760,7 +6072,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTP-Fallback"
   },
   {
     "url": "theneedlehouse.com",
@@ -5771,7 +6084,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "allstarbp.com",
@@ -5784,7 +6098,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "dallassurgicalgroup.com",
@@ -5798,7 +6113,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "daveandtracy.org",
@@ -5818,7 +6134,8 @@
       "linkedin": null
     },
     "address": "1591 Alps Rd",
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "jshs-tn.utk.edu",
@@ -5832,7 +6149,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "jtheater.com",
@@ -5843,7 +6161,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Permissive"
   },
   {
     "url": "randrdance.com",
@@ -5856,7 +6175,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "sbstransportllc.com",
@@ -5867,7 +6187,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "when2heartsbeatas1.org",
@@ -5878,32 +6199,10 @@
   },
   {
     "url": "abreakdisabilityandrespite.com",
-    "phones": [
-      "177451433768",
-      "4050010372",
-      "0428 280 474",
-      "616 183 049",
-      "156 161 830",
-      "0400547364",
-      "514861749",
-      "0428280474",
-      "700-8487-6366",
-      "081589310",
-      "440582-7251",
-      "7599559548",
-      "989999771118",
-      "9392-5604-1148",
-      "635-8505-3391",
-      "1774514336",
-      "956799714351"
-    ],
-    "socials": {
-      "facebook": null,
-      "twitter": null,
-      "linkedin": null
-    },
-    "address": null,
-    "success": true
+    "success": false,
+    "error": "Page Missing",
+    "failureType": "Page Missing",
+    "code": "Request failed with status code 404"
   },
   {
     "url": "aestatix.com",
@@ -5916,7 +6215,8 @@
       "linkedin": "https://www.linkedin.com/company/aestatix/"
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "cadottfamilyrestaurant.com",
@@ -5929,7 +6229,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "figureitoutagency.com",
@@ -5940,7 +6241,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "galleongc.com",
@@ -5952,7 +6254,6 @@
   {
     "url": "jadynbags.com",
     "phones": [
-      "177455490800",
       "1946484890",
       "667844762",
       "513212570",
@@ -5960,8 +6261,7 @@
       "144886231891",
       "108396698",
       "261340853949",
-      "441014499",
-      "1774554908",
+      "1774594301",
       "138862592154",
       "139190867273",
       "880912682594",
@@ -6002,7 +6302,8 @@
       "linkedin": null
     },
     "address": "1155 W 2200 S Suite",
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "liverpoolchurch.com",
@@ -6013,7 +6314,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "cwenergyusa.com",
@@ -6026,7 +6328,8 @@
       "linkedin": "https://www.linkedin.com/company/cwenergy/about/"
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "indiyoung.com",
@@ -6037,7 +6340,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "newasianjuyuan.com",
@@ -6053,7 +6357,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "simplicitymovers.com",
@@ -6079,7 +6384,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "tandoorrestaurants.com",
@@ -6090,18 +6396,22 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "tribeofdantours.com",
-    "phones": [],
+    "phones": [
+      "571143913"
+    ],
     "socials": {
       "facebook": null,
       "twitter": null,
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "boyettrecovery.com",
@@ -6135,7 +6445,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "littlefeetforestschool.org",
@@ -6146,10 +6457,15 @@
   },
   {
     "url": "motinidesigns.com",
-    "success": false,
-    "error": "Unknown",
-    "failureType": "Unknown",
-    "code": "read ECONNRESET"
+    "phones": [],
+    "socials": {
+      "facebook": null,
+      "twitter": null,
+      "linkedin": null
+    },
+    "address": null,
+    "success": true,
+    "methodUsed": "HTTP-Fallback"
   },
   {
     "url": "nationalcarousels158.com",
@@ -6177,7 +6493,8 @@
       "linkedin": null
     },
     "address": "11401 SW 40th St",
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "drtompastor.com",
@@ -6201,7 +6518,8 @@
       "linkedin": null
     },
     "address": "227 Colfax Ave",
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "mottshay.com",
@@ -6212,7 +6530,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "patscrap.co.uk",
@@ -6225,7 +6544,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "rethinkingwealth.org",
@@ -6238,7 +6558,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Permissive"
   },
   {
     "url": "centralcoastmd.com",
@@ -6259,7 +6580,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "ellen4wcsd.com",
@@ -6277,7 +6599,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "themorvarid.com",
@@ -6304,7 +6627,8 @@
       "linkedin": "https://www.linkedin.com/company/urtubiavielma/"
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "advertiserandmarketersplatform.com",
@@ -6322,7 +6646,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "assemblyninja.com",
@@ -6333,7 +6658,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "biodyn-lifesciences.com",
@@ -6344,7 +6670,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "pastorecompany.com",
@@ -6355,7 +6682,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "sheetmetallocal399.com",
@@ -6366,7 +6694,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "sweetadswebcast.com",
@@ -6377,7 +6706,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "greenissue.eu",
@@ -6395,7 +6725,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "river-valley-rv-park-tx.business.site",
@@ -6423,12 +6754,14 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "virtekcompany.com",
     "phones": [
-      "800-844-9182"
+      "800-844-9182",
+      "0662575412"
     ],
     "socials": {
       "facebook": null,
@@ -6436,7 +6769,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "saipanyc.com",
@@ -6454,7 +6788,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "kristyler.com",
@@ -6467,7 +6802,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "perspicacitylabs.com",
@@ -6484,7 +6820,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "theuntamedcreative.co",
@@ -6495,7 +6832,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "angelabrite.com",
@@ -6520,7 +6858,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "ngchm.net",
@@ -6531,7 +6870,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "projectgestalt.com",
@@ -6542,7 +6882,8 @@
       "linkedin": "https://www.linkedin.com/company/project-gestalt/about/"
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "ridgelinehomeinspect.com",
@@ -6558,7 +6899,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "serenapezzato.com",
@@ -6581,7 +6923,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "yourtowcompany.com",
@@ -6594,12 +6937,13 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "designedbycarla.com",
     "phones": [
-      "177433486521",
+      "177412988900",
       "219508427187",
       "2971-7918-4867",
       "945486754",
@@ -6620,8 +6964,8 @@
       "635-8505-3391",
       "9392-5604-1148",
       "929212195",
-      "1774334863",
-      "810473045046",
+      "1774129887",
+      "927181051539",
       "783345493185",
       "163282161033",
       "793509388"
@@ -6632,7 +6976,8 @@
       "linkedin": "https://www.linkedin.com/company/designedbycarla"
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "joyfuladoptions.com",
@@ -6674,7 +7019,8 @@
       "linkedin": null
     },
     "address": "7016 Balmoral Forest Road",
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "king-alexander.com",
@@ -6694,7 +7040,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "whymessa.com",
@@ -6712,14 +7059,20 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "deperevfw.net",
-    "success": false,
-    "error": "Timeout",
-    "failureType": "Timeout",
-    "code": "timeout of 10000ms exceeded"
+    "phones": [],
+    "socials": {
+      "facebook": null,
+      "twitter": null,
+      "linkedin": null
+    },
+    "address": null,
+    "success": true,
+    "methodUsed": "HTTP-Fallback"
   },
   {
     "url": "forrestpierce.com",
@@ -6730,7 +7083,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "northsidemeadows.com",
@@ -6748,7 +7102,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "taam.org",
@@ -6802,7 +7157,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "archaeology.virginia.edu",
@@ -6815,14 +7171,26 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "myapexhomeinspection.com",
-    "success": false,
-    "error": "Unknown",
-    "failureType": "Unknown",
-    "code": "write EPROTO 80B0C2FA01000000:error:0A000410:SSL routines:ssl3_read_bytes:sslv3 alert handshake failure:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:1605:SSL alert number 40\n"
+    "phones": [
+      "208-559-1353",
+      "390152530521",
+      "124510201",
+      "142989471",
+      "224971913648"
+    ],
+    "socials": {
+      "facebook": "https://www.facebook.com/MyApexHomeInspection/",
+      "twitter": null,
+      "linkedin": null
+    },
+    "address": null,
+    "success": true,
+    "methodUsed": "HTTP-Fallback"
   },
   {
     "url": "rivertownslp.com",
@@ -6843,7 +7211,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "bloggingforextrader.com",
@@ -6868,7 +7237,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "50ggirls.com",
@@ -6886,7 +7256,8 @@
       "linkedin": null
     },
     "address": "Apache/2.4.7 (Ubuntu) Server at www.alluredesign.fr Port 80",
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "moving2branson.com",
@@ -6897,7 +7268,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "roland4fairview.com",
@@ -6920,7 +7292,8 @@
       "linkedin": null
     },
     "address": "3662 Edgar Rd",
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "callunakennels.com",
@@ -6934,14 +7307,19 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "car.hk",
-    "success": false,
-    "error": "Timeout",
-    "failureType": "Timeout",
-    "code": "timeout of 10000ms exceeded"
+    "phones": [],
+    "socials": {
+      "facebook": null,
+      "twitter": null,
+      "linkedin": null
+    },
+    "address": null,
+    "success": true
   },
   {
     "url": "audinashville.com",
@@ -6969,7 +7347,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "drmeganseltz.com",
@@ -7002,7 +7381,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "sinceremobilephlebotomy.net",
@@ -7020,10 +7400,17 @@
   },
   {
     "url": "aquamarinejewelrystudio.com",
-    "success": false,
-    "error": "Timeout",
-    "failureType": "Timeout",
-    "code": "timeout of 10000ms exceeded"
+    "phones": [
+      "20260327-1829"
+    ],
+    "socials": {
+      "facebook": null,
+      "twitter": null,
+      "linkedin": null
+    },
+    "address": null,
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "christinereidphotography.com",
@@ -7120,7 +7507,8 @@
       "linkedin": null
     },
     "address": "5731 Vine St",
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "drrudlin.com",
@@ -7133,7 +7521,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "interstatetruck.com",
@@ -7146,7 +7535,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "oldfarmhouseprimitives.com",
@@ -7226,7 +7616,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "dskidsermons.com",
@@ -7240,7 +7631,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "autobodiparts.com",
@@ -7251,7 +7643,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "hiddenforestdesign.com",
@@ -7276,14 +7669,17 @@
   },
   {
     "url": "marylandplatingservicinginc.com",
-    "phones": [],
+    "phones": [
+      "252243256"
+    ],
     "socials": {
       "facebook": null,
       "twitter": null,
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "salazarthomas.com",
@@ -7308,7 +7704,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Permissive"
   },
   {
     "url": "3lnotary.com",
@@ -7320,9 +7717,9 @@
   {
     "url": "creativitythroughconstraints.com",
     "success": false,
-    "error": "Timeout",
-    "failureType": "Timeout",
-    "code": "timeout of 10000ms exceeded"
+    "error": "Page Missing",
+    "failureType": "Page Missing",
+    "code": "Request failed with status code 404"
   },
   {
     "url": "govirtualoffice.com",
@@ -7339,7 +7736,8 @@
       "linkedin": "https://www.linkedin.com/company/govirtualoffice"
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "origingolf.com",
@@ -7353,7 +7751,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "secag.org",
@@ -7366,7 +7765,8 @@
       "linkedin": null
     },
     "address": "2150 S Central Expressway Suite 200\n\t\t\t\t\t\t\tMcKinney, Texas\n\t\t\t\t\t\t\tPh : +1 (469) 708-7818\n\t\t\t\t\t\t\tEmail : svp@secag.org",
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "theburningship.com",
@@ -7377,7 +7777,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "gforcefoundation.com",
@@ -7390,7 +7791,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "limitlesscounselingservices.com",
@@ -7408,7 +7810,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "sben.org",
@@ -7419,7 +7822,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "trusted-home-inspection.business.site",
@@ -7485,7 +7889,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "gkama.com",
@@ -7508,7 +7913,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "realtorhsu.net",
@@ -7520,8 +7926,8 @@
   {
     "url": "shah-impex.com",
     "success": false,
-    "error": "Unknown",
-    "failureType": "Unknown",
+    "error": "SSL Handshake Failure",
+    "failureType": "SSL Handshake Failure",
     "code": "write EPROTO 80B0C2FA01000000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:1605:SSL alert number 80\n"
   },
   {
@@ -7534,7 +7940,7 @@
   {
     "url": "happydaycreations.net",
     "phones": [
-      "177394088046",
+      "177454578226",
       "242019728",
       "880800916018",
       "7908712667",
@@ -7548,8 +7954,8 @@
       "27356412895",
       "354402-6932",
       "027442864",
-      "1773940879",
-      "745834612417"
+      "1774545781",
+      "258921817341"
     ],
     "socials": {
       "facebook": "https://www.facebook.com/happydaycreations",
@@ -7557,7 +7963,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "libanswers.shadygrove.umd.edu",
@@ -7570,7 +7977,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "putitontheglass.com",
@@ -7588,18 +7996,22 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "sonicshopper.com",
-    "phones": [],
+    "phones": [
+      "66146593040"
+    ],
     "socials": {
       "facebook": null,
       "twitter": null,
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "d30ufu6vr9yoyg.cloudfront.net",
@@ -7617,7 +8029,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "teriorr.weebly.com",
@@ -7639,14 +8052,20 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "worldsframedbywords.com",
-    "success": false,
-    "error": "Unknown",
-    "failureType": "Unknown",
-    "code": "write EPROTO 80B0C2FA01000000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:1605:SSL alert number 80\n"
+    "phones": [],
+    "socials": {
+      "facebook": null,
+      "twitter": null,
+      "linkedin": null
+    },
+    "address": null,
+    "success": true,
+    "methodUsed": "HTTP-Fallback"
   },
   {
     "url": "auroratechservices.com",
@@ -7666,7 +8085,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "godsministryfellowship.com",
@@ -7680,7 +8100,7 @@
     "success": false,
     "error": "Unknown",
     "failureType": "Unknown",
-    "code": "socket hang up"
+    "code": "Request failed with status code 444"
   },
   {
     "url": "vickcarneylaw.com",
@@ -7693,7 +8113,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "azrielassetmgmt.com",
@@ -7706,7 +8127,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "carrettausa.com",
@@ -7715,8 +8137,8 @@
       "500031270",
       "500070839",
       "501119413",
-      "355090000",
-      "355090661",
+      "330740000",
+      "330741451",
       "(973) 770-9330"
     ],
     "socials": {
@@ -7725,7 +8147,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "puppetheap.com",
@@ -7742,7 +8165,8 @@
       "linkedin": "https://www.linkedin.com/company/puppetheap/"
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "marinbaroque.org",
@@ -7781,14 +8205,15 @@
       "linkedin": null
     },
     "address": "1330 Lincoln Ave St",
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "myacem.com",
     "success": false,
-    "error": "Unknown",
-    "failureType": "Unknown",
-    "code": "Request failed with status code 500"
+    "error": "Timeout",
+    "failureType": "Timeout",
+    "code": "timeout of 10000ms exceeded"
   },
   {
     "url": "par1cleaners.business.site",
@@ -7854,6 +8279,11 @@
       "118551465",
       "421801985311",
       "1773164650",
+      "759276932308",
+      "347331132080",
+      "1774547764",
+      "118851628",
+      "421498852475",
       "762403140410",
       "505644665792",
       "1774358884",
@@ -7922,13 +8352,6 @@
       "1774377266",
       "119651530",
       "422170686587",
-      "760947300769",
-      "810192720361",
-      "1772476323",
-      "1772476324",
-      "813269025888",
-      "117402193",
-      "421796089365",
       "1762896923"
     ],
     "socials": {
@@ -7937,7 +8360,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "cryptonewsupdate.com",
@@ -7948,7 +8372,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "greenbikerentals.com",
@@ -7987,7 +8412,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "embodyacupuncture.com",
@@ -8000,7 +8426,8 @@
       "linkedin": null
     },
     "address": "511 Sixth Ave",
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "neilheffernan.net",
@@ -8011,7 +8438,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Permissive"
   },
   {
     "url": "paynespringsumc.org",
@@ -8043,7 +8471,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "castoreclothing.com",
@@ -8063,7 +8492,7 @@
     "url": "wilkins-grocery.edan.io",
     "phones": [
       "+1 804-493-8660",
-      "177498729500"
+      "177502859500"
     ],
     "socials": {
       "facebook": null,
@@ -8071,7 +8500,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "artandglamstudio.com",
@@ -8098,7 +8528,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "overlakecollie.com",
@@ -8109,7 +8540,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "hollytreeservice.net",
@@ -8122,14 +8554,20 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "lalupitaberwyn.net",
-    "success": false,
-    "error": "Unknown",
-    "failureType": "Unknown",
-    "code": "read ECONNRESET"
+    "phones": [],
+    "socials": {
+      "facebook": null,
+      "twitter": null,
+      "linkedin": null
+    },
+    "address": null,
+    "success": true,
+    "methodUsed": "HTTP-Fallback"
   },
   {
     "url": "paradiseatlasttravel.com",
@@ -8143,7 +8581,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Permissive"
   },
   {
     "url": "pcinapa.com",
@@ -8160,7 +8599,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "sanchez-lawn-care-and-landscaping-services.business.site",
@@ -8196,7 +8636,8 @@
       "linkedin": null
     },
     "address": "2024 by Carissa St",
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Permissive"
   },
   {
     "url": "hometheatersystemgainesville.com",
@@ -8216,7 +8657,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "myfriendsandme.net",
@@ -8236,7 +8678,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "pestcontrolmodestoca.org",
@@ -8261,7 +8704,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Permissive"
   },
   {
     "url": "knickonwood.com",
@@ -8272,19 +8716,21 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTP-Fallback"
   },
   {
     "url": "lukesmma.com",
     "success": false,
-    "error": "Timeout",
-    "failureType": "Timeout",
-    "code": "timeout of 10000ms exceeded"
+    "error": "Dead Domain/DNS Error",
+    "failureType": "Dead Domain/DNS Error",
+    "code": "getaddrinfo ENOTFOUND lukesmma.com"
   },
   {
     "url": "accubuiltnw.com",
     "phones": [
-      "(253) 802-4841"
+      "(253) 802-4841",
+      "9698170062"
     ],
     "socials": {
       "facebook": null,
@@ -8292,7 +8738,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "carriecrespo.com",
@@ -8303,7 +8750,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "celebaesthetics.com",
@@ -8321,7 +8769,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "hudsonlux365.com",
@@ -8335,7 +8784,8 @@
       "linkedin": null
     },
     "address": "66 W Flagler street Suite 900 Miami, Fl\n\t\tdispatch@hudsonlux365.com\n\t\t+1(305) 928-0661",
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "velabrand.com",
@@ -8346,7 +8796,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "awbrueggemann.com",
@@ -8360,7 +8811,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "rhcapco.com",
@@ -8371,7 +8823,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "bintiboutique.llc",
@@ -8412,7 +8865,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Permissive"
   },
   {
     "url": "elegantdjservices.com",
@@ -8448,7 +8902,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Permissive"
   },
   {
     "url": "fccherrick.org",
@@ -8466,7 +8921,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Permissive"
   },
   {
     "url": "shiftflg.com",
@@ -8479,7 +8935,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "coastaldefense.business.site",
@@ -8490,10 +8947,15 @@
   },
   {
     "url": "itlogo.net",
-    "success": false,
-    "error": "Timeout",
-    "failureType": "Timeout",
-    "code": "timeout of 10000ms exceeded"
+    "phones": [],
+    "socials": {
+      "facebook": null,
+      "twitter": null,
+      "linkedin": null
+    },
+    "address": null,
+    "success": true,
+    "methodUsed": "HTTP-Fallback"
   },
   {
     "url": "southernuc.com",
@@ -8506,7 +8968,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Permissive"
   },
   {
     "url": "prlassociates.net",
@@ -8525,7 +8988,8 @@
       "linkedin": null
     },
     "address": "110 Grant Ave",
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Permissive"
   },
   {
     "url": "sewardlostlakelodge.com",
@@ -8543,7 +9007,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Permissive"
   },
   {
     "url": "eattacorepublic.com",
@@ -8554,7 +9019,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Permissive"
   },
   {
     "url": "ehardts.com",
@@ -8578,7 +9044,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Permissive"
   },
   {
     "url": "skgfitness.training",
@@ -8596,7 +9063,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Permissive"
   },
   {
     "url": "crazy.builders",
@@ -8618,7 +9086,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "littleredfarmhousegifts.net",
@@ -8661,14 +9130,15 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Permissive"
   },
   {
     "url": "reflexdelivery.com",
     "success": false,
     "error": "Unknown",
     "failureType": "Unknown",
-    "code": "Request failed with status code 403"
+    "code": "Request failed with status code 409"
   },
   {
     "url": "rollupdoorrepairnyc.com",
@@ -8681,7 +9151,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Permissive"
   },
   {
     "url": "yoursbasource.com",
@@ -8692,7 +9163,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "acifund.com",
@@ -8729,7 +9201,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Permissive"
   },
   {
     "url": "cherrycreektributaries.com",
@@ -8749,7 +9222,8 @@
       "linkedin": "https://www.linkedin.com/company/amplifiedconcepts"
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "marriagecounselingmemphis.com",
@@ -8767,14 +9241,22 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Permissive"
   },
   {
     "url": "borderwarswrestling.com",
-    "success": false,
-    "error": "Unknown",
-    "failureType": "Unknown",
-    "code": "connect ECONNREFUSED 154.82.56.69:443"
+    "phones": [
+      "0731-55886966"
+    ],
+    "socials": {
+      "facebook": null,
+      "twitter": null,
+      "linkedin": null
+    },
+    "address": null,
+    "success": true,
+    "methodUsed": "HTTP-Fallback"
   },
   {
     "url": "brentwood365.com",
@@ -8789,7 +9271,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "bubsnola.com",
@@ -8802,7 +9285,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "deliverance-ministry-new-york.com",
@@ -8849,7 +9333,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "myfocuspsych.com",
@@ -8869,7 +9354,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "crestonhousefl.com",
@@ -8887,7 +9373,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "karrgroupco.com",
@@ -8898,7 +9385,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "paigeleblanc.com",
@@ -8912,7 +9400,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "quick9.io",
@@ -8932,7 +9421,8 @@
       "linkedin": null
     },
     "address": "5 Meetinghouse Road",
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Permissive"
   },
   {
     "url": "winningham-iron-metal.business.site",
@@ -8958,7 +9448,8 @@
       "linkedin": null
     },
     "address": "24300 County RD",
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "fineartsbiz.com",
@@ -8969,7 +9460,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "sammycarlosdelicatessencatering.net",
@@ -8998,7 +9490,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "ftworthepoxyflooring.com",
@@ -9018,7 +9511,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "hellorichmond.net",
@@ -9039,7 +9533,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "kikimo.com",
@@ -9050,7 +9545,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "krambu.com",
@@ -9063,7 +9559,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "mhkeratin.com",
@@ -9079,7 +9576,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "muhlbauerlab.com",
@@ -9092,7 +9590,8 @@
       "linkedin": null
     },
     "address": "61 Monroe Ave St",
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "positivesideofgolf.com",
@@ -9107,7 +9606,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Permissive"
   },
   {
     "url": "carolynlewismed.com",
@@ -9132,7 +9632,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "hitsforhomeless.com",
@@ -9143,10 +9644,15 @@
   },
   {
     "url": "innsofcourt.org",
-    "success": false,
-    "error": "Unknown",
-    "failureType": "Unknown",
-    "code": "read ECONNRESET"
+    "phones": [],
+    "socials": {
+      "facebook": null,
+      "twitter": null,
+      "linkedin": null
+    },
+    "address": null,
+    "success": true,
+    "methodUsed": "HTTP-Fallback"
   },
   {
     "url": "oldtraditiontattoo.com",
@@ -9178,13 +9684,14 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "phalanxgrpservices.org",
     "phones": [
       "9189-791244",
-      "177455530669",
+      "177459661626",
       "598615916955",
       "149977430186",
       "149992748208",
@@ -9218,8 +9725,8 @@
       "9392-5604-1148",
       "8934-994263",
       "573-4695-8449",
-      "1774555304",
-      "659281891391",
+      "1774596614",
+      "620848122805",
       "6441506710",
       "4827-9257-1462",
       "169027657360",
@@ -9252,7 +9759,8 @@
       "linkedin": null
     },
     "address": "837 West 119th Street",
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "wadeloans.com",
@@ -9296,7 +9804,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "easystreetcookies.com",
@@ -9347,12 +9856,13 @@
       "linkedin": "https://il.linkedin.com/company/wix-com?trk=public_jobs_topcard_logo"
     },
     "address": "2022 by Easy Street",
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "millarandsons.net",
     "phones": [
-      "177393183320",
+      "177455455248",
       "945486754",
       "216071924",
       "276-1246-058",
@@ -9364,8 +9874,8 @@
       "734527084",
       "635-8505-3391",
       "9392-5604-1148",
-      "1773931831",
-      "843525511012"
+      "1774554550",
+      "928271880693"
     ],
     "socials": {
       "facebook": "https://www.facebook.com/Millar-and-Sons-Inc-193085170723228/",
@@ -9373,7 +9883,8 @@
       "linkedin": "https://www.linkedin.com/company/millar-and-sons-inc/"
     },
     "address": "5400 Tollgate Road",
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "parklandhairclinic.info",
@@ -9398,7 +9909,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Permissive"
   },
   {
     "url": "gooddogsfarm.com",
@@ -9409,7 +9921,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "singinglessonstemecula.com",
@@ -9422,19 +9935,27 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "ssmobile.store",
-    "success": false,
-    "error": "Unknown",
-    "failureType": "Unknown",
-    "code": "write EPROTO 80B0C2FA01000000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:1605:SSL alert number 80\n"
+    "phones": [
+      "2147483647"
+    ],
+    "socials": {
+      "facebook": null,
+      "twitter": null,
+      "linkedin": null
+    },
+    "address": null,
+    "success": true,
+    "methodUsed": "HTTP-Fallback"
   },
   {
     "url": "atlantanephrologyassociates.com",
     "phones": [
-      "1774535805",
+      "1774575527",
       "000000000000",
       "000081803053",
       "914031309545",
@@ -9448,7 +9969,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Permissive"
   },
   {
     "url": "brushsolutions.net",
@@ -9459,12 +9981,13 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "change-points.com",
     "phones": [
-      "20260327-0701"
+      "20260327-1830"
     ],
     "socials": {
       "facebook": null,
@@ -9472,7 +9995,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "fkideas.com",
@@ -9483,7 +10007,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "fortcollinsshowerdoor.com",
@@ -9497,7 +10022,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "pinilishalpern.com",
@@ -9510,7 +10036,8 @@
       "linkedin": null
     },
     "address": "160 Morris St",
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "truelifetx.org",
@@ -9521,7 +10048,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "17thstreetthaisushifl.com",
@@ -9537,7 +10065,8 @@
       "linkedin": "https://www.linkedin.com/company/menufy"
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "colonsource.com",
@@ -9548,7 +10077,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "libertybaptist.org",
@@ -9561,7 +10091,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "sunnirey.shop",
@@ -9572,14 +10103,10 @@
   },
   {
     "url": "cloudspeed24x7.com",
-    "phones": [],
-    "socials": {
-      "facebook": null,
-      "twitter": null,
-      "linkedin": null
-    },
-    "address": null,
-    "success": true
+    "success": false,
+    "error": "Dead Domain/DNS Error",
+    "failureType": "Dead Domain/DNS Error",
+    "code": "getaddrinfo ENOTFOUND cloudspeed24x7.com"
   },
   {
     "url": "gambittechconsulting.com",
@@ -9620,7 +10147,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "ilikeflatroofs.com",
@@ -9631,7 +10159,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "juniorchefsofamerica.org",
@@ -9642,7 +10171,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "kccashbuyer.com",
@@ -9657,7 +10187,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "the-chimneymasters.com",
@@ -9679,7 +10210,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "willowglenhomeandgarden.com",
@@ -9694,7 +10226,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "writingonboard.com",
@@ -9705,7 +10238,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "jettbt.com",
@@ -9719,17 +10253,18 @@
       "linkedin": "https://www.linkedin.com/company/jett-business-technology?trk=top_nav_home"
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "medicalcoatings.org",
     "phones": [
-      "177455530585",
+      "177459661545",
       "754870121",
-      "000017745553",
-      "052960138082",
-      "222152210090",
-      "525636520",
+      "000017745966",
+      "157470008408",
+      "222152214221",
+      "573544913",
       "126431565"
     ],
     "socials": {
@@ -9738,7 +10273,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "rightstudents.org",
@@ -9760,7 +10296,8 @@
       "linkedin": "https://www.linkedin.com/company/sofloweb/"
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "topbricole.site",
@@ -9826,7 +10363,8 @@
       "linkedin": null
     },
     "address": "700546 River Rd",
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "carolynsnails.com",
@@ -9844,7 +10382,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "blazingstargrange.org",
@@ -9864,14 +10403,28 @@
       "linkedin": null
     },
     "address": "15 North Road",
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "cityofmountlaketerrace.com",
-    "success": false,
-    "error": "Unknown",
-    "failureType": "Unknown",
-    "code": "read ECONNRESET"
+    "phones": [
+      "184165 100",
+      "43595871692",
+      "621355752000",
+      "425-776-1161",
+      "425-776-9173",
+      "425-670-8260",
+      "425-407-3999"
+    ],
+    "socials": {
+      "facebook": null,
+      "twitter": null,
+      "linkedin": "https://www.linkedin.com/company/18235017"
+    },
+    "address": "23204 58th Ave",
+    "success": true,
+    "methodUsed": "HTTP-Fallback"
   },
   {
     "url": "globalonefinancialsolutions.com",
@@ -9895,7 +10448,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Permissive"
   },
   {
     "url": "kufflet.com",
@@ -9908,14 +10462,32 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "msjudithsewins.com",
-    "success": false,
-    "error": "Unknown",
-    "failureType": "Unknown",
-    "code": "write EPROTO 80B0C2FA01000000:error:0A000410:SSL routines:ssl3_read_bytes:sslv3 alert handshake failure:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:1605:SSL alert number 40\n"
+    "phones": [
+      "964124147650",
+      "811413372537",
+      "921579313642",
+      "810157943249",
+      "413968932745",
+      "187510057352",
+      "125015645120",
+      "451113130167",
+      "773 430 0958",
+      "833667018377",
+      "1774552889"
+    ],
+    "socials": {
+      "facebook": "https://www.facebook.com/Fabuloushairandweavesalon",
+      "twitter": "https://twitter.com/FabulousWeaves",
+      "linkedin": null
+    },
+    "address": null,
+    "success": true,
+    "methodUsed": "HTTP-Fallback"
   },
   {
     "url": "actioncomedyfilms.com",
@@ -9926,7 +10498,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "balancedwellnessami.com",
@@ -9948,7 +10521,8 @@
       "linkedin": null
     },
     "address": "521 Main St",
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "drcharlieharper.com",
@@ -9961,7 +10535,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "myparee.com",
@@ -9991,7 +10566,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "cenladerm.com",
@@ -10005,7 +10581,8 @@
       "linkedin": null
     },
     "address": "1587 North Bolton Avenue  St",
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "central-texas-mobile-notary-notary-public.business.site",
@@ -10023,7 +10600,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "european-deli.com",
@@ -10034,7 +10612,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "redrhinomovers.com",
@@ -10071,7 +10650,8 @@
       "linkedin": null
     },
     "address": "2442 Gilbert Ave",
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "thefeldenkraiscenter.com",
@@ -10087,7 +10667,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "asuzus.com",
@@ -10112,7 +10693,8 @@
       "linkedin": null
     },
     "address": "895 W Valley Blvd St",
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Permissive"
   },
   {
     "url": "esihealthcaresolutions.com",
@@ -10141,7 +10723,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "jonfoxmusic.com",
@@ -10152,10 +10735,7 @@
   },
   {
     "url": "campaigntostopgunviolence.org",
-    "phones": [
-      "112225-001",
-      "112345678"
-    ],
+    "phones": [],
     "socials": {
       "facebook": null,
       "twitter": null,
@@ -10173,7 +10753,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "earthrenovation.net",
@@ -10186,7 +10767,8 @@
       "linkedin": null
     },
     "address": "51 Highwood Ave",
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "globaltrustbnk.com",
@@ -10212,7 +10794,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "romanolawpllc.com",
@@ -10237,7 +10820,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "beaconhillrealtygroup.com",
@@ -10251,7 +10835,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "bodegaunclick.com",
@@ -10276,7 +10861,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "hunterdecuir24.com",
@@ -10322,7 +10908,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "therealbcmg.com",
@@ -10347,7 +10934,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "epocheducation.com",
@@ -10360,7 +10948,8 @@
       "linkedin": "https://www.linkedin.com/company/epoch-education-inc/?"
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "familyintimacy.com",
@@ -10379,7 +10968,8 @@
       "linkedin": null
     },
     "address": "10130 Mallard Creek Road",
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "mompopshop.com",
@@ -10403,7 +10993,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "alibaba-kebab.com",
@@ -10419,7 +11010,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "villavieira.com",
@@ -10433,14 +11025,28 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "blueridgechair.com",
-    "success": false,
-    "error": "Timeout",
-    "failureType": "Timeout",
-    "code": "timeout of 10000ms exceeded"
+    "phones": [
+      "177459664070",
+      "754870121",
+      "000017745966",
+      "401870008408",
+      "222152214224",
+      "016694710",
+      "991376354"
+    ],
+    "socials": {
+      "facebook": null,
+      "twitter": null,
+      "linkedin": null
+    },
+    "address": null,
+    "success": true,
+    "methodUsed": "HTTP-Fallback"
   },
   {
     "url": "dewingscenter.org",
@@ -10453,7 +11059,8 @@
       "linkedin": null
     },
     "address": "202 Albert St",
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "htiyos.com",
@@ -10474,7 +11081,8 @@
       "linkedin": null
     },
     "address": "713 Lynn St",
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "maryfrancespencer.com",
@@ -10488,7 +11096,7 @@
     "success": false,
     "error": "Unknown",
     "failureType": "Unknown",
-    "code": "write EPROTO 80B0C2FA01000000:error:0A000438:SSL routines:ssl3_read_bytes:tlsv1 alert internal error:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:1605:SSL alert number 80\n"
+    "code": "Request failed with status code 403"
   },
   {
     "url": "quality-trucking.com",
@@ -10529,7 +11137,8 @@
       "linkedin": null
     },
     "address": "4 Jefferson St\t\t\n\t\tpoughkeepsie,\t\tNY,\t\t12601,\t\tUS,",
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "bettygb.com",
@@ -10540,7 +11149,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Permissive"
   },
   {
     "url": "jbdecker.com",
@@ -10583,7 +11193,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Permissive"
   },
   {
     "url": "outervisionsdesign.com",
@@ -10596,7 +11207,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "strivelacrosseacademy.com",
@@ -10609,7 +11221,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "analogique.com",
@@ -10622,7 +11235,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Permissive"
   },
   {
     "url": "carpetworkshopofohio.com",
@@ -10640,7 +11254,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "theconservancyproject.org",
@@ -10653,7 +11268,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "bellocasa.com",
@@ -10666,7 +11282,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "castor-group.com",
@@ -10679,7 +11296,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "down-southmoving.business.site",
@@ -10705,7 +11323,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "thedoorse.com",
@@ -10718,7 +11337,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "abcbni.com",
@@ -10924,7 +11544,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Permissive"
   },
   {
     "url": "annatietzhomes.com",
@@ -10953,7 +11574,8 @@
       "linkedin": null
     },
     "address": "1310 Old Concord Road",
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "goldenscrollsoloists.com",
@@ -10978,7 +11600,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "greenershinglessanantonio.com",
@@ -10999,7 +11622,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "kcsweep.com",
@@ -11023,7 +11647,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "mazalai.com",
@@ -11036,7 +11661,8 @@
       "linkedin": "https://www.linkedin.com/company/mazalai-corp/"
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "michaelskuceradentistry.com",
@@ -11056,7 +11682,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "rvcoc.org",
@@ -11076,14 +11703,19 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "statelinekids.com",
-    "success": false,
-    "error": "Timeout",
-    "failureType": "Timeout",
-    "code": "timeout of 10000ms exceeded"
+    "phones": [],
+    "socials": {
+      "facebook": null,
+      "twitter": null,
+      "linkedin": null
+    },
+    "address": null,
+    "success": true
   },
   {
     "url": "caninereproductivecenter.com",
@@ -11111,7 +11743,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "defioptions.org",
@@ -11152,7 +11785,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "tangles-salon.com",
@@ -11167,14 +11801,20 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "teitelbaumco.com",
-    "success": false,
-    "error": "Timeout",
-    "failureType": "Timeout",
-    "code": "timeout of 10000ms exceeded"
+    "phones": [],
+    "socials": {
+      "facebook": null,
+      "twitter": null,
+      "linkedin": null
+    },
+    "address": null,
+    "success": true,
+    "methodUsed": "HTTP-Fallback"
   },
   {
     "url": "vividsalonmadison.com",
@@ -11185,7 +11825,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "crazypokemiami.com",
@@ -11211,7 +11852,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "executivecarservicelax.com",
@@ -11225,7 +11867,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "ubercigar.com.au",
@@ -11238,7 +11881,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "vitalaehealingarts.com",
@@ -11252,7 +11896,7 @@
     "success": false,
     "error": "Unknown",
     "failureType": "Unknown",
-    "code": "Request failed with status code 502"
+    "code": "Request failed with status code 403"
   },
   {
     "url": "cepstone-llc.com",
@@ -11263,7 +11907,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Permissive"
   },
   {
     "url": "djs-general-service-llc.business.site",
@@ -11290,7 +11935,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "nsea.org",
@@ -11313,7 +11959,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "rjssigns.com",
@@ -11328,7 +11975,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "wheelrepairphoenix.com",
@@ -11341,7 +11989,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "lorettola.org",
@@ -11356,10 +12005,17 @@
   },
   {
     "url": "pdassociation.org",
-    "success": false,
-    "error": "Unknown",
-    "failureType": "Unknown",
-    "code": "connect ECONNREFUSED 75.126.104.237:443"
+    "phones": [
+      "(847) 986-9350"
+    ],
+    "socials": {
+      "facebook": "https://www.facebook.com/privatedirectorsassociation/",
+      "twitter": "https://twitter.com/privdirassoc?",
+      "linkedin": "https://www.linkedin.com/company/private-directors-association/"
+    },
+    "address": null,
+    "success": true,
+    "methodUsed": "HTTP-Fallback"
   },
   {
     "url": "spots.edu",
@@ -11370,7 +12026,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "centurywebdesign.net",
@@ -11382,9 +12039,9 @@
   {
     "url": "holehunterindustries.com",
     "success": false,
-    "error": "Timeout",
-    "failureType": "Timeout",
-    "code": "timeout of 10000ms exceeded"
+    "error": "Unknown",
+    "failureType": "Unknown",
+    "code": "Request failed with status code 403"
   },
   {
     "url": "transtekautosales.com",
@@ -11404,7 +12061,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "cifsds.org",
@@ -11417,14 +12075,31 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "meroscience.org",
-    "success": false,
-    "error": "Unknown",
-    "failureType": "Unknown",
-    "code": "write EPROTO 80B0C2FA01000000:error:0A000410:SSL routines:ssl3_read_bytes:sslv3 alert handshake failure:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:1605:SSL alert number 40\n"
+    "phones": [
+      "365110660957",
+      "848857247979",
+      "110777697",
+      "996562972841",
+      "723583694455",
+      "698263678581",
+      "456158411310",
+      "519912107119",
+      "541-231-0164",
+      "1774552889"
+    ],
+    "socials": {
+      "facebook": "https://www.facebook.com/MEROScienceProgram/",
+      "twitter": null,
+      "linkedin": null
+    },
+    "address": null,
+    "success": true,
+    "methodUsed": "HTTP-Fallback"
   },
   {
     "url": "runlikeclockwork.com",
@@ -11454,7 +12129,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "themasker.com",
@@ -11468,7 +12144,8 @@
       "linkedin": null
     },
     "address": "Address:  72 N Broadway st. Des Plaines IL 60016\n\t\t\t\t\t\t\t\tPhone:  1(312)288-8383 \n\t\t\t\t\t\t\t\tHours: from 8:00 to 21:00 (Mon-Sun) FREE by United States \n\t\t\t\t\t\t\t\tE-mail: themaskerstudio@gmail.com",
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "ercc.biz",
@@ -11483,7 +12160,8 @@
       "linkedin": "https://www.linkedin.com/company/15579798/"
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "floridaloansigning.com",
@@ -11494,7 +12172,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "kathrynanndesigns.com",
@@ -11575,7 +12254,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "lynnavo.com",
@@ -11586,12 +12266,13 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "mejina.net",
     "phones": [
-      "20260327-0701"
+      "20260327-1830"
     ],
     "socials": {
       "facebook": null,
@@ -11599,7 +12280,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "rollmanconyers.com",
@@ -11625,7 +12307,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "gallerycollage.com",
@@ -11643,7 +12326,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "osalra.com",
@@ -11675,7 +12359,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "marketing-page-lindsey.vercel.app",
@@ -11686,7 +12371,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "reelsafarischarters.com",
@@ -11707,7 +12393,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "theceosalon.com",
@@ -11718,7 +12405,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "whitwell-accounting-llc.business.site",
@@ -11757,7 +12445,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "h-glogistics.com",
@@ -11815,7 +12504,8 @@
       "linkedin": null
     },
     "address": "1750 Mark Wood Road",
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "myzerly.com",
@@ -11826,7 +12516,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Permissive"
   },
   {
     "url": "yroox.com",
@@ -11892,7 +12583,8 @@
       "linkedin": null
     },
     "address": "605 S Kentucky Ave",
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "montereypeninsulaelderlyhome.com",
@@ -11913,7 +12605,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "allyourblogging.com",
@@ -11945,7 +12638,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "lonepeakdoodles.com",
@@ -11959,7 +12653,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "schoi.mit.edu",
@@ -11970,14 +12665,24 @@
       "linkedin": null
     },
     "address": "77 Massachusetts Ave",
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "coralgablesrealestatefl.com",
-    "success": false,
-    "error": "Unknown",
-    "failureType": "Unknown",
-    "code": "write EPROTO 80B0C2FA01000000:error:0A000410:SSL routines:ssl3_read_bytes:sslv3 alert handshake failure:../deps/openssl/openssl/ssl/record/rec_layer_s3.c:1605:SSL alert number 40\n"
+    "phones": [
+      "269320854179",
+      "7378585006",
+      "0195701756"
+    ],
+    "socials": {
+      "facebook": null,
+      "twitter": null,
+      "linkedin": null
+    },
+    "address": null,
+    "success": true,
+    "methodUsed": "HTTP-Fallback"
   },
   {
     "url": "studentvetinsurance.com",
@@ -12002,7 +12707,8 @@
       "linkedin": "https://www.linkedin.com/company/wix-com"
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "totalseal.com",
@@ -12013,7 +12719,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "vghgroup.org",
@@ -12044,14 +12751,24 @@
       "linkedin": "https://www.linkedin.com/company/aiesteam/"
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "beckynadesan.com",
-    "success": false,
-    "error": "Unknown",
-    "failureType": "Unknown",
-    "code": "read ECONNRESET"
+    "phones": [
+      "(206)972-1113",
+      "(206)232-0368",
+      "206-972-1113"
+    ],
+    "socials": {
+      "facebook": null,
+      "twitter": null,
+      "linkedin": null
+    },
+    "address": null,
+    "success": true,
+    "methodUsed": "HTTP-Fallback"
   },
   {
     "url": "coricarl.com",
@@ -12062,7 +12779,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "fivestaracsd.com",
@@ -12075,7 +12793,8 @@
       "linkedin": null
     },
     "address": "2025 Five St",
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "returndeals.net",
@@ -12088,7 +12807,8 @@
       "linkedin": null
     },
     "address": "4912 Winnetka Ave",
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "banconex.com",
@@ -12102,7 +12822,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "energy-health-oriental-massage.business.site",
@@ -12190,7 +12911,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "frenchlakeautoparts.com",
@@ -12210,7 +12932,8 @@
       "linkedin": "https://www.linkedin.com/company/image-works-direct"
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "matthaynes.uk",
@@ -12221,7 +12944,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "montcapitalpartners.com",
@@ -12248,14 +12972,20 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "downeygroupllc.com",
-    "success": false,
-    "error": "Unknown",
-    "failureType": "Unknown",
-    "code": "write EPROTO 80B0C2FA01000000:error:0A00014D:SSL routines:tls_process_key_exchange:legacy sigalg disallowed or unsupported:../deps/openssl/openssl/ssl/statem/statem_clnt.c:2255:\n"
+    "phones": [],
+    "socials": {
+      "facebook": null,
+      "twitter": null,
+      "linkedin": null
+    },
+    "address": null,
+    "success": true,
+    "methodUsed": "HTTP-Fallback"
   },
   {
     "url": "ravenshire-llc.com",
@@ -12266,7 +12996,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "academyofamazement.com",
@@ -12277,7 +13008,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "amlimdrmarina.com",
@@ -12288,7 +13020,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "focusmedicalbillingservices.com",
@@ -12306,7 +13039,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "sgdesignshouston.com",
@@ -12317,7 +13051,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "108production.com",
@@ -12328,7 +13063,8 @@
       "linkedin": "https://www.linkedin.com/company/108-production"
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "creativehealthplans.com",
@@ -12360,7 +13096,8 @@
       "linkedin": null
     },
     "address": "231 West Patison Street",
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "rmiflooring.com",
@@ -12373,7 +13110,8 @@
       "linkedin": "https://www.linkedin.com/company/rm-interiors-&-design-inc"
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "smv-inc.com",
@@ -12416,7 +13154,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "divinemomentsdaycare.com",
@@ -12441,7 +13180,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "whaleygfx.com",
@@ -12459,7 +13199,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "fine-art-construction.business.site",
@@ -12470,10 +13211,19 @@
   },
   {
     "url": "lesliehaywood-moore.online",
-    "success": false,
-    "error": "Unknown",
-    "failureType": "Unknown",
-    "code": "connect ECONNREFUSED 173.255.203.251:443"
+    "phones": [
+      "(270) 442-2215",
+      "270-442-2215",
+      "2001 270-442"
+    ],
+    "socials": {
+      "facebook": "https://www.facebook.com/1564795010418671",
+      "twitter": "https://twitter.com/intent/tweet?url=http%3A%2F%2Flesliehaywood-moore.online%2Flistings%2Ftraditional-meets-exquisite-upgrades-and-custom-amenities%2F&text=JUST+SOLD%21+WEST+END+TREASURED+HOME+AVAILABLE+NOW",
+      "linkedin": null
+    },
+    "address": "619 Madison\n                                                    Paducah, KY 42001                        \n                          United States",
+    "success": true,
+    "methodUsed": "HTTP-Fallback"
   },
   {
     "url": "mrdurant.weebly.com",
@@ -12487,7 +13237,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "neptune-society.com",
@@ -12512,7 +13263,8 @@
       "linkedin": null
     },
     "address": "199 Shunpike Rd",
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "cheftea.com",
@@ -12558,7 +13310,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "gabeyandell.com",
@@ -12576,7 +13329,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "hericonstructionllc.com",
@@ -12597,7 +13351,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "oddwomannailsandmore.com",
@@ -12626,7 +13381,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Permissive"
   },
   {
     "url": "hotlink2019.com",
@@ -12644,7 +13400,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "internationalmediasupply.com",
@@ -12662,7 +13419,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "pacificelectric.biz",
@@ -12673,7 +13431,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "skylinevisioncare.com",
@@ -12688,7 +13447,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "timhalberg.com",
@@ -12699,7 +13459,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "maido-shimizuya.com",
@@ -12710,7 +13471,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Permissive"
   },
   {
     "url": "ancientcityappraisals.com",
@@ -12728,7 +13490,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "caring-hands-seniorsolutionsgroupinc.business.site",
@@ -12746,7 +13509,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Permissive"
   },
   {
     "url": "hearthstoneproperty.com",
@@ -12757,7 +13521,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "kourco.com",
@@ -12777,7 +13542,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "ortsac.com",
@@ -12790,7 +13556,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "pioneerpropertydevelopment.com",
@@ -12838,7 +13605,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "toptok.info",
@@ -12868,7 +13636,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "peakdds.com",
@@ -12907,7 +13676,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "webranium.co.uk",
@@ -12927,7 +13697,8 @@
       "linkedin": null
     },
     "address": "hemixx29@gmail.com",
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Permissive"
   },
   {
     "url": "americanguardrailsupply.com",
@@ -12940,7 +13711,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTP-Fallback"
   },
   {
     "url": "dablawoffice.com",
@@ -12951,7 +13723,8 @@
       "linkedin": null
     },
     "address": "6 Grove Ave",
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Permissive"
   },
   {
     "url": "fedorovfilms.com",
@@ -12969,7 +13742,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "masterguyscardetail.com",
@@ -12991,7 +13765,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "coloradolivingblog.com",
@@ -13011,7 +13786,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Permissive"
   },
   {
     "url": "ihostnewyork.com",
@@ -13024,7 +13800,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "jmbusinesspartners.com",
@@ -13035,7 +13812,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "sapphiresleepovers.squarespace.com",
@@ -14521,7 +15299,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "yokohamayakitorikoubou.com",
@@ -14535,7 +15314,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "briggsmobiledetailing.com",
@@ -14556,7 +15336,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "lemongrassmichigan.com",
@@ -14569,7 +15350,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "pawsinmotionla.com",
@@ -14580,7 +15362,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "uniqueservices.us",
@@ -14598,7 +15381,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "directtransportsys.com",
@@ -14611,7 +15395,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "finishingtouch.contractors",
@@ -14622,7 +15407,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Permissive"
   },
   {
     "url": "independenthotelmarketinggroup.com",
@@ -14633,7 +15419,8 @@
       "linkedin": "https://www.linkedin.com/company/4984906/"
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "sandiegorealestatejobs.net",
@@ -14658,7 +15445,8 @@
       "linkedin": "https://www.linkedin.com/company/healthtrust-purchasing-group"
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "hillcreststoragetn.com",
@@ -14672,7 +15460,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Permissive"
   },
   {
     "url": "lloydfeinberg.com",
@@ -14687,7 +15476,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "tiffin24.com",
@@ -14698,7 +15488,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "advancedbiblicalstudies.net",
@@ -14709,7 +15500,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "aesgoldmine.com",
@@ -14732,7 +15524,8 @@
       "linkedin": "https://www.linkedin.com/company/lazada/"
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "amairportparking.com",
@@ -14743,12 +15536,14 @@
       "linkedin": null
     },
     "address": "651 Martin\n                                Ave",
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "cstyled.com",
     "phones": [
-      "(303) 522-8659"
+      "(303) 522-8659",
+      "4516924830"
     ],
     "socials": {
       "facebook": "https://www.facebook.com/cooperstyled/",
@@ -14756,7 +15551,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "intlselfstorage.com",
@@ -14788,9 +15584,9 @@
       "2099099548",
       "2219-9727-4600",
       "689411106",
+      "663990249002",
       "021820221534",
       "979782270606",
-      "663990249002",
       "069762757002",
       "021820221338",
       "9997795216",
@@ -14803,7 +15599,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "marinavillageharbor.com",
@@ -14814,7 +15611,8 @@
       "linkedin": "https://www.linkedin.com/company/safe-harbor-marinas/"
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "nynjelevator.com",
@@ -14838,7 +15636,8 @@
       "linkedin": "https://www.linkedin.com/company/ny-nj-elevator-co"
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "gamepcfull.com",
@@ -14852,7 +15651,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "impaxinc.com",
@@ -14867,7 +15667,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "nachonomics.com",
@@ -14878,7 +15679,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "romangalloway.com",
@@ -14895,7 +15697,6 @@
       "013999999999",
       "1751833924",
       "0484562807",
-      "81682768-837",
       "888-235-7540",
       "1765468984",
       "1768513414",
@@ -14911,13 +15712,13 @@
       "1740175253",
       "1763429750",
       "1773164464",
-      "7875455671",
-      "220063958",
+      "109078853",
       "2101045510",
+      "840752-271",
       "0749498667",
+      "9915792451",
       "1749094937",
       "1741214848",
-      "174017525",
       "1751760297",
       "1743738910",
       "1743738946",
@@ -14934,6 +15735,7 @@
       "1753111455",
       "1749597005",
       "1705969925",
+      "1774557675",
       "1755728023",
       "1755272880",
       "1773857719",
@@ -14972,7 +15774,6 @@
       "1745269513",
       "1745268793",
       "1745268726",
-      "1745269573",
       "1745269625",
       "1745268900"
     ],
@@ -14982,7 +15783,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "flatpondpublishing.com",
@@ -15012,7 +15814,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "hallmemphis.org",
@@ -15023,7 +15826,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Permissive"
   },
   {
     "url": "howellci.com",
@@ -15048,7 +15852,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "kalamazoomijobs.com",
@@ -15066,7 +15871,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "mygentxt.org",
@@ -15079,12 +15885,13 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "mingchienliang.com",
     "phones": [
-      "177422621352",
+      "177434758634",
       "887022285038",
       "092156650",
       "50408925233",
@@ -15094,8 +15901,9 @@
       "700-8487-6366",
       "635-8505-3391",
       "9392-5604-1148",
-      "1774226213",
-      "161645976663"
+      "1774347585",
+      "962172592061",
+      "1134700946"
     ],
     "socials": {
       "facebook": "http://www.facebook.com/",
@@ -15103,7 +15911,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "mlfcare.org",
@@ -15132,7 +15941,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "mq3labs.com",
@@ -15143,7 +15953,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "nymphyacht.com",
@@ -15177,7 +15988,8 @@
       "linkedin": null
     },
     "address": "144 Southport Rd Suite",
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "pattikavanagh.massagetherapy.com",
@@ -15190,7 +16002,8 @@
       "linkedin": null
     },
     "address": "241 Garden Street",
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "pearlandcounseling.com",
@@ -15203,7 +16016,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "simplythaidining.com",
@@ -15216,7 +16030,8 @@
       "linkedin": null
     },
     "address": "6295 Jarvis Ave",
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "alphaquorumstore.com",
@@ -15261,7 +16076,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "myrtlebeach.city",
@@ -15272,7 +16088,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "wordofgodokc.com",
@@ -15314,7 +16131,8 @@
       "linkedin": null
     },
     "address": "837 NW 95th St",
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "bigdiamondpools.com",
@@ -15328,7 +16146,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "brynbachman.com",
@@ -15353,7 +16172,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "bytheseat.com",
@@ -15424,7 +16244,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "hairdesigners-hairsalon.business.site",
@@ -15454,7 +16275,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "yttangsoodo.com",
@@ -15478,7 +16300,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "big-dog-boarding.business.site",
@@ -15539,7 +16362,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "kiplearningandactivitycenter.com",
@@ -15564,7 +16388,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Permissive"
   },
   {
     "url": "drfconaway.com",
@@ -15575,7 +16400,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "flash-wingo.com",
@@ -15604,13 +16430,15 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Permissive"
   },
   {
     "url": "sanctuaryfarmphila.org",
     "phones": [
-      "177396079474",
+      "177456794404",
       "(267) 703-0194",
+      "10313611443",
       "945486754",
       "216071924",
       "276-1246-058",
@@ -15645,9 +16473,8 @@
       "9392-5604-1148",
       "436617625",
       "4402110055",
-      "1773960793",
-      "711724015571",
-      "0617008032",
+      "1774567943",
+      "305512470741",
       "524773391",
       "398296134348"
     ],
@@ -15657,7 +16484,8 @@
       "linkedin": null
     },
     "address": "2347 West Berks St",
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "crabhouse39.com",
@@ -15673,7 +16501,8 @@
       "linkedin": null
     },
     "address": "2 Beach St",
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "latinoyouthoutreach.org",
@@ -15684,7 +16513,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "reignvolleyball.com",
@@ -15713,16 +16543,10 @@
   },
   {
     "url": "diecutstickers.com",
-    "phones": [
-      "(206) 816-3421"
-    ],
-    "socials": {
-      "facebook": "https://www.facebook.com/diecutstickers",
-      "twitter": null,
-      "linkedin": null
-    },
-    "address": "8 Creative Ways to Use Stickers and Labels for Marketing During the Holidays\nHow to Apply UV DTF St",
-    "success": true
+    "success": false,
+    "error": "Timeout",
+    "failureType": "Timeout",
+    "code": "timeout of 10000ms exceeded"
   },
   {
     "url": "mbcollegeguidance.com",
@@ -15749,7 +16573,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Permissive"
   },
   {
     "url": "dentaltalentnow.com",
@@ -15760,7 +16585,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "edgeinsurance.biz",
@@ -15784,7 +16610,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Permissive"
   },
   {
     "url": "bgkinvestments.com",
@@ -15795,7 +16622,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Permissive"
   },
   {
     "url": "haciendailusionpr.com",
@@ -15842,7 +16670,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "hawaii432.com",
@@ -15868,7 +16697,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "usconstructgroup.com",
@@ -15879,7 +16709,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "wheeinc.com",
@@ -15892,7 +16723,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "dafacargo.com",
@@ -15906,7 +16738,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "mahoganyvacations.com",
@@ -15932,7 +16765,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "troychurch.net",
@@ -15943,20 +16777,20 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "anthonymarlowe.com",
-    "phones": [
-      "1763209563"
-    ],
+    "phones": [],
     "socials": {
       "facebook": null,
       "twitter": null,
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "avonnylocksmith.com",
@@ -15969,7 +16803,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "exaintelligence.com",
@@ -15982,7 +16817,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "mannexcavating.com",
@@ -15996,7 +16832,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "miqrotech.com",
@@ -16021,7 +16858,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "morrisholmes.com",
@@ -16034,7 +16872,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Permissive"
   },
   {
     "url": "rfacapitalcorp.com",
@@ -16047,7 +16886,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "ameecleaning.com",
@@ -16061,7 +16901,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "cindywalker.com",
@@ -16076,7 +16917,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "fivestarpoollinerswilliamstown.com",
@@ -16087,7 +16929,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "sustainableracine.org",
@@ -16108,7 +16951,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "d-l-roofing-and-construction-llc.business.site",
@@ -16129,7 +16973,8 @@
       "linkedin": null
     },
     "address": null,
-    "success": true
+    "success": true,
+    "methodUsed": "HTTPS-Standard"
   },
   {
     "url": "rubpage.com",

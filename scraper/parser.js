@@ -4,42 +4,73 @@ import { response } from 'express';
 import fs from "fs/promises";
 import https from 'https';
 
-const agent = new https.Agent({
-rejectUnauthorized: false,
-minVersion: 'TLSv1',       
+const standardAgent = new https.Agent({
+    rejectUnauthorized: true, 
 });
 
-export async function scrapeWithCheerio(url){
-    const targetUrl = url.startsWith('http') ? url : `https://${url}`;
-    try {
-        const response = await axios.get(targetUrl, {
-            timeout: 10000,
-            httpsAgent: agent,
-            headers: {
-                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36',
-                'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-                'Accept-Language': 'en-US,en;q=0.5',
-                'Referer': 'https://www.google.com/'
-            }
-        });
+const permissiveAgent = new https.Agent({
+    rejectUnauthorized: false,
+    minVersion: 'TLSv1',
+    ciphers: 'DEFAULT:@SECLEVEL=1'       
+});
 
-        const $ = cheerio.load(response.data);
-        const text = $('body').text();
+export async function scrapeWithCheerio(url) {
+    const domain = url.replace(/^(?:https?:\/\/)?(?:www\.)?/i, "");
+    
+    const protocols = [
+        { name: 'HTTPS-Standard', url: `https://${domain}`, agent: standardAgent },
+        { name: 'HTTPS-Permissive', url: `https://${domain}`, agent: permissiveAgent }, 
+        { name: 'HTTP-Fallback', url: `http://${domain}`, agent: null }
+    ];
 
-        return {
-            url,
-            phones: extractPhones(text),
-            socials: extractSocials($),
-            address: extractAddress($),
-            success: true
-        };
-    } catch (error) {
-        let failureType = 'Unknown';
-        if (error.code === 'ENOTFOUND') failureType = 'Dead Domain/DNS Error';
-        if (error.code === 'ECONNABORTED') failureType = 'Timeout';
-        if (error.response?.status === 404) failureType = 'Page Missing';
-        return { url, success: false, error: failureType, failureType: failureType, code: error.message };
+    let lastError = null;
+
+    for (const step of protocols) {
+        try {
+            const response = await axios.get(step.url, {
+                timeout: 10000,
+                httpsAgent: step.agent,
+                headers: {
+                    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36',
+                    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+                    'Accept-Language': 'en-US,en;q=0.5',
+                    'Referer': 'https://www.google.com/'
+                }
+            });
+
+            const $ = cheerio.load(response.data);
+            const text = $('body').text();
+
+            return {
+                url,
+                phones: extractPhones(text),
+                socials: extractSocials($),
+                address: extractAddress($),
+                success: true,
+                methodUsed: step.name 
+            };
+        } catch (error) {
+            lastError = error;
+            
+            if (error.response?.status === 404) break;
+            
+            console.log(`  - ${step.name} failed for ${domain}, trying next...`);
+        }
     }
+
+    let failureType = 'Unknown';
+    if (lastError.code === 'ENOTFOUND') failureType = 'Dead Domain/DNS Error';
+    else if (lastError.code === 'ECONNABORTED') failureType = 'Timeout';
+    else if (lastError.response?.status === 404) failureType = 'Page Missing';
+    else if (lastError.code === 'EPROTO' || lastError.message.includes('SSL')) failureType = 'SSL Handshake Failure';
+
+    return { 
+        url, 
+        success: false, 
+        error: failureType, 
+        failureType: failureType, 
+        code: lastError.message 
+    };
 }
 
 export function extractPhones(text) {
