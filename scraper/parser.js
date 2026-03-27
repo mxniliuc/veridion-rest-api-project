@@ -91,11 +91,33 @@ export function extractSocials($) {
 }
 
 export function extractAddress($) {
-    let address = $('address').first().text().trim();
+    const addressRegex = /\d{1,5}\s+([a-zA-Z0-9\s\.,#-]+)\s+(Street|St|Ave|Avenue|Rd|Road|Suite|Bldg|Blvd|Drive|Dr|Lane|Ln|Way|Court|Ct|Circle|Cir|Pkwy|Parkway)/i;
+
+    // 1. Semantic Search: <address> tag
+    let address = $('address').first().text().replace(/\s\s+/g, ' ').trim();
     
+    // 2. Footer Heuristic: Look for "Street/Ave" in footer
     if (!address) {
-        address = $('footer').text().match(/\d+ [\w\s]+ (Street|St|Ave|Avenue|Rd|Road|Suite|Bldg)/i)?.[0] || null;
+        const footerText = $('footer').text();
+        address = footerText.match(addressRegex)?.[0] || null;
+    }
+
+    // 3. Google Maps Link Extraction: Extracting address from the URL query
+    if (!address) {
+        const mapLink = $('a[href*="google.com/maps"], a[href*="maps.app.goo.gl"]').first().attr('href');
+        if (mapLink) {
+            try {
+                const urlObj = new URL(mapLink);
+                address = urlObj.searchParams.get('q') || urlObj.searchParams.get('query') || urlObj.searchParams.get('daddr');
+            } catch (e) { /* ignore invalid URLs */ }
+        }
+    }
+
+    // 4. Global Body Fallback
+    if (!address) {
+        const bodyText = $('body').text();
+        address = bodyText.match(addressRegex)?.[0] || null;
     }
     
-    return address;
+    return address ? address.trim() : null;
 }

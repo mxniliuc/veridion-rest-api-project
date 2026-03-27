@@ -28,6 +28,13 @@
     "code": "getaddrinfo ENOTFOUND www.verdantporch.com"
   },
   {
+    "url": "workitstudio.com",
+    "success": false,
+    "error": "Timeout",
+    "failureType": "Timeout",
+    "code": "timeout of 8000ms exceeded"
+  },
+  {
     "url": "coffee-homemachines.club",
     "success": false,
     "error": "Dead Domain/DNS Error",
@@ -110,6 +117,13 @@
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
     "code": "getaddrinfo ENOTFOUND www.beagibbons.com"
+  },
+  {
+    "url": "getranx.com",
+    "success": false,
+    "error": "Unknown",
+    "failureType": "Unknown",
+    "code": "Request failed with status code 503"
   },
   {
     "url": "1laurellane.com",
@@ -240,9 +254,9 @@
   {
     "url": "proexecstaffing.com",
     "success": false,
-    "error": "Page Missing",
-    "failureType": "Page Missing",
-    "code": "Request failed with status code 404"
+    "error": "Timeout",
+    "failureType": "Timeout",
+    "code": "timeout of 8000ms exceeded"
   },
   {
     "url": "yingtexun.com",
@@ -289,9 +303,9 @@
   {
     "url": "lisinoprilfst.com",
     "success": false,
-    "error": "Dead Domain/DNS Error",
-    "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND www.lisinoprilfst.com"
+    "error": "Timeout",
+    "failureType": "Timeout",
+    "code": "timeout of 8000ms exceeded"
   },
   {
     "url": "madebyjosy.com",
@@ -364,6 +378,13 @@
     "code": "Request failed with status code 404"
   },
   {
+    "url": "tevisdenise.com",
+    "success": false,
+    "error": "Timeout",
+    "failureType": "Timeout",
+    "code": "timeout of 8000ms exceeded"
+  },
+  {
     "url": "greggardnersbarbershop.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
@@ -429,9 +450,16 @@
   {
     "url": "clinejewelers.com",
     "success": false,
-    "error": "Unknown",
-    "failureType": "Unknown",
-    "code": "socket hang up"
+    "error": "Timeout",
+    "failureType": "Timeout",
+    "code": "timeout of 8000ms exceeded"
+  },
+  {
+    "url": "betterbuildco.com",
+    "success": false,
+    "error": "Dead Domain/DNS Error",
+    "failureType": "Dead Domain/DNS Error",
+    "code": "getaddrinfo ENOTFOUND www.betterbuildco.com"
   },
   {
     "url": "thelocalmanjakemangan.com",
@@ -450,16 +478,16 @@
   {
     "url": "iambaldianastyles.info",
     "success": false,
-    "error": "Dead Domain/DNS Error",
-    "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND www.iambaldianastyles.info"
+    "error": "Timeout",
+    "failureType": "Timeout",
+    "code": "timeout of 8000ms exceeded"
   },
   {
     "url": "innovativeinstruction.org",
     "success": false,
-    "error": "Dead Domain/DNS Error",
-    "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND www.innovativeinstruction.org"
+    "error": "Timeout",
+    "failureType": "Timeout",
+    "code": "timeout of 8000ms exceeded"
   },
   {
     "url": "hightechautoservicesantamonica.com",
@@ -593,13 +621,6 @@
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
     "code": "getaddrinfo ENOTFOUND www.platformtemizlik.com"
-  },
-  {
-    "url": "westtubingcompany.com",
-    "success": false,
-    "error": "Page Missing",
-    "failureType": "Page Missing",
-    "code": "Request failed with status code 404"
   },
   {
     "url": "advance-tcc.com",
@@ -1155,13 +1176,6 @@
     "code": "getaddrinfo ENOTFOUND www.godsministryfellowship.com"
   },
   {
-    "url": "homeworkninjas.com",
-    "success": false,
-    "error": "Unknown",
-    "failureType": "Unknown",
-    "code": "Request failed with status code 444"
-  },
-  {
     "url": "par1cleaners.business.site",
     "success": false,
     "error": "Page Missing",
@@ -1185,9 +1199,9 @@
   {
     "url": "riolentoranch.com",
     "success": false,
-    "error": "Dead Domain/DNS Error",
-    "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND www.riolentoranch.com"
+    "error": "Timeout",
+    "failureType": "Timeout",
+    "code": "timeout of 8000ms exceeded"
   },
   {
     "url": "castoreclothing.com",
@@ -1199,9 +1213,9 @@
   {
     "url": "palaciopet.com",
     "success": false,
-    "error": "Dead Domain/DNS Error",
-    "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND www.palaciopet.com"
+    "error": "Timeout",
+    "failureType": "Timeout",
+    "code": "timeout of 8000ms exceeded"
   },
   {
     "url": "artandglamstudio.com",
@@ -1213,9 +1227,9 @@
   {
     "url": "fayreconsulting.com",
     "success": false,
-    "error": "Dead Domain/DNS Error",
-    "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND www.fayreconsulting.com"
+    "error": "Timeout",
+    "failureType": "Timeout",
+    "code": "timeout of 8000ms exceeded"
   },
   {
     "url": "sanchez-lawn-care-and-landscaping-services.business.site",
@@ -1239,11 +1253,18 @@
     "code": "getaddrinfo ENOTFOUND www.pestcontrolmodestoca.org"
   },
   {
-    "url": "lukesmma.com",
+    "url": "horizon-international.com",
     "success": false,
     "error": "Timeout",
     "failureType": "Timeout",
     "code": "timeout of 8000ms exceeded"
+  },
+  {
+    "url": "lukesmma.com",
+    "success": false,
+    "error": "Dead Domain/DNS Error",
+    "failureType": "Dead Domain/DNS Error",
+    "code": "getaddrinfo ENOTFOUND www.lukesmma.com"
   },
   {
     "url": "coastaldefense.business.site",
@@ -1255,30 +1276,30 @@
   {
     "url": "sewardlostlakelodge.com",
     "success": false,
-    "error": "Timeout",
-    "failureType": "Timeout",
-    "code": "timeout of 8000ms exceeded"
+    "error": "Dead Domain/DNS Error",
+    "failureType": "Dead Domain/DNS Error",
+    "code": "getaddrinfo ENOTFOUND www.sewardlostlakelodge.com"
   },
   {
     "url": "crazy.builders",
     "success": false,
-    "error": "Timeout",
-    "failureType": "Timeout",
-    "code": "timeout of 8000ms exceeded"
+    "error": "Dead Domain/DNS Error",
+    "failureType": "Dead Domain/DNS Error",
+    "code": "getaddrinfo ENOTFOUND www.crazy.builders"
   },
   {
     "url": "littleredfarmhousegifts.net",
     "success": false,
-    "error": "Timeout",
-    "failureType": "Timeout",
-    "code": "timeout of 8000ms exceeded"
+    "error": "Dead Domain/DNS Error",
+    "failureType": "Dead Domain/DNS Error",
+    "code": "getaddrinfo ENOTFOUND www.littleredfarmhousegifts.net"
   },
   {
     "url": "cherrycreektributaries.com",
     "success": false,
-    "error": "Timeout",
-    "failureType": "Timeout",
-    "code": "timeout of 8000ms exceeded"
+    "error": "Dead Domain/DNS Error",
+    "failureType": "Dead Domain/DNS Error",
+    "code": "getaddrinfo ENOTFOUND www.cherrycreektributaries.com"
   },
   {
     "url": "marriagecounselingmemphis.com",
@@ -1423,9 +1444,9 @@
   {
     "url": "carolynsnails.com",
     "success": false,
-    "error": "Dead Domain/DNS Error",
-    "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND www.carolynsnails.com"
+    "error": "Timeout",
+    "failureType": "Timeout",
+    "code": "timeout of 8000ms exceeded"
   },
   {
     "url": "myparee.com",
@@ -1451,30 +1472,30 @@
   {
     "url": "redrhinomovers.com",
     "success": false,
-    "error": "Dead Domain/DNS Error",
-    "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND www.redrhinomovers.com"
+    "error": "Timeout",
+    "failureType": "Timeout",
+    "code": "timeout of 8000ms exceeded"
   },
   {
     "url": "asuzus.com",
     "success": false,
-    "error": "Dead Domain/DNS Error",
-    "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND www.asuzus.com"
+    "error": "Timeout",
+    "failureType": "Timeout",
+    "code": "timeout of 8000ms exceeded"
   },
   {
     "url": "jonfoxmusic.com",
     "success": false,
-    "error": "Dead Domain/DNS Error",
-    "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND www.jonfoxmusic.com"
+    "error": "Timeout",
+    "failureType": "Timeout",
+    "code": "timeout of 8000ms exceeded"
   },
   {
     "url": "globaltrustbnk.com",
     "success": false,
-    "error": "Dead Domain/DNS Error",
-    "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND www.globaltrustbnk.com"
+    "error": "Timeout",
+    "failureType": "Timeout",
+    "code": "timeout of 8000ms exceeded"
   },
   {
     "url": "bodegaunclick.com",
@@ -1594,13 +1615,6 @@
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
     "code": "getaddrinfo ENOTFOUND www.michaelskuceradentistry.com"
-  },
-  {
-    "url": "statelinekids.com",
-    "success": false,
-    "error": "Timeout",
-    "failureType": "Timeout",
-    "code": "timeout of 8000ms exceeded"
   },
   {
     "url": "caninereproductivecenter.com",
