@@ -37,22 +37,19 @@ async function runScraper(){
 
     try {
     const websites = await runScraper();
-    console.log("Beginning");
-    console.log(await scrapeWithPlaywright('www.tribeofdantours.com'));
-    console.log("End");
-const tasks = websites.map(url => limit(async () => {
+    const tasks = websites.map(url => limit(async () => {
     let result = await scrapeWithCheerio(url);
 
     if (!result.success && (result.failureType === 'Timeout' || result.failureType === 'Unknown')) {
-        console.log(`🚀 Retrying ${url} with Playwright...`);
+
         try{
 
         const fallbackResult = await scrapeWithPlaywright(url);
         
         if (fallbackResult && fallbackResult.success) {
-            console.log(`✅ Playwright succeeded for ${url}`);
+
             
-            const $ = cheerio.load(`<body>${fallbackResult.text}</body>`);
+            const $ = cheerio.load(fallbackResult.html);
             
             result = {
                 url,
@@ -67,7 +64,7 @@ const tasks = websites.map(url => limit(async () => {
                 phones: extractPhones(fallbackResult.text),
                 socials: extractSocials($), 
                 address: extractAddress($), 
-                success: true,
+                success: false,
                 code: error.message
             }
         }

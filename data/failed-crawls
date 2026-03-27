@@ -4,42 +4,49 @@
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND melatee.com"
+    "code": "getaddrinfo ENOTFOUND www.melatee.com"
   },
   {
     "url": "creativebusinessassociates.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND creativebusinessassociates.com"
+    "code": "getaddrinfo ENOTFOUND www.creativebusinessassociates.com"
+  },
+  {
+    "url": "cumberland-river.com",
+    "success": false,
+    "error": "Page Missing",
+    "failureType": "Page Missing",
+    "code": "Request failed with status code 404"
   },
   {
     "url": "verdantporch.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND verdantporch.com"
+    "code": "getaddrinfo ENOTFOUND www.verdantporch.com"
   },
   {
     "url": "coffee-homemachines.club",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND coffee-homemachines.club"
+    "code": "getaddrinfo ENOTFOUND www.coffee-homemachines.club"
   },
   {
     "url": "mendiolagardening.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND mendiolagardening.com"
+    "code": "getaddrinfo ENOTFOUND www.mendiolagardening.com"
   },
   {
     "url": "maddux.pro",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND maddux.pro"
+    "code": "getaddrinfo ENOTFOUND www.maddux.pro"
   },
   {
     "url": "top-salon-hair-salon.business.site",
@@ -56,25 +63,18 @@
     "code": "Request failed with status code 403"
   },
   {
-    "url": "couplescounselingatlanta.com",
-    "success": false,
-    "error": "Unknown",
-    "failureType": "Unknown",
-    "code": "Request failed with status code 409"
-  },
-  {
     "url": "philstreeppc.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND philstreeppc.com"
+    "code": "getaddrinfo ENOTFOUND www.philstreeppc.com"
   },
   {
     "url": "romanthumbs.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND romanthumbs.com"
+    "code": "getaddrinfo ENOTFOUND www.romanthumbs.com"
   },
   {
     "url": "johnstons-clothiers.business.site",
@@ -88,49 +88,42 @@
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND ohhappydayshatchetthrowing.com"
+    "code": "getaddrinfo ENOTFOUND www.ohhappydayshatchetthrowing.com"
   },
   {
     "url": "completecaredevelopmentcenter.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND completecaredevelopmentcenter.com"
+    "code": "getaddrinfo ENOTFOUND www.completecaredevelopmentcenter.com"
   },
   {
     "url": "kaleofamilies.org",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND kaleofamilies.org"
+    "code": "getaddrinfo ENOTFOUND www.kaleofamilies.org"
   },
   {
     "url": "beagibbons.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND beagibbons.com"
-  },
-  {
-    "url": "getranx.com",
-    "success": false,
-    "error": "Unknown",
-    "failureType": "Unknown",
-    "code": "Request failed with status code 503"
+    "code": "getaddrinfo ENOTFOUND www.beagibbons.com"
   },
   {
     "url": "1laurellane.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND 1laurellane.com"
+    "code": "getaddrinfo ENOTFOUND www.1laurellane.com"
   },
   {
     "url": "motherssoontobe.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND motherssoontobe.com"
+    "code": "getaddrinfo ENOTFOUND www.motherssoontobe.com"
   },
   {
     "url": "palla-siding-and-windows.business.site",
@@ -144,42 +137,35 @@
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND propertyguysnj.com"
+    "code": "getaddrinfo ENOTFOUND www.propertyguysnj.com"
   },
   {
     "url": "rcgglobaltv.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND rcgglobaltv.com"
+    "code": "getaddrinfo ENOTFOUND www.rcgglobaltv.com"
   },
   {
     "url": "starcomconsulting.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND starcomconsulting.com"
+    "code": "getaddrinfo ENOTFOUND www.starcomconsulting.com"
   },
   {
     "url": "torget.org",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND torget.org"
+    "code": "getaddrinfo ENOTFOUND www.torget.org"
   },
   {
     "url": "amwindowcleaning.org",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND amwindowcleaning.org"
-  },
-  {
-    "url": "wombatworks.org",
-    "success": false,
-    "error": "Unknown",
-    "failureType": "Unknown",
-    "code": "Request failed with status code 451"
+    "code": "getaddrinfo ENOTFOUND www.amwindowcleaning.org"
   },
   {
     "url": "alpha-research-associates-research-institute.business.site",
@@ -189,67 +175,60 @@
     "code": "Request failed with status code 404"
   },
   {
-    "url": "annarborhomesrealtor.com",
-    "success": false,
-    "error": "Unknown",
-    "failureType": "Unknown",
-    "code": "Request failed with status code 403"
-  },
-  {
     "url": "busiup.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND busiup.com"
+    "code": "getaddrinfo ENOTFOUND www.busiup.com"
   },
   {
     "url": "graciejoplin.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND graciejoplin.com"
+    "code": "getaddrinfo ENOTFOUND www.graciejoplin.com"
   },
   {
     "url": "scienceeducators.org",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND scienceeducators.org"
+    "code": "getaddrinfo ENOTFOUND www.scienceeducators.org"
   },
   {
     "url": "fuecid.shop",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND fuecid.shop"
+    "code": "getaddrinfo ENOTFOUND www.fuecid.shop"
   },
   {
     "url": "janellesrestaurant.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND janellesrestaurant.com"
+    "code": "getaddrinfo ENOTFOUND www.janellesrestaurant.com"
   },
   {
     "url": "peacefulwolftaichi.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND peacefulwolftaichi.com"
+    "code": "getaddrinfo ENOTFOUND www.peacefulwolftaichi.com"
   },
   {
     "url": "warnby.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND warnby.com"
+    "code": "getaddrinfo ENOTFOUND www.warnby.com"
   },
   {
     "url": "antiochassistedliving.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND antiochassistedliving.com"
+    "code": "getaddrinfo ENOTFOUND www.antiochassistedliving.com"
   },
   {
     "url": "gygeneralservices.business.site",
@@ -270,49 +249,49 @@
     "success": false,
     "error": "Timeout",
     "failureType": "Timeout",
-    "code": "timeout of 10000ms exceeded"
+    "code": "timeout of 8000ms exceeded"
   },
   {
     "url": "camilluscusecamp.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND camilluscusecamp.com"
+    "code": "getaddrinfo ENOTFOUND www.camilluscusecamp.com"
   },
   {
     "url": "rrrobotictec.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND rrrobotictec.com"
+    "code": "getaddrinfo ENOTFOUND www.rrrobotictec.com"
   },
   {
     "url": "justgooglebenhiggins.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND justgooglebenhiggins.com"
+    "code": "getaddrinfo ENOTFOUND www.justgooglebenhiggins.com"
   },
   {
     "url": "cleaningsvccolumbiafalls.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND cleaningsvccolumbiafalls.com"
+    "code": "getaddrinfo ENOTFOUND www.cleaningsvccolumbiafalls.com"
   },
   {
     "url": "fortlaudedalepsychic.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND fortlaudedalepsychic.com"
+    "code": "getaddrinfo ENOTFOUND www.fortlaudedalepsychic.com"
   },
   {
     "url": "lisinoprilfst.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND lisinoprilfst.com"
+    "code": "getaddrinfo ENOTFOUND www.lisinoprilfst.com"
   },
   {
     "url": "madebyjosy.com",
@@ -326,42 +305,35 @@
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND thethriftyhijabi.com"
+    "code": "getaddrinfo ENOTFOUND www.thethriftyhijabi.com"
   },
   {
     "url": "behindthewhitebeard.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND behindthewhitebeard.com"
+    "code": "getaddrinfo ENOTFOUND www.behindthewhitebeard.com"
   },
   {
     "url": "liketelevision.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND liketelevision.com"
+    "code": "getaddrinfo ENOTFOUND www.liketelevision.com"
   },
   {
     "url": "themarketinggroupaz.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND themarketinggroupaz.com"
+    "code": "getaddrinfo ENOTFOUND www.themarketinggroupaz.com"
   },
   {
     "url": "virustarllc.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND virustarllc.com"
-  },
-  {
-    "url": "proofpass.com",
-    "success": false,
-    "error": "Dead Domain/DNS Error",
-    "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND proofpass.com"
+    "code": "getaddrinfo ENOTFOUND www.virustarllc.com"
   },
   {
     "url": "spynewsletter.com",
@@ -375,14 +347,14 @@
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND haqelyaqeen.com"
+    "code": "getaddrinfo ENOTFOUND www.haqelyaqeen.com"
   },
   {
     "url": "theneumannproject.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND theneumannproject.com"
+    "code": "getaddrinfo ENOTFOUND www.theneumannproject.com"
   },
   {
     "url": "sunnova-solar-oakland.business.site",
@@ -396,56 +368,56 @@
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND greggardnersbarbershop.com"
+    "code": "getaddrinfo ENOTFOUND www.greggardnersbarbershop.com"
   },
   {
     "url": "ropescan.us",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND ropescan.us"
+    "code": "getaddrinfo ENOTFOUND www.ropescan.us"
   },
   {
     "url": "dumpsterrentalalhambraca.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND dumpsterrentalalhambraca.com"
+    "code": "getaddrinfo ENOTFOUND www.dumpsterrentalalhambraca.com"
   },
   {
     "url": "fynres.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND fynres.com"
+    "code": "getaddrinfo ENOTFOUND www.fynres.com"
   },
   {
     "url": "hubbardstudios.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND hubbardstudios.com"
+    "code": "getaddrinfo ENOTFOUND www.hubbardstudios.com"
   },
   {
     "url": "hairbykole.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND hairbykole.com"
+    "code": "getaddrinfo ENOTFOUND www.hairbykole.com"
   },
   {
     "url": "bundlesbybassett.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND bundlesbybassett.com"
+    "code": "getaddrinfo ENOTFOUND www.bundlesbybassett.com"
   },
   {
     "url": "lineoftecnologia.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND lineoftecnologia.com"
+    "code": "getaddrinfo ENOTFOUND www.lineoftecnologia.com"
   },
   {
     "url": "cgllcairheatingandcoolingservices.business.site",
@@ -473,35 +445,35 @@
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND timberwoodofnaples.org"
+    "code": "getaddrinfo ENOTFOUND www.timberwoodofnaples.org"
   },
   {
     "url": "iambaldianastyles.info",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND iambaldianastyles.info"
+    "code": "getaddrinfo ENOTFOUND www.iambaldianastyles.info"
   },
   {
     "url": "innovativeinstruction.org",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND innovativeinstruction.org"
+    "code": "getaddrinfo ENOTFOUND www.innovativeinstruction.org"
   },
   {
     "url": "hightechautoservicesantamonica.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND hightechautoservicesantamonica.com"
+    "code": "getaddrinfo ENOTFOUND www.hightechautoservicesantamonica.com"
   },
   {
     "url": "brooklyntreecompany.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND brooklyntreecompany.com"
+    "code": "getaddrinfo ENOTFOUND www.brooklyntreecompany.com"
   },
   {
     "url": "brilliantcityreiki.com",
@@ -515,70 +487,56 @@
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND beautifulbodybabes.com"
+    "code": "getaddrinfo ENOTFOUND www.beautifulbodybabes.com"
   },
   {
     "url": "charlesmann-contracting.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND charlesmann-contracting.com"
+    "code": "getaddrinfo ENOTFOUND www.charlesmann-contracting.com"
   },
   {
     "url": "growthfutures.net",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND growthfutures.net"
+    "code": "getaddrinfo ENOTFOUND www.growthfutures.net"
   },
   {
     "url": "shoplakebuoy.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND shoplakebuoy.com"
-  },
-  {
-    "url": "airelibreavenue.com",
-    "success": false,
-    "error": "Unknown",
-    "failureType": "Unknown",
-    "code": "Request failed with status code 409"
+    "code": "getaddrinfo ENOTFOUND www.shoplakebuoy.com"
   },
   {
     "url": "4v21.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND 4v21.com"
+    "code": "getaddrinfo ENOTFOUND www.4v21.com"
   },
   {
     "url": "trihealthbalance.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND trihealthbalance.com"
+    "code": "getaddrinfo ENOTFOUND www.trihealthbalance.com"
   },
   {
     "url": "bubongstore.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND bubongstore.com"
+    "code": "getaddrinfo ENOTFOUND www.bubongstore.com"
   },
   {
     "url": "cedarwork.org",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND cedarwork.org"
-  },
-  {
-    "url": "helixapartments.com",
-    "success": false,
-    "error": "Timeout",
-    "failureType": "Timeout",
-    "code": "timeout of 10000ms exceeded"
+    "code": "getaddrinfo ENOTFOUND www.cedarwork.org"
   },
   {
     "url": "richardsservicecenter.com",
@@ -592,21 +550,21 @@
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND epertase.com"
+    "code": "getaddrinfo ENOTFOUND www.epertase.com"
   },
   {
     "url": "laflosd.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND laflosd.com"
+    "code": "getaddrinfo ENOTFOUND www.laflosd.com"
   },
   {
     "url": "highqualitypcs.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND highqualitypcs.com"
+    "code": "getaddrinfo ENOTFOUND www.highqualitypcs.com"
   },
   {
     "url": "tylerteaches.com",
@@ -620,28 +578,35 @@
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND hannacho.com"
+    "code": "getaddrinfo ENOTFOUND www.hannacho.com"
   },
   {
     "url": "jasonheltonrealestate.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND jasonheltonrealestate.com"
+    "code": "getaddrinfo ENOTFOUND www.jasonheltonrealestate.com"
   },
   {
     "url": "platformtemizlik.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND platformtemizlik.com"
+    "code": "getaddrinfo ENOTFOUND www.platformtemizlik.com"
+  },
+  {
+    "url": "westtubingcompany.com",
+    "success": false,
+    "error": "Page Missing",
+    "failureType": "Page Missing",
+    "code": "Request failed with status code 404"
   },
   {
     "url": "advance-tcc.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND advance-tcc.com"
+    "code": "getaddrinfo ENOTFOUND www.advance-tcc.com"
   },
   {
     "url": "tashahmoore.com",
@@ -662,7 +627,7 @@
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND veritassynergetic.com"
+    "code": "getaddrinfo ENOTFOUND www.veritassynergetic.com"
   },
   {
     "url": "wellbaum-apiaries.business.site",
@@ -676,35 +641,35 @@
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND brandibaileyphotos.com"
+    "code": "getaddrinfo ENOTFOUND www.brandibaileyphotos.com"
   },
   {
     "url": "woodstocklodge246.org",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND woodstocklodge246.org"
+    "code": "getaddrinfo ENOTFOUND www.woodstocklodge246.org"
   },
   {
     "url": "burkeoppenheim.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND burkeoppenheim.com"
+    "code": "getaddrinfo ENOTFOUND www.burkeoppenheim.com"
   },
   {
     "url": "snugharborca.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND snugharborca.com"
+    "code": "getaddrinfo ENOTFOUND www.snugharborca.com"
   },
   {
     "url": "nu-imagepainting.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND nu-imagepainting.com"
+    "code": "getaddrinfo ENOTFOUND www.nu-imagepainting.com"
   },
   {
     "url": "southsidedentalcare-dentalclinic.business.site",
@@ -718,49 +683,49 @@
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND sacreativedesign.com"
+    "code": "getaddrinfo ENOTFOUND www.sacreativedesign.com"
   },
   {
     "url": "sceniclandscaping.net",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND sceniclandscaping.net"
+    "code": "getaddrinfo ENOTFOUND www.sceniclandscaping.net"
   },
   {
     "url": "techsynario.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND techsynario.com"
+    "code": "getaddrinfo ENOTFOUND www.techsynario.com"
   },
   {
     "url": "temploebenezerweslaco.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND temploebenezerweslaco.com"
+    "code": "getaddrinfo ENOTFOUND www.temploebenezerweslaco.com"
   },
   {
     "url": "cotherix.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND cotherix.com"
+    "code": "getaddrinfo ENOTFOUND www.cotherix.com"
   },
   {
     "url": "pd2llc.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND pd2llc.com"
+    "code": "getaddrinfo ENOTFOUND www.pd2llc.com"
   },
   {
     "url": "studiobsalon.net",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND studiobsalon.net"
+    "code": "getaddrinfo ENOTFOUND www.studiobsalon.net"
   },
   {
     "url": "aether-multimedia-llc.business.site",
@@ -781,77 +746,63 @@
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND tax-masters.net"
+    "code": "getaddrinfo ENOTFOUND www.tax-masters.net"
   },
   {
     "url": "abujaluxuryhome.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND abujaluxuryhome.com"
+    "code": "getaddrinfo ENOTFOUND www.abujaluxuryhome.com"
   },
   {
     "url": "belozapp.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND belozapp.com"
-  },
-  {
-    "url": "1stamc.com",
-    "success": false,
-    "error": "Unknown",
-    "failureType": "Unknown",
-    "code": "Request failed with status code 403"
+    "code": "getaddrinfo ENOTFOUND www.belozapp.com"
   },
   {
     "url": "parisfumc.org",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND parisfumc.org"
-  },
-  {
-    "url": "kusbeautyusa.com",
-    "success": false,
-    "error": "Unknown",
-    "failureType": "Unknown",
-    "code": "Request failed with status code 409"
+    "code": "getaddrinfo ENOTFOUND www.parisfumc.org"
   },
   {
     "url": "al-advertising-diet-store.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND al-advertising-diet-store.com"
+    "code": "getaddrinfo ENOTFOUND www.al-advertising-diet-store.com"
   },
   {
     "url": "artworkbydoyle.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND artworkbydoyle.com"
+    "code": "getaddrinfo ENOTFOUND www.artworkbydoyle.com"
   },
   {
     "url": "bc-hinger.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND bc-hinger.com"
+    "code": "getaddrinfo ENOTFOUND www.bc-hinger.com"
   },
   {
     "url": "beautyblueprintllc.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND beautyblueprintllc.com"
+    "code": "getaddrinfo ENOTFOUND www.beautyblueprintllc.com"
   },
   {
     "url": "reveportraits.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND reveportraits.com"
+    "code": "getaddrinfo ENOTFOUND www.reveportraits.com"
   },
   {
     "url": "feltgoodmusic.com",
@@ -865,133 +816,133 @@
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND lionsteelstructuresco.com"
+    "code": "getaddrinfo ENOTFOUND www.lionsteelstructuresco.com"
   },
   {
     "url": "royaltycleaningva.co",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND royaltycleaningva.co"
+    "code": "getaddrinfo ENOTFOUND www.royaltycleaningva.co"
   },
   {
     "url": "ageanabrett.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND ageanabrett.com"
+    "code": "getaddrinfo ENOTFOUND www.ageanabrett.com"
   },
   {
     "url": "crossroadsrvpk.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND crossroadsrvpk.com"
+    "code": "getaddrinfo ENOTFOUND www.crossroadsrvpk.com"
   },
   {
     "url": "nationalcapitalfitday.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND nationalcapitalfitday.com"
+    "code": "getaddrinfo ENOTFOUND www.nationalcapitalfitday.com"
   },
   {
     "url": "ordercrustandbuns.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND ordercrustandbuns.com"
+    "code": "getaddrinfo ENOTFOUND www.ordercrustandbuns.com"
   },
   {
     "url": "daveandtracy.org",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND daveandtracy.org"
+    "code": "getaddrinfo ENOTFOUND www.daveandtracy.org"
   },
   {
     "url": "when2heartsbeatas1.org",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND when2heartsbeatas1.org"
+    "code": "getaddrinfo ENOTFOUND www.when2heartsbeatas1.org"
   },
   {
     "url": "galleongc.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND galleongc.com"
+    "code": "getaddrinfo ENOTFOUND www.galleongc.com"
   },
   {
     "url": "simplicitymovers.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND simplicitymovers.com"
+    "code": "getaddrinfo ENOTFOUND www.simplicitymovers.com"
   },
   {
     "url": "boyettrecovery.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND boyettrecovery.com"
+    "code": "getaddrinfo ENOTFOUND www.boyettrecovery.com"
   },
   {
     "url": "littlefeetforestschool.org",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND littlefeetforestschool.org"
+    "code": "getaddrinfo ENOTFOUND www.littlefeetforestschool.org"
   },
   {
     "url": "nationalcarousels158.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND nationalcarousels158.com"
+    "code": "getaddrinfo ENOTFOUND www.nationalcarousels158.com"
   },
   {
     "url": "2020relining.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND 2020relining.com"
+    "code": "getaddrinfo ENOTFOUND www.2020relining.com"
   },
   {
     "url": "ellen4wcsd.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND ellen4wcsd.com"
+    "code": "getaddrinfo ENOTFOUND www.ellen4wcsd.com"
   },
   {
     "url": "themorvarid.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND themorvarid.com"
+    "code": "getaddrinfo ENOTFOUND www.themorvarid.com"
   },
   {
     "url": "thephotoboothunlimited.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND thephotoboothunlimited.com"
+    "code": "getaddrinfo ENOTFOUND www.thephotoboothunlimited.com"
   },
   {
     "url": "advertiserandmarketersplatform.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND advertiserandmarketersplatform.com"
+    "code": "getaddrinfo ENOTFOUND www.advertiserandmarketersplatform.com"
   },
   {
     "url": "greenissue.eu",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND greenissue.eu"
+    "code": "getaddrinfo ENOTFOUND www.greenissue.eu"
   },
   {
     "url": "river-valley-rv-park-tx.business.site",
@@ -1005,14 +956,14 @@
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND saipanyc.com"
+    "code": "getaddrinfo ENOTFOUND www.saipanyc.com"
   },
   {
     "url": "angelabrite.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND angelabrite.com"
+    "code": "getaddrinfo ENOTFOUND www.angelabrite.com"
   },
   {
     "url": "clovercutsandcolor.com",
@@ -1026,35 +977,42 @@
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND serenapezzato.com"
+    "code": "getaddrinfo ENOTFOUND www.serenapezzato.com"
   },
   {
     "url": "king-alexander.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND king-alexander.com"
+    "code": "getaddrinfo ENOTFOUND www.king-alexander.com"
   },
   {
     "url": "northsidemeadows.com",
     "success": false,
     "error": "Timeout",
     "failureType": "Timeout",
-    "code": "timeout of 10000ms exceeded"
+    "code": "timeout of 8000ms exceeded"
+  },
+  {
+    "url": "archaeology.virginia.edu",
+    "success": false,
+    "error": "Page Missing",
+    "failureType": "Page Missing",
+    "code": "Request failed with status code 404"
   },
   {
     "url": "rivertownslp.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND rivertownslp.com"
+    "code": "getaddrinfo ENOTFOUND www.rivertownslp.com"
   },
   {
     "url": "bloggingforextrader.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND bloggingforextrader.com"
+    "code": "getaddrinfo ENOTFOUND www.bloggingforextrader.com"
   },
   {
     "url": "green-graphixz-clothing-company.business.site",
@@ -1068,56 +1026,56 @@
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND 50ggirls.com"
+    "code": "getaddrinfo ENOTFOUND www.50ggirls.com"
   },
   {
     "url": "roland4fairview.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND roland4fairview.com"
+    "code": "getaddrinfo ENOTFOUND www.roland4fairview.com"
   },
   {
     "url": "car.hk",
     "success": false,
     "error": "Timeout",
     "failureType": "Timeout",
-    "code": "timeout of 10000ms exceeded"
+    "code": "timeout of 8000ms exceeded"
   },
   {
     "url": "petexplain.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND petexplain.com"
+    "code": "getaddrinfo ENOTFOUND www.petexplain.com"
   },
   {
     "url": "hiddenforestdesign.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND hiddenforestdesign.com"
+    "code": "getaddrinfo ENOTFOUND www.hiddenforestdesign.com"
   },
   {
     "url": "jahmakingsconstruction.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND jahmakingsconstruction.com"
+    "code": "getaddrinfo ENOTFOUND www.jahmakingsconstruction.com"
   },
   {
     "url": "journey2beme.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND journey2beme.com"
+    "code": "getaddrinfo ENOTFOUND www.journey2beme.com"
   },
   {
     "url": "3lnotary.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND 3lnotary.com"
+    "code": "getaddrinfo ENOTFOUND www.3lnotary.com"
   },
   {
     "url": "creativitythroughconstraints.com",
@@ -1131,7 +1089,7 @@
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND limitlesscounselingservices.com"
+    "code": "getaddrinfo ENOTFOUND www.limitlesscounselingservices.com"
   },
   {
     "url": "trusted-home-inspection.business.site",
@@ -1145,14 +1103,14 @@
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND dotsandcubes.com"
+    "code": "getaddrinfo ENOTFOUND www.dotsandcubes.com"
   },
   {
     "url": "gkama.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND gkama.com"
+    "code": "getaddrinfo ENOTFOUND www.gkama.com"
   },
   {
     "url": "realtorhsu.net",
@@ -1173,28 +1131,28 @@
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND yogawithorly.com"
+    "code": "getaddrinfo ENOTFOUND www.yogawithorly.com"
   },
   {
     "url": "putitontheglass.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND putitontheglass.com"
+    "code": "getaddrinfo ENOTFOUND www.putitontheglass.com"
   },
   {
     "url": "d30ufu6vr9yoyg.cloudfront.net",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND d30ufu6vr9yoyg.cloudfront.net"
+    "code": "getaddrinfo ENOTFOUND www.d30ufu6vr9yoyg.cloudfront.net"
   },
   {
     "url": "godsministryfellowship.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND godsministryfellowship.com"
+    "code": "getaddrinfo ENOTFOUND www.godsministryfellowship.com"
   },
   {
     "url": "homeworkninjas.com",
@@ -1202,13 +1160,6 @@
     "error": "Unknown",
     "failureType": "Unknown",
     "code": "Request failed with status code 444"
-  },
-  {
-    "url": "myacem.com",
-    "success": false,
-    "error": "Unknown",
-    "failureType": "Unknown",
-    "code": "certificate has expired"
   },
   {
     "url": "par1cleaners.business.site",
@@ -1229,28 +1180,28 @@
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND greenbikerentals.com"
+    "code": "getaddrinfo ENOTFOUND www.greenbikerentals.com"
   },
   {
     "url": "riolentoranch.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND riolentoranch.com"
+    "code": "getaddrinfo ENOTFOUND www.riolentoranch.com"
   },
   {
     "url": "castoreclothing.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND castoreclothing.com"
+    "code": "getaddrinfo ENOTFOUND www.castoreclothing.com"
   },
   {
     "url": "palaciopet.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND palaciopet.com"
+    "code": "getaddrinfo ENOTFOUND www.palaciopet.com"
   },
   {
     "url": "artandglamstudio.com",
@@ -1264,7 +1215,7 @@
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND fayreconsulting.com"
+    "code": "getaddrinfo ENOTFOUND www.fayreconsulting.com"
   },
   {
     "url": "sanchez-lawn-care-and-landscaping-services.business.site",
@@ -1278,35 +1229,21 @@
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND hometheatersystemgainesville.com"
+    "code": "getaddrinfo ENOTFOUND www.hometheatersystemgainesville.com"
   },
   {
     "url": "pestcontrolmodestoca.org",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND pestcontrolmodestoca.org"
-  },
-  {
-    "url": "horizon-international.com",
-    "success": false,
-    "error": "Dead Domain/DNS Error",
-    "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND horizon-international.com"
+    "code": "getaddrinfo ENOTFOUND www.pestcontrolmodestoca.org"
   },
   {
     "url": "lukesmma.com",
     "success": false,
-    "error": "Dead Domain/DNS Error",
-    "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND lukesmma.com"
-  },
-  {
-    "url": "celebaesthetics.com",
-    "success": false,
     "error": "Timeout",
     "failureType": "Timeout",
-    "code": "timeout of 10000ms exceeded"
+    "code": "timeout of 8000ms exceeded"
   },
   {
     "url": "coastaldefense.business.site",
@@ -1318,58 +1255,51 @@
   {
     "url": "sewardlostlakelodge.com",
     "success": false,
-    "error": "Dead Domain/DNS Error",
-    "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND sewardlostlakelodge.com"
+    "error": "Timeout",
+    "failureType": "Timeout",
+    "code": "timeout of 8000ms exceeded"
   },
   {
     "url": "crazy.builders",
     "success": false,
-    "error": "Dead Domain/DNS Error",
-    "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND crazy.builders"
+    "error": "Timeout",
+    "failureType": "Timeout",
+    "code": "timeout of 8000ms exceeded"
   },
   {
     "url": "littleredfarmhousegifts.net",
     "success": false,
-    "error": "Dead Domain/DNS Error",
-    "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND littleredfarmhousegifts.net"
-  },
-  {
-    "url": "reflexdelivery.com",
-    "success": false,
-    "error": "Unknown",
-    "failureType": "Unknown",
-    "code": "Request failed with status code 409"
+    "error": "Timeout",
+    "failureType": "Timeout",
+    "code": "timeout of 8000ms exceeded"
   },
   {
     "url": "cherrycreektributaries.com",
     "success": false,
-    "error": "Dead Domain/DNS Error",
-    "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND cherrycreektributaries.com"
+    "error": "Timeout",
+    "failureType": "Timeout",
+    "code": "timeout of 8000ms exceeded"
   },
   {
     "url": "marriagecounselingmemphis.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND marriagecounselingmemphis.com"
+    "code": "getaddrinfo ENOTFOUND www.marriagecounselingmemphis.com"
   },
   {
     "url": "glovemitten.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND glovemitten.com"
+    "code": "getaddrinfo ENOTFOUND www.glovemitten.com"
   },
   {
     "url": "myfocuspsych.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND myfocuspsych.com"
+    "code": "getaddrinfo ENOTFOUND www.myfocuspsych.com"
   },
   {
     "url": "crestonhousefl.com",
@@ -1383,7 +1313,7 @@
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND quick9.io"
+    "code": "getaddrinfo ENOTFOUND www.quick9.io"
   },
   {
     "url": "winningham-iron-metal.business.site",
@@ -1397,21 +1327,21 @@
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND sammycarlosdelicatessencatering.net"
+    "code": "getaddrinfo ENOTFOUND www.sammycarlosdelicatessencatering.net"
   },
   {
     "url": "eventsbyabel.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND eventsbyabel.com"
+    "code": "getaddrinfo ENOTFOUND www.eventsbyabel.com"
   },
   {
     "url": "ftworthepoxyflooring.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND ftworthepoxyflooring.com"
+    "code": "getaddrinfo ENOTFOUND www.ftworthepoxyflooring.com"
   },
   {
     "url": "hellorichmond.net",
@@ -1425,7 +1355,7 @@
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND carolynlewismed.com"
+    "code": "getaddrinfo ENOTFOUND www.carolynlewismed.com"
   },
   {
     "url": "dionisioducusin.com",
@@ -1439,49 +1369,42 @@
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND hitsforhomeless.com"
+    "code": "getaddrinfo ENOTFOUND www.hitsforhomeless.com"
   },
   {
     "url": "wadeloans.com",
     "success": false,
     "error": "Timeout",
     "failureType": "Timeout",
-    "code": "timeout of 10000ms exceeded"
+    "code": "timeout of 8000ms exceeded"
   },
   {
     "url": "parklandhairclinic.info",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND parklandhairclinic.info"
+    "code": "getaddrinfo ENOTFOUND www.parklandhairclinic.info"
   },
   {
     "url": "slrslingshotrentals.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND slrslingshotrentals.com"
+    "code": "getaddrinfo ENOTFOUND www.slrslingshotrentals.com"
   },
   {
     "url": "sunnirey.shop",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND sunnirey.shop"
-  },
-  {
-    "url": "cloudspeed24x7.com",
-    "success": false,
-    "error": "Dead Domain/DNS Error",
-    "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND cloudspeed24x7.com"
+    "code": "getaddrinfo ENOTFOUND www.sunnirey.shop"
   },
   {
     "url": "gambittechconsulting.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND gambittechconsulting.com"
+    "code": "getaddrinfo ENOTFOUND www.gambittechconsulting.com"
   },
   {
     "url": "rightstudents.org",
@@ -1495,28 +1418,28 @@
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND topbricole.site"
+    "code": "getaddrinfo ENOTFOUND www.topbricole.site"
   },
   {
     "url": "carolynsnails.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND carolynsnails.com"
+    "code": "getaddrinfo ENOTFOUND www.carolynsnails.com"
   },
   {
     "url": "myparee.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND myparee.com"
+    "code": "getaddrinfo ENOTFOUND www.myparee.com"
   },
   {
     "url": "toothfairycleaningservice.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND toothfairycleaningservice.com"
+    "code": "getaddrinfo ENOTFOUND www.toothfairycleaningservice.com"
   },
   {
     "url": "central-texas-mobile-notary-notary-public.business.site",
@@ -1530,35 +1453,42 @@
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND redrhinomovers.com"
+    "code": "getaddrinfo ENOTFOUND www.redrhinomovers.com"
   },
   {
     "url": "asuzus.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND asuzus.com"
+    "code": "getaddrinfo ENOTFOUND www.asuzus.com"
   },
   {
     "url": "jonfoxmusic.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND jonfoxmusic.com"
+    "code": "getaddrinfo ENOTFOUND www.jonfoxmusic.com"
+  },
+  {
+    "url": "globaltrustbnk.com",
+    "success": false,
+    "error": "Dead Domain/DNS Error",
+    "failureType": "Dead Domain/DNS Error",
+    "code": "getaddrinfo ENOTFOUND www.globaltrustbnk.com"
   },
   {
     "url": "bodegaunclick.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND bodegaunclick.com"
+    "code": "getaddrinfo ENOTFOUND www.bodegaunclick.com"
   },
   {
     "url": "hunterdecuir24.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND hunterdecuir24.com"
+    "code": "getaddrinfo ENOTFOUND www.hunterdecuir24.com"
   },
   {
     "url": "therealbcmg.com",
@@ -1572,14 +1502,14 @@
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND tvwelove.com"
+    "code": "getaddrinfo ENOTFOUND www.tvwelove.com"
   },
   {
     "url": "htiyos.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND htiyos.com"
+    "code": "getaddrinfo ENOTFOUND www.htiyos.com"
   },
   {
     "url": "maryfrancespencer.com",
@@ -1589,39 +1519,32 @@
     "code": "Request failed with status code 404"
   },
   {
-    "url": "mjwm225.com",
-    "success": false,
-    "error": "Unknown",
-    "failureType": "Unknown",
-    "code": "Request failed with status code 403"
-  },
-  {
     "url": "quality-trucking.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND quality-trucking.com"
+    "code": "getaddrinfo ENOTFOUND www.quality-trucking.com"
   },
   {
     "url": "truefablespottery.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND truefablespottery.com"
+    "code": "getaddrinfo ENOTFOUND www.truefablespottery.com"
   },
   {
     "url": "jbdecker.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND jbdecker.com"
+    "code": "getaddrinfo ENOTFOUND www.jbdecker.com"
   },
   {
     "url": "royaltylandscapinganddesign.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND royaltylandscapinganddesign.com"
+    "code": "getaddrinfo ENOTFOUND www.royaltylandscapinganddesign.com"
   },
   {
     "url": "torres-hvac.business.site",
@@ -1635,7 +1558,7 @@
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND carpetworkshopofohio.com"
+    "code": "getaddrinfo ENOTFOUND www.carpetworkshopofohio.com"
   },
   {
     "url": "down-southmoving.business.site",
@@ -1649,28 +1572,35 @@
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND annatietzhomes.com"
+    "code": "getaddrinfo ENOTFOUND www.annatietzhomes.com"
   },
   {
     "url": "chevrv.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND chevrv.com"
+    "code": "getaddrinfo ENOTFOUND www.chevrv.com"
   },
   {
     "url": "greenershinglessanantonio.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND greenershinglessanantonio.com"
+    "code": "getaddrinfo ENOTFOUND www.greenershinglessanantonio.com"
   },
   {
     "url": "michaelskuceradentistry.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND michaelskuceradentistry.com"
+    "code": "getaddrinfo ENOTFOUND www.michaelskuceradentistry.com"
+  },
+  {
+    "url": "statelinekids.com",
+    "success": false,
+    "error": "Timeout",
+    "failureType": "Timeout",
+    "code": "timeout of 8000ms exceeded"
   },
   {
     "url": "caninereproductivecenter.com",
@@ -1691,21 +1621,14 @@
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND mrsbecerra.com"
+    "code": "getaddrinfo ENOTFOUND www.mrsbecerra.com"
   },
   {
     "url": "vitalaehealingarts.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND vitalaehealingarts.com"
-  },
-  {
-    "url": "ambazoniafoundation.org",
-    "success": false,
-    "error": "Unknown",
-    "failureType": "Unknown",
-    "code": "Request failed with status code 403"
+    "code": "getaddrinfo ENOTFOUND www.vitalaehealingarts.com"
   },
   {
     "url": "djs-general-service-llc.business.site",
@@ -1719,63 +1642,56 @@
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND graphicmontzter.com"
+    "code": "getaddrinfo ENOTFOUND www.graphicmontzter.com"
   },
   {
     "url": "centurywebdesign.net",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND centurywebdesign.net"
-  },
-  {
-    "url": "holehunterindustries.com",
-    "success": false,
-    "error": "Unknown",
-    "failureType": "Unknown",
-    "code": "Request failed with status code 403"
+    "code": "getaddrinfo ENOTFOUND www.centurywebdesign.net"
   },
   {
     "url": "transtekautosales.com",
     "success": false,
     "error": "Timeout",
     "failureType": "Timeout",
-    "code": "timeout of 10000ms exceeded"
+    "code": "timeout of 8000ms exceeded"
   },
   {
     "url": "gallerycollage.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND gallerycollage.com"
+    "code": "getaddrinfo ENOTFOUND www.gallerycollage.com"
   },
   {
     "url": "osalra.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND osalra.com"
+    "code": "getaddrinfo ENOTFOUND www.osalra.com"
   },
   {
     "url": "qualifiedportablegarages.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND qualifiedportablegarages.com"
+    "code": "getaddrinfo ENOTFOUND www.qualifiedportablegarages.com"
   },
   {
     "url": "enigomusic.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND enigomusic.com"
+    "code": "getaddrinfo ENOTFOUND www.enigomusic.com"
   },
   {
     "url": "reelsafarischarters.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND reelsafarischarters.com"
+    "code": "getaddrinfo ENOTFOUND www.reelsafarischarters.com"
   },
   {
     "url": "whitwell-accounting-llc.business.site",
@@ -1785,60 +1701,60 @@
     "code": "Request failed with status code 404"
   },
   {
-    "url": "bellevueisd.org",
+    "url": "denhamsflorist.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND bellevueisd.org"
+    "code": "getaddrinfo ENOTFOUND www.denhamsflorist.com"
   },
   {
     "url": "h-glogistics.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND h-glogistics.com"
+    "code": "getaddrinfo ENOTFOUND www.h-glogistics.com"
   },
   {
     "url": "mtcdz.net",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND mtcdz.net"
+    "code": "getaddrinfo ENOTFOUND www.mtcdz.net"
   },
   {
     "url": "yroox.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND yroox.com"
+    "code": "getaddrinfo ENOTFOUND www.yroox.com"
   },
   {
     "url": "evadoyle.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND evadoyle.com"
+    "code": "getaddrinfo ENOTFOUND www.evadoyle.com"
   },
   {
     "url": "montereypeninsulaelderlyhome.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND montereypeninsulaelderlyhome.com"
+    "code": "getaddrinfo ENOTFOUND www.montereypeninsulaelderlyhome.com"
   },
   {
     "url": "drariatirakic.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND drariatirakic.com"
+    "code": "getaddrinfo ENOTFOUND www.drariatirakic.com"
   },
   {
     "url": "vghgroup.org",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND vghgroup.org"
+    "code": "getaddrinfo ENOTFOUND www.vghgroup.org"
   },
   {
     "url": "energy-health-oriental-massage.business.site",
@@ -1852,70 +1768,70 @@
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND jerkkingsnj.com"
+    "code": "getaddrinfo ENOTFOUND www.jerkkingsnj.com"
   },
   {
     "url": "kingfisherseo.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND kingfisherseo.com"
+    "code": "getaddrinfo ENOTFOUND www.kingfisherseo.com"
   },
   {
     "url": "hoodriverclothing.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND hoodriverclothing.com"
+    "code": "getaddrinfo ENOTFOUND www.hoodriverclothing.com"
   },
   {
     "url": "satyasilence.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND satyasilence.com"
+    "code": "getaddrinfo ENOTFOUND www.satyasilence.com"
   },
   {
     "url": "slushpoolglobal.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND slushpoolglobal.com"
+    "code": "getaddrinfo ENOTFOUND www.slushpoolglobal.com"
   },
   {
     "url": "trbism.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND trbism.com"
+    "code": "getaddrinfo ENOTFOUND www.trbism.com"
   },
   {
     "url": "informatichiamoci.it",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND informatichiamoci.it"
+    "code": "getaddrinfo ENOTFOUND www.informatichiamoci.it"
   },
   {
     "url": "mghomeremodelling.info",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND mghomeremodelling.info"
+    "code": "getaddrinfo ENOTFOUND www.mghomeremodelling.info"
   },
   {
     "url": "mysavagenails.love",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND mysavagenails.love"
+    "code": "getaddrinfo ENOTFOUND www.mysavagenails.love"
   },
   {
     "url": "smallislandent.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND smallislandent.com"
+    "code": "getaddrinfo ENOTFOUND www.smallislandent.com"
   },
   {
     "url": "frenchlakeautoparts.com",
@@ -1929,42 +1845,42 @@
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND montcapitalpartners.com"
+    "code": "getaddrinfo ENOTFOUND www.montcapitalpartners.com"
   },
   {
     "url": "focusmedicalbillingservices.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND focusmedicalbillingservices.com"
+    "code": "getaddrinfo ENOTFOUND www.focusmedicalbillingservices.com"
   },
   {
     "url": "creativehealthplans.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND creativehealthplans.com"
+    "code": "getaddrinfo ENOTFOUND www.creativehealthplans.com"
   },
   {
     "url": "fitcivic.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND fitcivic.com"
+    "code": "getaddrinfo ENOTFOUND www.fitcivic.com"
   },
   {
     "url": "stevensfamilyfarm.webs.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND stevensfamilyfarm.webs.com"
+    "code": "getaddrinfo ENOTFOUND www.stevensfamilyfarm.webs.com"
   },
   {
     "url": "divinemomentsdaycare.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND divinemomentsdaycare.com"
+    "code": "getaddrinfo ENOTFOUND www.divinemomentsdaycare.com"
   },
   {
     "url": "ncca-inc.com",
@@ -1978,10 +1894,17 @@
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND whaleygfx.com"
+    "code": "getaddrinfo ENOTFOUND www.whaleygfx.com"
   },
   {
     "url": "fine-art-construction.business.site",
+    "success": false,
+    "error": "Page Missing",
+    "failureType": "Page Missing",
+    "code": "Request failed with status code 404"
+  },
+  {
+    "url": "hericonstructionllc.com",
     "success": false,
     "error": "Page Missing",
     "failureType": "Page Missing",
@@ -1999,21 +1922,14 @@
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND hotlink2019.com"
+    "code": "getaddrinfo ENOTFOUND www.hotlink2019.com"
   },
   {
     "url": "internationalmediasupply.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND internationalmediasupply.com"
-  },
-  {
-    "url": "ancientcityappraisals.com",
-    "success": false,
-    "error": "Timeout",
-    "failureType": "Timeout",
-    "code": "timeout of 10000ms exceeded"
+    "code": "getaddrinfo ENOTFOUND www.internationalmediasupply.com"
   },
   {
     "url": "caring-hands-seniorsolutionsgroupinc.business.site",
@@ -2027,14 +1943,14 @@
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND toptok.info"
+    "code": "getaddrinfo ENOTFOUND www.toptok.info"
   },
   {
     "url": "webranium.co.uk",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND webranium.co.uk"
+    "code": "getaddrinfo ENOTFOUND www.webranium.co.uk"
   },
   {
     "url": "fedorovfilms.com",
@@ -2048,7 +1964,7 @@
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND masterguyscardetail.com"
+    "code": "getaddrinfo ENOTFOUND www.masterguyscardetail.com"
   },
   {
     "url": "coloradolivingblog.com",
@@ -2062,84 +1978,84 @@
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND briggsmobiledetailing.com"
+    "code": "getaddrinfo ENOTFOUND www.briggsmobiledetailing.com"
   },
   {
     "url": "uniqueservices.us",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND uniqueservices.us"
+    "code": "getaddrinfo ENOTFOUND www.uniqueservices.us"
   },
   {
     "url": "sandiegorealestatejobs.net",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND sandiegorealestatejobs.net"
+    "code": "getaddrinfo ENOTFOUND www.sandiegorealestatejobs.net"
   },
   {
     "url": "belanshion.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND belanshion.com"
+    "code": "getaddrinfo ENOTFOUND www.belanshion.com"
   },
   {
     "url": "aesgoldmine.com",
     "success": false,
     "error": "Timeout",
     "failureType": "Timeout",
-    "code": "timeout of 10000ms exceeded"
+    "code": "timeout of 8000ms exceeded"
   },
   {
     "url": "romangalloway.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND romangalloway.com"
+    "code": "getaddrinfo ENOTFOUND www.romangalloway.com"
   },
   {
     "url": "kalamazoomijobs.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND kalamazoomijobs.com"
+    "code": "getaddrinfo ENOTFOUND www.kalamazoomijobs.com"
   },
   {
     "url": "nymphyacht.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND nymphyacht.com"
+    "code": "getaddrinfo ENOTFOUND www.nymphyacht.com"
   },
   {
     "url": "alphaquorumstore.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND alphaquorumstore.com"
+    "code": "getaddrinfo ENOTFOUND www.alphaquorumstore.com"
   },
   {
     "url": "baxland.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND baxland.com"
+    "code": "getaddrinfo ENOTFOUND www.baxland.com"
   },
   {
     "url": "befeni-usa.com",
     "success": false,
     "error": "Timeout",
     "failureType": "Timeout",
-    "code": "timeout of 10000ms exceeded"
+    "code": "timeout of 8000ms exceeded"
   },
   {
     "url": "bytheseat.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND bytheseat.com"
+    "code": "getaddrinfo ENOTFOUND www.bytheseat.com"
   },
   {
     "url": "hairdesigners-hairsalon.business.site",
@@ -2167,49 +2083,42 @@
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND kiplearningandactivitycenter.com"
+    "code": "getaddrinfo ENOTFOUND www.kiplearningandactivitycenter.com"
   },
   {
     "url": "thecheapghostwriter.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND thecheapghostwriter.com"
+    "code": "getaddrinfo ENOTFOUND www.thecheapghostwriter.com"
   },
   {
     "url": "flash-wingo.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND flash-wingo.com"
+    "code": "getaddrinfo ENOTFOUND www.flash-wingo.com"
   },
   {
     "url": "getrazuzz.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND getrazuzz.com"
-  },
-  {
-    "url": "diecutstickers.com",
-    "success": false,
-    "error": "Timeout",
-    "failureType": "Timeout",
-    "code": "timeout of 10000ms exceeded"
+    "code": "getaddrinfo ENOTFOUND www.getrazuzz.com"
   },
   {
     "url": "edgeinsurance.biz",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND edgeinsurance.biz"
+    "code": "getaddrinfo ENOTFOUND www.edgeinsurance.biz"
   },
   {
     "url": "sustainableracine.org",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND sustainableracine.org"
+    "code": "getaddrinfo ENOTFOUND www.sustainableracine.org"
   },
   {
     "url": "d-l-roofing-and-construction-llc.business.site",
@@ -2230,13 +2139,13 @@
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND sagacitystays.com"
+    "code": "getaddrinfo ENOTFOUND www.sagacitystays.com"
   },
   {
     "url": "valezio.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND valezio.com"
+    "code": "getaddrinfo ENOTFOUND www.valezio.com"
   }
 ]

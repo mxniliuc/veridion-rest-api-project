@@ -1,30 +1,50 @@
-
 import { chromium } from 'playwright';
+import fs from "fs/promises";
 
 export async function scrapeWithPlaywright(url) {
-    const browser = await chromium.launch({ headless: true });
-    const context = await browser.newContext({
-        userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36'
+    const browser = await chromium.launch({ 
+        headless: true,
+        args: [
+            '--disable-dev-shm-usage', 
+            '--no-sandbox',
+            '--disable-http2' 
+        ] 
     });
-    const page = await context.newPage();
-    
-    const targetUrl = url.startsWith('http') ? url : `https://${url}`;
 
     try {
-        await page.goto(targetUrl, { waitUntil: 'domcontentloaded', timeout: 20000 });
-        await page.waitForSelector('body');
+        const context = await browser.newContext({ ignoreHTTPSErrors: true });
+        const page = await context.newPage();
+        const rawDomain = url.replace(/^(?:https?:\/\/)?(?:www\.)?/i, "");
+        
+        const targets = [
+            `https://www.${rawDomain}`,
+            `https://${rawDomain}`,
+            `http://www.${rawDomain}`
+        ];
 
-        const data = await page.evaluate(() => {
-            const bodyText = document.body.innerText;
-            const links = Array.from(document.querySelectorAll('a')).map(a => a.href);
-            
-            return {
-                text: bodyText,
-                links: links
-            };
-        });
+        let successData = null;
 
-        return { success: true, ...data };
+        for (const target of targets) {
+            try {
+                await page.goto(target, { waitUntil: 'domcontentloaded', timeout: 15000 });
+                
+                await page.waitForTimeout(1500); 
+
+                successData = await page.evaluate(() => ({
+                    html: document.documentElement.outerHTML,
+                    text: document.body.innerText
+                }));
+                
+                if (successData.text.length > 100) break; 
+            } catch (e) {
+                continue; 
+            }
+        }
+
+        if (!successData) throw new Error("All URL variations failed");
+
+        return { success: true, ...successData };
+
     } catch (error) {
         return { success: false, error: error.message };
     } finally {

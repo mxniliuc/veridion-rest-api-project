@@ -14,52 +14,34 @@ const permissiveAgent = new https.Agent({
     ciphers: 'DEFAULT:@SECLEVEL=1'       
 });
 
-const browserHeaders = {
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36',
-    'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
-    'Accept-Language': 'en-US,en;q=0.9',
-    'Accept-Encoding': 'gzip, deflate, br',
-    'DNT': '1', // Do Not Track
-    'Connection': 'keep-alive',
-    'Upgrade-Insecure-Requests': '1',
-    'Sec-Fetch-Dest': 'document',
-    'Sec-Fetch-Mode': 'navigate',
-    'Sec-Fetch-Site': 'none',
-    'Sec-Fetch-User': '?1',
-    'Cache-Control': 'max-age=0',
-};
 
 export async function scrapeWithCheerio(url) {
-    const domain = url.replace(/^(?:https?:\/\/)?(?:www\.)?/i, "");
+   const rawDomain = url.replace(/^(?:https?:\/\/)?(?:www\.)?/i, "");
     
     const protocols = [
-        { name: 'HTTPS-Standard', url: `https://${domain}`, agent: standardAgent },
-        { name: 'HTTPS-Permissive', url: `https://${domain}`, agent: permissiveAgent }, 
-        { name: 'HTTP-Fallback', url: `http://${domain}`, agent: null }
+        { name: 'HTTPS-WWW', url: `https://www.${rawDomain}`, agent: permissiveAgent }, 
+        { name: 'HTTPS-Naked', url: `https://${rawDomain}`, agent: permissiveAgent }, 
+        { name: 'HTTP-WWW', url: `http://www.${rawDomain}`, agent: null }
     ];
-    
 
     let lastError = null;
 
     for (const step of protocols) {
         try {
             const response = await axios.get(step.url, {
-                timeout: 10000,
+                timeout: 8000, // Faster timeout per attempt to keep the loop moving
                 httpsAgent: step.agent,
                 headers: {
                     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36',
                     'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-                    'Accept-Language': 'en-US,en;q=0.5',
                     'Referer': 'https://www.google.com/'
                 }
             });
 
             const $ = cheerio.load(response.data);
-            const text = $('body').text();
-
             return {
                 url,
-                phones: extractPhones(text),
+                phones: extractPhones($('body').text()),
                 socials: extractSocials($),
                 address: extractAddress($),
                 success: true,
@@ -67,10 +49,8 @@ export async function scrapeWithCheerio(url) {
             };
         } catch (error) {
             lastError = error;
-            
             if (error.response?.status === 404) break;
-            
-            console.log(`  - ${step.name} failed for ${domain}, trying next...`);
+            // Silent continue to next protocol
         }
     }
 
