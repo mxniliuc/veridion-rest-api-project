@@ -39,9 +39,14 @@ export async function scrapeWithCheerio(url) {
             });
 
             const $ = cheerio.load(response.data);
+
+            const output1 = JSON.stringify($('body').text(), null, 2);
+
+            await fs.appendFile("../data/cheerio-results", url+output1+"\n", 'utf-8');
+
             return {
                 url,
-                phones: extractPhones($('body').text()),
+                phones: extractPhones($('body').text(), $),
                 socials: extractSocials($),
                 address: extractAddress($),
                 success: true,
@@ -69,10 +74,41 @@ export async function scrapeWithCheerio(url) {
     };
 }
 
-export function extractPhones(text) {
-    const phoneRegex = /((?:\+|00)[17](?: |\-)?|(?:\+|00)[1-9]\d{0,2}(?: |\-)?|(?:\+|00)1\-\d{3}(?: |\-)?)?(?:\(\d{3,4}\)|\d{3,4})(?: |\-)?\d{3,4}(?: |\-)?\d{3,4}/g;
-    const matches = text.match(phoneRegex);
-    return matches ? [...new Set(matches.map(p => p.trim()))] : [];
+export function extractPhones(text, $) {
+    // This regex looks for:
+    // 1. Optional +1 or 1 and a separator
+    // 2. 3 digits (optional parenthesis)
+    // 3. 3 digits
+    // 4. 4 digits
+    // Supports: 555-555-5555, (555) 555-5555, 555 555 5555, 555.555.5555
+    const phoneRegex = /(?:\+?1[-. ]?)?\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})/g;
+    
+    let allMatches = [];
+
+    // Search body text
+    const bodyMatches = text.match(phoneRegex);
+    if (bodyMatches) allMatches.push(...bodyMatches);
+
+    if ($) {
+        // Search footer text specifically
+        const footerText = $('footer').text() || $('[class*="footer"]').text();
+        const footerMatches = footerText.match(phoneRegex);
+        if (footerMatches) allMatches.push(...footerMatches);
+        
+        // Search tel: metadata
+        $('a[href^="tel:"]').each((i, el) => {
+
+            let tel = $(el).attr('href').replace('tel:', '').trim();
+            // Clean up common metadata formats to standard aaa-aaa-aaaa
+            if (/^\d{10}$/.test(tel)) {
+                tel = tel.replace(/(\d{3})(\d{3})(\d{4})/, '$1-$2-$3');
+            }
+            allMatches.push(tel);
+        });
+    }
+
+    // Filter out short noise and standardize
+    return [...new Set(allMatches.map(p => p.trim()).filter(p => p.length >= 10))];
 }
 
 export function extractSocials($) {

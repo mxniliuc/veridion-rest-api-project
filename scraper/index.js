@@ -48,12 +48,13 @@ async function runScraper(){
         
         if (fallbackResult && fallbackResult.success) {
 
-            
             const $ = cheerio.load(fallbackResult.html);
+
+            await fsp.appendFile("../data/cheerio-results", `${url} + Playwright`, 'utf-8');
             
             result = {
                 url,
-                phones: extractPhones(fallbackResult.text),
+                phones: extractPhones(fallbackResult.text, $),
                 socials: extractSocials($), 
                 address: extractAddress($), 
                 success: true
@@ -61,7 +62,7 @@ async function runScraper(){
         } } catch(error){
             result = {
                 url,
-                phones: extractPhones(fallbackResult.text),
+                phones: extractPhones(fallbackResult.text, $),
                 socials: extractSocials($), 
                 address: extractAddress($), 
                 success: false,
@@ -69,6 +70,7 @@ async function runScraper(){
             }
         }
     }
+
     return result;
 }));
     const results = await Promise.all(tasks);
