@@ -40,7 +40,7 @@ async function runScraper(){
     const tasks = websites.map(url => limit(async () => {
     let result = await scrapeWithCheerio(url);
 
-    if (!result.success && (result.failureType === 'Timeout' || result.failureType === 'Unknown')) {
+    if(!result.success){
 
         try{
 
@@ -48,9 +48,11 @@ async function runScraper(){
         
         if (fallbackResult && fallbackResult.success) {
 
-            const $ = cheerio.load(fallbackResult.html);
+            const output = `${url}: ${JSON.stringify(fallbackResult.html)}\n`;
+    
+            await fsp.appendFile("../data/cheerio-results", output, 'utf-8');
 
-            await fsp.appendFile("../data/cheerio-results", `${url} + Playwright`, 'utf-8');
+            const $ = cheerio.load(fallbackResult.html);
             
             result = {
                 url,

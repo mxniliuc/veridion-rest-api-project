@@ -14,7 +14,7 @@ export function performDataAnalysis(results) {
     console.log(`Successful Crawls: ${successfulCrawls} (${coveragePercent.toFixed(2)}%)`);
     console.log(`Failed Crawls: ${failedCrawls}`);
     console.log("--------------------------------------");
-    console.log(`Phone Fill Rate: ${((phoneFill / successfulCrawls) * 100).toFixed(2)}%`);
+    console.log(`Phone Fill Rate: ${((phoneFill / successfulCrawls) * 100).toFixed(2)}% `);
     console.log(`Social Media Fill Rate: ${((socialFill / successfulCrawls) * 100).toFixed(2)}%`);
     console.log(`Address Fill Rate: ${((addressFill / successfulCrawls) * 100).toFixed(2)}%`);
     console.log("--------------------------------------");

@@ -3,6 +3,7 @@ import * as cheerio from 'cheerio';
 import { response } from 'express';
 import fs from "fs/promises";
 import https from 'https';
+import { parsePhoneNumberFromString } from 'libphonenumber-js';
 
 const standardAgent = new https.Agent({
     rejectUnauthorized: true, 
@@ -40,13 +41,9 @@ export async function scrapeWithCheerio(url) {
 
             const $ = cheerio.load(response.data);
 
-            const output1 = JSON.stringify($('body').text(), null, 2);
-
-            await fs.appendFile("../data/cheerio-results", url+output1+"\n", 'utf-8');
-
             return {
                 url,
-                phones: extractPhones($('body').text(), $),
+                phones: finalPhones,
                 socials: extractSocials($),
                 address: extractAddress($),
                 success: true,
@@ -97,18 +94,53 @@ export function extractPhones(text, $) {
         
         // Search tel: metadata
         $('a[href^="tel:"]').each((i, el) => {
+            const $el = $(el);
+            
+            // 1. Get the literal number from the href (metadata)
+            let telMetadata = $el.attr('href').replace('tel:', '').trim();
+            if (telMetadata) allMatches.push(telMetadata);
 
-            let tel = $(el).attr('href').replace('tel:', '').trim();
-            // Clean up common metadata formats to standard aaa-aaa-aaaa
-            if (/^\d{10}$/.test(tel)) {
-                tel = tel.replace(/(\d{3})(\d{3})(\d{4})/, '$1-$2-$3');
+            // 2. Get the visible text associated with this specific link
+            // This catches cases where the href is just digits but the text is formatted
+            const linkText = $el.text().trim();
+            const textMatch = linkText.match(phoneRegex);
+            if (textMatch) {
+                allMatches.push(...textMatch);
             }
-            allMatches.push(tel);
+        });
+
+        $('a, button, span').each((i, el) => {
+            const $el = $(el);
+            // Check title, aria-label, and data-attributes
+            const attributesToCheck = [
+                $el.attr('title'), 
+                $el.attr('aria-label'), 
+                $el.attr('data-phone'), 
+                $el.attr('data-tel'),
+                $el.attr('tel')
+            ];
+
+            attributesToCheck.forEach(attr => {
+                if (attr) {
+                    const match = attr.match(phoneRegex);
+                    if (match) allMatches.push(...match);
+                }
+            });
         });
     }
 
-    // Filter out short noise and standardize
-    return [...new Set(allMatches.map(p => p.trim()).filter(p => p.length >= 10))];
+    const validatedNumbers = allMatches.map(raw => {
+        // We assume 'US' but the library handles '+' prefixes automatically
+        const parsed = parsePhoneNumberFromString(raw, 'US');
+        
+        // Only return if it's a valid phone number length and format
+        if (parsed && parsed.isValid()) {
+            return parsed.formatNational(); // Standardizes to (305) 356-7440
+        }
+        return null;
+    }).filter(Boolean); // Remove nulls
+
+    return [...new Set(validatedNumbers)];
 }
 
 export function extractSocials($) {
