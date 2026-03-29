@@ -24,15 +24,15 @@ export async function scrapeWithPlaywright(url) {
         for (const target of targets) {
             try {
                 const response = await page.goto(target, { waitUntil: 'domcontentloaded', timeout: 15000 });
-                if (response.status() === 403) continue;
+                console.log(target)
+                if (!response) {console.log("404");continue;}
 
                 await page.waitForTimeout(2000); // Wait for JS to render contact info
 
-                const pageTitle = await page.title();
+                const pageTitle = await page.title(); 
                 const bodyText = await page.evaluate(() => document.body.innerText);
 const isJunk = bodyText.length < 250 || pageTitle.toLowerCase().includes("welcome to nginx");
                 
-                if (!response || response.status() >= 400 || isJunk) continue;
 
                 await page.waitForTimeout(1500);
                 
@@ -40,35 +40,58 @@ const isJunk = bodyText.length < 250 || pageTitle.toLowerCase().includes("welcom
                     const currentUrl = window.location.href.split(/[?#]/)[0].replace(/\/$/, "");
                     const isHome = window.location.pathname === "/" || window.location.pathname === "";
 
-                    const links = Array.from(document.querySelectorAll('a'))
+                    const allLinks = Array.from(document.querySelectorAll('a'))
                         .map(a => ({ text: a.innerText.toLowerCase(), href: a.href.split(/[?#]/)[0].replace(/\/$/, "") }))
-                        // FIX: Filter out non-http links (mailto, tel, etc)
                         .filter(l => l.href.startsWith('http') && l.href.includes(window.location.hostname) && l.href !== currentUrl);
 
-                    const found = isHome ? links.find(l => /(contact|about)/.test(l.text) || /(contact|about)/.test(l.href)) : null;
-                    
+                    // Collect BOTH contact and about links
+                    let deepLinks = [];
+                    if (isHome) {
+                        const contactLink = allLinks.find(l => l.text.includes('contact') || l.href.includes('contact'));
+                        const aboutLink = allLinks.find(l => l.text.includes('about') || l.href.includes('about'));
+                        
+                        if (contactLink) deepLinks.push(contactLink.href);
+                        if (aboutLink) deepLinks.push(aboutLink.href);
+                    }
                     return {
                         html: document.documentElement.outerHTML,
                         text: document.body.innerText,
-                        deepLink: found ? found.href : null
+                        deepLinks: [...new Set(deepLinks)],
+                        isHomePage: isHome
                     };
                 });
+
+                console.log(mainPageData.deepLinks)
 
                 combinedHTML += mainPageData.html;
                 combinedText += mainPageData.text;
 
-                if (mainPageData.deepLink) {
+                let homePagePhones = mainPageData.extractedPhones || [];
+                let subPagePhones = [];
+                // LOOP through all discovered deep links
+                for (const link of mainPageData.deepLinks) {
+                    console.log(`  -> Deep scanning: ${link}`);
                     try {
-                        console.log(`Deep scanning for ${mainPageData.deepLink}`)
-                        await page.goto(mainPageData.deepLink, { waitUntil: 'networkidle', timeout: 8000 });
-                        console.log("go to works");
-                        await page.waitForTimeout(1000);
-                        console.log("timeout works");
-                        combinedHTML += "\n\n" + await page.content();
-                        combinedText += "\n --- DEEP PAGE --- \n" + await page.evaluate(() => document.body.innerText);
-                        console.log("combined text works");
-                    } catch (e) { /* ignore subpage fail */ console.log(`  ! Deep scan timeout for ${mainPageData.deepLink} - pulling partial data.`); combinedHTML += await page.content();
-        combinedText += await page.evaluate(() => document.body.innerText);}
+                        // Using 'networkidle' to combat AJAX/Squarespace loading
+                        console.log("entering try block")
+                        //await page.goto(link, { waitUntil: 'networkidle', timeout: 20000 });
+
+                        await page.goto(link, { waitUntil: 'domcontentloaded', timeout: 10000 });
+
+                        console.log("go to works")
+                        
+                        // Force a scroll to trigger any lazy-loaded contact footers
+                        //await page.evaluate(() => window.scrollTo(0, document.body.scrollHeight));
+                        await page.waitForTimeout(1500);
+
+                        const subPageHTML = await page.content();
+                        const subPageText = await page.evaluate(() => document.body.innerText);
+                        
+                        combinedHTML += "\n\n\n\n" + subPageHTML;
+                        combinedText += "\n --- SUBPAGE --- \n" + subPageText;
+                    } catch (e) {
+                        console.log(`  ! Failed deep scan for ${link}`);
+                    }
                 }
                 break; // Exit loop on first valid target
             } catch (e) { continue; }

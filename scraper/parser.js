@@ -102,10 +102,16 @@ export function extractPhones(text, $) {
     let allMatches = [];
 
     // Search body text
+    const cleanText = (text || "").replace(/\s+/g, ' ');
     const bodyMatches = text.match(phoneRegex);
     if (bodyMatches) allMatches.push(...bodyMatches);
 
     if ($) {
+        //Raw HTML Lookup
+        const rawHtml = $.html();
+        const htmlMatches = rawHtml.match(phoneRegex);
+        if (htmlMatches) allMatches.push(...htmlMatches);
+
         // Search footer text specifically
         const footerText = $('footer').text() || $('[class*="footer"]').text();
         const footerMatches = footerText.match(phoneRegex);
@@ -126,6 +132,12 @@ export function extractPhones(text, $) {
             if (textMatch) {
                 allMatches.push(...textMatch);
             }
+        });
+
+        $('[title], [aria-label], [data-phone], [data-tel]').each((i, el) => {
+            const attrText = `${$(el).attr('title')} ${$(el).attr('aria-label')} ${$(el).attr('data-phone')}`;
+            const attrMatches = attrText.match(phoneRegex);
+            if (attrMatches) allMatches.push(...attrMatches);
         });
 
         $('a, button, span, br').each((i, el) => {

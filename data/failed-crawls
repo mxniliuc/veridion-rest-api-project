@@ -14,13 +14,6 @@
     "code": "getaddrinfo ENOTFOUND www.creativebusinessassociates.com"
   },
   {
-    "url": "cumberland-river.com",
-    "success": false,
-    "error": "Page Missing",
-    "failureType": "Page Missing",
-    "code": "Request failed with status code 404"
-  },
-  {
     "url": "verdantporch.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
@@ -49,13 +42,6 @@
     "code": "getaddrinfo ENOTFOUND www.maddux.pro"
   },
   {
-    "url": "top-salon-hair-salon.business.site",
-    "success": false,
-    "error": "Page Missing",
-    "failureType": "Page Missing",
-    "code": "Request failed with status code 404"
-  },
-  {
     "url": "dolee-rentals.com",
     "success": false,
     "error": "Unknown",
@@ -82,13 +68,6 @@
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
     "code": "getaddrinfo ENOTFOUND www.romanthumbs.com"
-  },
-  {
-    "url": "johnstons-clothiers.business.site",
-    "success": false,
-    "error": "Page Missing",
-    "failureType": "Page Missing",
-    "code": "Request failed with status code 404"
   },
   {
     "url": "ohhappydayshatchetthrowing.com",
@@ -140,13 +119,6 @@
     "code": "getaddrinfo ENOTFOUND www.motherssoontobe.com"
   },
   {
-    "url": "palla-siding-and-windows.business.site",
-    "success": false,
-    "error": "Page Missing",
-    "failureType": "Page Missing",
-    "code": "Request failed with status code 404"
-  },
-  {
     "url": "propertyguysnj.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
@@ -175,32 +147,11 @@
     "code": "getaddrinfo ENOTFOUND www.torget.org"
   },
   {
-    "url": "cancersupportdelaware.org",
-    "success": false,
-    "error": "Unknown",
-    "failureType": "Unknown",
-    "code": "Request failed with status code 403"
-  },
-  {
     "url": "amwindowcleaning.org",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
     "code": "getaddrinfo ENOTFOUND www.amwindowcleaning.org"
-  },
-  {
-    "url": "wombatworks.org",
-    "success": false,
-    "error": "Unknown",
-    "failureType": "Unknown",
-    "code": "Request failed with status code 451"
-  },
-  {
-    "url": "alpha-research-associates-research-institute.business.site",
-    "success": false,
-    "error": "Page Missing",
-    "failureType": "Page Missing",
-    "code": "Request failed with status code 404"
   },
   {
     "url": "annarborhomesrealtor.com",
@@ -266,25 +217,11 @@
     "code": "getaddrinfo ENOTFOUND www.antiochassistedliving.com"
   },
   {
-    "url": "gygeneralservices.business.site",
-    "success": false,
-    "error": "Page Missing",
-    "failureType": "Page Missing",
-    "code": "Request failed with status code 404"
-  },
-  {
     "url": "pinolevistareimagined.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
     "code": "getaddrinfo ENOTFOUND www.pinolevistareimagined.com"
-  },
-  {
-    "url": "proexecstaffing.com",
-    "success": false,
-    "error": "Timeout",
-    "failureType": "Timeout",
-    "code": "timeout of 8000ms exceeded"
   },
   {
     "url": "yingtexun.com",
@@ -329,25 +266,11 @@
     "code": "getaddrinfo ENOTFOUND www.fortlaudedalepsychic.com"
   },
   {
-    "url": "longrealty.com",
-    "success": false,
-    "error": "Unknown",
-    "failureType": "Unknown",
-    "code": "Request failed with status code 403"
-  },
-  {
     "url": "lisinoprilfst.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
     "code": "getaddrinfo ENOTFOUND www.lisinoprilfst.com"
-  },
-  {
-    "url": "madebyjosy.com",
-    "success": false,
-    "error": "Page Missing",
-    "failureType": "Page Missing",
-    "code": "Request failed with status code 404"
   },
   {
     "url": "thethriftyhijabi.com",
@@ -362,13 +285,6 @@
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
     "code": "getaddrinfo ENOTFOUND www.behindthewhitebeard.com"
-  },
-  {
-    "url": "infinitiofsouthatlanta.com",
-    "success": false,
-    "error": "Unknown",
-    "failureType": "Unknown",
-    "code": "Request failed with status code 405"
   },
   {
     "url": "liketelevision.com",
@@ -392,13 +308,6 @@
     "code": "getaddrinfo ENOTFOUND www.virustarllc.com"
   },
   {
-    "url": "spynewsletter.com",
-    "success": false,
-    "error": "Page Missing",
-    "failureType": "Page Missing",
-    "code": "Request failed with status code 404"
-  },
-  {
     "url": "haqelyaqeen.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
@@ -411,13 +320,6 @@
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
     "code": "getaddrinfo ENOTFOUND www.theneumannproject.com"
-  },
-  {
-    "url": "sunnova-solar-oakland.business.site",
-    "success": false,
-    "error": "Page Missing",
-    "failureType": "Page Missing",
-    "code": "Request failed with status code 404"
   },
   {
     "url": "greggardnersbarbershop.com",
@@ -476,25 +378,11 @@
     "code": "getaddrinfo ENOTFOUND www.lineoftecnologia.com"
   },
   {
-    "url": "cgllcairheatingandcoolingservices.business.site",
-    "success": false,
-    "error": "Page Missing",
-    "failureType": "Page Missing",
-    "code": "Request failed with status code 404"
-  },
-  {
     "url": "clinejewelers.com",
     "success": false,
     "error": "Unknown",
     "failureType": "Unknown",
     "code": "socket hang up"
-  },
-  {
-    "url": "thelocalmanjakemangan.com",
-    "success": false,
-    "error": "Page Missing",
-    "failureType": "Page Missing",
-    "code": "Request failed with status code 404"
   },
   {
     "url": "timberwoodofnaples.org",
@@ -532,13 +420,6 @@
     "code": "getaddrinfo ENOTFOUND www.brooklyntreecompany.com"
   },
   {
-    "url": "brilliantcityreiki.com",
-    "success": false,
-    "error": "Page Missing",
-    "failureType": "Page Missing",
-    "code": "Request failed with status code 404"
-  },
-  {
     "url": "beautifulbodybabes.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
@@ -560,25 +441,11 @@
     "code": "getaddrinfo ENOTFOUND www.growthfutures.net"
   },
   {
-    "url": "skinnerdaylilies.com",
-    "success": false,
-    "error": "Unknown",
-    "failureType": "Unknown",
-    "code": "Request failed with status code 403"
-  },
-  {
     "url": "shoplakebuoy.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
     "code": "getaddrinfo ENOTFOUND www.shoplakebuoy.com"
-  },
-  {
-    "url": "airelibreavenue.com",
-    "success": false,
-    "error": "Unknown",
-    "failureType": "Unknown",
-    "code": "Request failed with status code 409"
   },
   {
     "url": "4v21.com",
@@ -609,20 +476,6 @@
     "code": "getaddrinfo ENOTFOUND www.cedarwork.org"
   },
   {
-    "url": "helixapartments.com",
-    "success": false,
-    "error": "Unknown",
-    "failureType": "Unknown",
-    "code": "Request failed with status code 403"
-  },
-  {
-    "url": "richardsservicecenter.com",
-    "success": false,
-    "error": "Page Missing",
-    "failureType": "Page Missing",
-    "code": "Request failed with status code 404"
-  },
-  {
     "url": "epertase.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
@@ -642,20 +495,6 @@
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
     "code": "getaddrinfo ENOTFOUND www.highqualitypcs.com"
-  },
-  {
-    "url": "tylerteaches.com",
-    "success": false,
-    "error": "Page Missing",
-    "failureType": "Page Missing",
-    "code": "Request failed with status code 404"
-  },
-  {
-    "url": "elijahvest.com",
-    "success": false,
-    "error": "Unknown",
-    "failureType": "Unknown",
-    "code": "Request failed with status code 403"
   },
   {
     "url": "hannacho.com",
@@ -686,32 +525,11 @@
     "code": "getaddrinfo ENOTFOUND www.advance-tcc.com"
   },
   {
-    "url": "tashahmoore.com",
-    "success": false,
-    "error": "Page Missing",
-    "failureType": "Page Missing",
-    "code": "Request failed with status code 404"
-  },
-  {
-    "url": "thejewishheritagefoundation.com",
-    "success": false,
-    "error": "Page Missing",
-    "failureType": "Page Missing",
-    "code": "Request failed with status code 404"
-  },
-  {
     "url": "veritassynergetic.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
     "code": "getaddrinfo ENOTFOUND www.veritassynergetic.com"
-  },
-  {
-    "url": "wellbaum-apiaries.business.site",
-    "success": false,
-    "error": "Page Missing",
-    "failureType": "Page Missing",
-    "code": "Request failed with status code 404"
   },
   {
     "url": "brandibaileyphotos.com",
@@ -747,13 +565,6 @@
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
     "code": "getaddrinfo ENOTFOUND www.nu-imagepainting.com"
-  },
-  {
-    "url": "southsidedentalcare-dentalclinic.business.site",
-    "success": false,
-    "error": "Page Missing",
-    "failureType": "Page Missing",
-    "code": "Request failed with status code 404"
   },
   {
     "url": "sacreativedesign.com",
@@ -805,32 +616,11 @@
     "code": "getaddrinfo ENOTFOUND www.studiobsalon.net"
   },
   {
-    "url": "aether-multimedia-llc.business.site",
-    "success": false,
-    "error": "Page Missing",
-    "failureType": "Page Missing",
-    "code": "Request failed with status code 404"
-  },
-  {
-    "url": "maquez-kennelz.business.site",
-    "success": false,
-    "error": "Page Missing",
-    "failureType": "Page Missing",
-    "code": "Request failed with status code 404"
-  },
-  {
     "url": "tax-masters.net",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
     "code": "getaddrinfo ENOTFOUND www.tax-masters.net"
-  },
-  {
-    "url": "ticketsregina.com",
-    "success": false,
-    "error": "Unknown",
-    "failureType": "Unknown",
-    "code": "Request failed with status code 403"
   },
   {
     "url": "abujaluxuryhome.com",
@@ -859,13 +649,6 @@
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
     "code": "getaddrinfo ENOTFOUND www.parisfumc.org"
-  },
-  {
-    "url": "kusbeautyusa.com",
-    "success": false,
-    "error": "Unknown",
-    "failureType": "Unknown",
-    "code": "Request failed with status code 409"
   },
   {
     "url": "al-advertising-diet-store.com",
@@ -901,20 +684,6 @@
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
     "code": "getaddrinfo ENOTFOUND www.reveportraits.com"
-  },
-  {
-    "url": "rustyskate.com",
-    "success": false,
-    "error": "Unknown",
-    "failureType": "Unknown",
-    "code": "Request failed with status code 409"
-  },
-  {
-    "url": "feltgoodmusic.com",
-    "success": false,
-    "error": "Page Missing",
-    "failureType": "Page Missing",
-    "code": "Request failed with status code 404"
   },
   {
     "url": "lionsteelstructuresco.com",
@@ -994,13 +763,6 @@
     "code": "getaddrinfo ENOTFOUND www.boyettrecovery.com"
   },
   {
-    "url": "erikashome.com",
-    "success": false,
-    "error": "Unknown",
-    "failureType": "Unknown",
-    "code": "Request failed with status code 403"
-  },
-  {
     "url": "littlefeetforestschool.org",
     "success": false,
     "error": "Dead Domain/DNS Error",
@@ -1057,13 +819,6 @@
     "code": "getaddrinfo ENOTFOUND www.greenissue.eu"
   },
   {
-    "url": "river-valley-rv-park-tx.business.site",
-    "success": false,
-    "error": "Page Missing",
-    "failureType": "Page Missing",
-    "code": "Request failed with status code 404"
-  },
-  {
     "url": "saipanyc.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
@@ -1076,13 +831,6 @@
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
     "code": "getaddrinfo ENOTFOUND www.angelabrite.com"
-  },
-  {
-    "url": "clovercutsandcolor.com",
-    "success": false,
-    "error": "Page Missing",
-    "failureType": "Page Missing",
-    "code": "Request failed with status code 404"
   },
   {
     "url": "serenapezzato.com",
@@ -1120,13 +868,6 @@
     "code": "getaddrinfo ENOTFOUND www.bloggingforextrader.com"
   },
   {
-    "url": "green-graphixz-clothing-company.business.site",
-    "success": false,
-    "error": "Page Missing",
-    "failureType": "Page Missing",
-    "code": "Request failed with status code 404"
-  },
-  {
     "url": "50ggirls.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
@@ -1153,13 +894,6 @@
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
     "code": "getaddrinfo ENOTFOUND www.petexplain.com"
-  },
-  {
-    "url": "christinereidphotography.com",
-    "success": false,
-    "error": "Unknown",
-    "failureType": "Unknown",
-    "code": "Request failed with status code 403"
   },
   {
     "url": "hiddenforestdesign.com",
@@ -1190,25 +924,11 @@
     "code": "getaddrinfo ENOTFOUND www.3lnotary.com"
   },
   {
-    "url": "creativitythroughconstraints.com",
-    "success": false,
-    "error": "Page Missing",
-    "failureType": "Page Missing",
-    "code": "Request failed with status code 404"
-  },
-  {
     "url": "limitlesscounselingservices.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
     "code": "getaddrinfo ENOTFOUND www.limitlesscounselingservices.com"
-  },
-  {
-    "url": "trusted-home-inspection.business.site",
-    "success": false,
-    "error": "Page Missing",
-    "failureType": "Page Missing",
-    "code": "Request failed with status code 404"
   },
   {
     "url": "dotsandcubes.com",
@@ -1223,13 +943,6 @@
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
     "code": "getaddrinfo ENOTFOUND www.gkama.com"
-  },
-  {
-    "url": "realtorhsu.net",
-    "success": false,
-    "error": "Page Missing",
-    "failureType": "Page Missing",
-    "code": "Request failed with status code 404"
   },
   {
     "url": "shah-impex.com",
@@ -1267,27 +980,6 @@
     "code": "getaddrinfo ENOTFOUND www.godsministryfellowship.com"
   },
   {
-    "url": "homeworkninjas.com",
-    "success": false,
-    "error": "Unknown",
-    "failureType": "Unknown",
-    "code": "Request failed with status code 444"
-  },
-  {
-    "url": "par1cleaners.business.site",
-    "success": false,
-    "error": "Page Missing",
-    "failureType": "Page Missing",
-    "code": "Request failed with status code 404"
-  },
-  {
-    "url": "acupuncture-oriental-massage.business.site",
-    "success": false,
-    "error": "Page Missing",
-    "failureType": "Page Missing",
-    "code": "Request failed with status code 404"
-  },
-  {
     "url": "greenbikerentals.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
@@ -1300,13 +992,6 @@
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
     "code": "getaddrinfo ENOTFOUND www.riolentoranch.com"
-  },
-  {
-    "url": "teambuildergroup.com",
-    "success": false,
-    "error": "Unknown",
-    "failureType": "Unknown",
-    "code": "Request failed with status code 403"
   },
   {
     "url": "castoreclothing.com",
@@ -1323,25 +1008,11 @@
     "code": "getaddrinfo ENOTFOUND www.palaciopet.com"
   },
   {
-    "url": "artandglamstudio.com",
-    "success": false,
-    "error": "Page Missing",
-    "failureType": "Page Missing",
-    "code": "Request failed with status code 404"
-  },
-  {
     "url": "fayreconsulting.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
     "code": "getaddrinfo ENOTFOUND www.fayreconsulting.com"
-  },
-  {
-    "url": "sanchez-lawn-care-and-landscaping-services.business.site",
-    "success": false,
-    "error": "Page Missing",
-    "failureType": "Page Missing",
-    "code": "Request failed with status code 404"
   },
   {
     "url": "hometheatersystemgainesville.com",
@@ -1353,9 +1024,9 @@
   {
     "url": "pestcontrolmodestoca.org",
     "success": false,
-    "error": "Dead Domain/DNS Error",
-    "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND www.pestcontrolmodestoca.org"
+    "error": "Timeout",
+    "failureType": "Timeout",
+    "code": "timeout of 8000ms exceeded"
   },
   {
     "url": "lukesmma.com",
@@ -1365,32 +1036,11 @@
     "code": "getaddrinfo ENOTFOUND www.lukesmma.com"
   },
   {
-    "url": "celebaesthetics.com",
-    "success": false,
-    "error": "Unknown",
-    "failureType": "Unknown",
-    "code": "Request failed with status code 403"
-  },
-  {
-    "url": "coastaldefense.business.site",
-    "success": false,
-    "error": "Page Missing",
-    "failureType": "Page Missing",
-    "code": "Request failed with status code 404"
-  },
-  {
     "url": "sewardlostlakelodge.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
     "code": "getaddrinfo ENOTFOUND www.sewardlostlakelodge.com"
-  },
-  {
-    "url": "ehardts.com",
-    "success": false,
-    "error": "Unknown",
-    "failureType": "Unknown",
-    "code": "Request failed with status code 403"
   },
   {
     "url": "crazy.builders",
@@ -1407,13 +1057,6 @@
     "code": "getaddrinfo ENOTFOUND www.littleredfarmhousegifts.net"
   },
   {
-    "url": "reflexdelivery.com",
-    "success": false,
-    "error": "Unknown",
-    "failureType": "Unknown",
-    "code": "Request failed with status code 409"
-  },
-  {
     "url": "cherrycreektributaries.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
@@ -1426,13 +1069,6 @@
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
     "code": "getaddrinfo ENOTFOUND www.marriagecounselingmemphis.com"
-  },
-  {
-    "url": "deliverance-ministry-new-york.com",
-    "success": false,
-    "error": "Unknown",
-    "failureType": "Unknown",
-    "code": "Request failed with status code 500"
   },
   {
     "url": "glovemitten.com",
@@ -1449,25 +1085,11 @@
     "code": "getaddrinfo ENOTFOUND www.myfocuspsych.com"
   },
   {
-    "url": "crestonhousefl.com",
-    "success": false,
-    "error": "Page Missing",
-    "failureType": "Page Missing",
-    "code": "Request failed with status code 404"
-  },
-  {
     "url": "quick9.io",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
     "code": "getaddrinfo ENOTFOUND www.quick9.io"
-  },
-  {
-    "url": "winningham-iron-metal.business.site",
-    "success": false,
-    "error": "Page Missing",
-    "failureType": "Page Missing",
-    "code": "Request failed with status code 404"
   },
   {
     "url": "sammycarlosdelicatessencatering.net",
@@ -1491,25 +1113,11 @@
     "code": "getaddrinfo ENOTFOUND www.ftworthepoxyflooring.com"
   },
   {
-    "url": "hellorichmond.net",
-    "success": false,
-    "error": "Page Missing",
-    "failureType": "Page Missing",
-    "code": "Request failed with status code 404"
-  },
-  {
     "url": "carolynlewismed.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
     "code": "getaddrinfo ENOTFOUND www.carolynlewismed.com"
-  },
-  {
-    "url": "dionisioducusin.com",
-    "success": false,
-    "error": "Page Missing",
-    "failureType": "Page Missing",
-    "code": "Request failed with status code 404"
   },
   {
     "url": "hitsforhomeless.com",
@@ -1547,25 +1155,11 @@
     "code": "getaddrinfo ENOTFOUND www.sunnirey.shop"
   },
   {
-    "url": "cloudspeed24x7.com",
-    "success": false,
-    "error": "Dead Domain/DNS Error",
-    "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND www.cloudspeed24x7.com"
-  },
-  {
     "url": "gambittechconsulting.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
     "code": "getaddrinfo ENOTFOUND www.gambittechconsulting.com"
-  },
-  {
-    "url": "rightstudents.org",
-    "success": false,
-    "error": "Page Missing",
-    "failureType": "Page Missing",
-    "code": "Request failed with status code 404"
   },
   {
     "url": "topbricole.site",
@@ -1582,13 +1176,6 @@
     "code": "getaddrinfo ENOTFOUND www.carolynsnails.com"
   },
   {
-    "url": "globalonefinancialsolutions.com",
-    "success": false,
-    "error": "Unknown",
-    "failureType": "Unknown",
-    "code": "Request failed with status code 403"
-  },
-  {
     "url": "myparee.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
@@ -1601,13 +1188,6 @@
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
     "code": "getaddrinfo ENOTFOUND www.toothfairycleaningservice.com"
-  },
-  {
-    "url": "central-texas-mobile-notary-notary-public.business.site",
-    "success": false,
-    "error": "Page Missing",
-    "failureType": "Page Missing",
-    "code": "Request failed with status code 404"
   },
   {
     "url": "redrhinomovers.com",
@@ -1631,13 +1211,6 @@
     "code": "getaddrinfo ENOTFOUND www.jonfoxmusic.com"
   },
   {
-    "url": "globaltrustbnk.com",
-    "success": false,
-    "error": "Dead Domain/DNS Error",
-    "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND www.globaltrustbnk.com"
-  },
-  {
     "url": "bodegaunclick.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
@@ -1652,13 +1225,6 @@
     "code": "getaddrinfo ENOTFOUND www.hunterdecuir24.com"
   },
   {
-    "url": "therealbcmg.com",
-    "success": false,
-    "error": "Page Missing",
-    "failureType": "Page Missing",
-    "code": "Request failed with status code 404"
-  },
-  {
     "url": "tvwelove.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
@@ -1671,13 +1237,6 @@
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
     "code": "getaddrinfo ENOTFOUND www.htiyos.com"
-  },
-  {
-    "url": "maryfrancespencer.com",
-    "success": false,
-    "error": "Page Missing",
-    "failureType": "Page Missing",
-    "code": "Request failed with status code 404"
   },
   {
     "url": "mjwm225.com",
@@ -1715,25 +1274,11 @@
     "code": "getaddrinfo ENOTFOUND www.royaltylandscapinganddesign.com"
   },
   {
-    "url": "torres-hvac.business.site",
-    "success": false,
-    "error": "Page Missing",
-    "failureType": "Page Missing",
-    "code": "Request failed with status code 404"
-  },
-  {
     "url": "carpetworkshopofohio.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
     "code": "getaddrinfo ENOTFOUND www.carpetworkshopofohio.com"
-  },
-  {
-    "url": "down-southmoving.business.site",
-    "success": false,
-    "error": "Page Missing",
-    "failureType": "Page Missing",
-    "code": "Request failed with status code 404"
   },
   {
     "url": "annatietzhomes.com",
@@ -1757,32 +1302,11 @@
     "code": "getaddrinfo ENOTFOUND www.greenershinglessanantonio.com"
   },
   {
-    "url": "kcsweep.com",
-    "success": false,
-    "error": "Unknown",
-    "failureType": "Unknown",
-    "code": "Request failed with status code 403"
-  },
-  {
     "url": "michaelskuceradentistry.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
     "code": "getaddrinfo ENOTFOUND www.michaelskuceradentistry.com"
-  },
-  {
-    "url": "caninereproductivecenter.com",
-    "success": false,
-    "error": "Page Missing",
-    "failureType": "Page Missing",
-    "code": "Request failed with status code 404"
-  },
-  {
-    "url": "defioptions.org",
-    "success": false,
-    "error": "Page Missing",
-    "failureType": "Page Missing",
-    "code": "Request failed with status code 404"
   },
   {
     "url": "mrsbecerra.com",
@@ -1799,20 +1323,6 @@
     "code": "getaddrinfo ENOTFOUND www.vitalaehealingarts.com"
   },
   {
-    "url": "ambazoniafoundation.org",
-    "success": false,
-    "error": "Unknown",
-    "failureType": "Unknown",
-    "code": "Request failed with status code 403"
-  },
-  {
-    "url": "djs-general-service-llc.business.site",
-    "success": false,
-    "error": "Page Missing",
-    "failureType": "Page Missing",
-    "code": "Request failed with status code 404"
-  },
-  {
     "url": "graphicmontzter.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
@@ -1820,25 +1330,11 @@
     "code": "getaddrinfo ENOTFOUND www.graphicmontzter.com"
   },
   {
-    "url": "lorettola.org",
-    "success": false,
-    "error": "Unknown",
-    "failureType": "Unknown",
-    "code": "Request failed with status code 403"
-  },
-  {
     "url": "centurywebdesign.net",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
     "code": "getaddrinfo ENOTFOUND www.centurywebdesign.net"
-  },
-  {
-    "url": "holehunterindustries.com",
-    "success": false,
-    "error": "Unknown",
-    "failureType": "Unknown",
-    "code": "Request failed with status code 403"
   },
   {
     "url": "transtekautosales.com",
@@ -1883,20 +1379,6 @@
     "code": "getaddrinfo ENOTFOUND www.reelsafarischarters.com"
   },
   {
-    "url": "whitwell-accounting-llc.business.site",
-    "success": false,
-    "error": "Page Missing",
-    "failureType": "Page Missing",
-    "code": "Request failed with status code 404"
-  },
-  {
-    "url": "denhamsflorist.com",
-    "success": false,
-    "error": "Dead Domain/DNS Error",
-    "failureType": "Dead Domain/DNS Error",
-    "code": "getaddrinfo ENOTFOUND www.denhamsflorist.com"
-  },
-  {
     "url": "h-glogistics.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
@@ -1932,13 +1414,6 @@
     "code": "getaddrinfo ENOTFOUND www.montereypeninsulaelderlyhome.com"
   },
   {
-    "url": "allyourblogging.com",
-    "success": false,
-    "error": "Unknown",
-    "failureType": "Unknown",
-    "code": "Request failed with status code 403"
-  },
-  {
     "url": "drariatirakic.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
@@ -1951,13 +1426,6 @@
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
     "code": "getaddrinfo ENOTFOUND www.vghgroup.org"
-  },
-  {
-    "url": "energy-health-oriental-massage.business.site",
-    "success": false,
-    "error": "Page Missing",
-    "failureType": "Page Missing",
-    "code": "Request failed with status code 404"
   },
   {
     "url": "jerkkingsnj.com",
@@ -2065,13 +1533,6 @@
     "code": "getaddrinfo ENOTFOUND www.fitcivic.com"
   },
   {
-    "url": "smv-inc.com",
-    "success": false,
-    "error": "Unknown",
-    "failureType": "Unknown",
-    "code": "Request failed with status code 500"
-  },
-  {
     "url": "stevensfamilyfarm.webs.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
@@ -2093,34 +1554,6 @@
     "code": "getaddrinfo ENOTFOUND www.whaleygfx.com"
   },
   {
-    "url": "fine-art-construction.business.site",
-    "success": false,
-    "error": "Page Missing",
-    "failureType": "Page Missing",
-    "code": "Request failed with status code 404"
-  },
-  {
-    "url": "neptune-society.com",
-    "success": false,
-    "error": "Unknown",
-    "failureType": "Unknown",
-    "code": "Request failed with status code 403"
-  },
-  {
-    "url": "oddwomannailsandmore.com",
-    "success": false,
-    "error": "Unknown",
-    "failureType": "Unknown",
-    "code": "Request failed with status code 403"
-  },
-  {
-    "url": "northwest-georgia-regional-commission.business.site",
-    "success": false,
-    "error": "Page Missing",
-    "failureType": "Page Missing",
-    "code": "Request failed with status code 404"
-  },
-  {
     "url": "hotlink2019.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
@@ -2135,32 +1568,11 @@
     "code": "getaddrinfo ENOTFOUND www.internationalmediasupply.com"
   },
   {
-    "url": "ancientcityappraisals.com",
-    "success": false,
-    "error": "Unknown",
-    "failureType": "Unknown",
-    "code": "Request failed with status code 403"
-  },
-  {
-    "url": "caring-hands-seniorsolutionsgroupinc.business.site",
-    "success": false,
-    "error": "Page Missing",
-    "failureType": "Page Missing",
-    "code": "Request failed with status code 404"
-  },
-  {
     "url": "toptok.info",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
     "code": "getaddrinfo ENOTFOUND www.toptok.info"
-  },
-  {
-    "url": "peakdds.com",
-    "success": false,
-    "error": "Unknown",
-    "failureType": "Unknown",
-    "code": "Request failed with status code 403"
   },
   {
     "url": "webranium.co.uk",
@@ -2170,25 +1582,11 @@
     "code": "getaddrinfo ENOTFOUND www.webranium.co.uk"
   },
   {
-    "url": "fedorovfilms.com",
-    "success": false,
-    "error": "Page Missing",
-    "failureType": "Page Missing",
-    "code": "Request failed with status code 404"
-  },
-  {
     "url": "masterguyscardetail.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
     "code": "getaddrinfo ENOTFOUND www.masterguyscardetail.com"
-  },
-  {
-    "url": "coloradolivingblog.com",
-    "success": false,
-    "error": "Page Missing",
-    "failureType": "Page Missing",
-    "code": "Request failed with status code 404"
   },
   {
     "url": "briggsmobiledetailing.com",
@@ -2233,13 +1631,6 @@
     "code": "getaddrinfo ENOTFOUND www.romangalloway.com"
   },
   {
-    "url": "flatpondpublishing.com",
-    "success": false,
-    "error": "Unknown",
-    "failureType": "Unknown",
-    "code": "Request failed with status code 500"
-  },
-  {
     "url": "kalamazoomijobs.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
@@ -2275,46 +1666,11 @@
     "code": "timeout of 8000ms exceeded"
   },
   {
-    "url": "chugiak.org",
-    "success": false,
-    "error": "Unknown",
-    "failureType": "Unknown",
-    "code": "Request failed with status code 523"
-  },
-  {
     "url": "bytheseat.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
     "code": "getaddrinfo ENOTFOUND www.bytheseat.com"
-  },
-  {
-    "url": "hairdesigners-hairsalon.business.site",
-    "success": false,
-    "error": "Page Missing",
-    "failureType": "Page Missing",
-    "code": "Request failed with status code 404"
-  },
-  {
-    "url": "poocheshouseboutique.com",
-    "success": false,
-    "error": "Page Missing",
-    "failureType": "Page Missing",
-    "code": "Request failed with status code 404"
-  },
-  {
-    "url": "yttangsoodo.com",
-    "success": false,
-    "error": "Unknown",
-    "failureType": "Unknown",
-    "code": "Request failed with status code 403"
-  },
-  {
-    "url": "big-dog-boarding.business.site",
-    "success": false,
-    "error": "Page Missing",
-    "failureType": "Page Missing",
-    "code": "Request failed with status code 404"
   },
   {
     "url": "kiplearningandactivitycenter.com",
@@ -2345,13 +1701,6 @@
     "code": "getaddrinfo ENOTFOUND www.getrazuzz.com"
   },
   {
-    "url": "wibidata.com",
-    "success": false,
-    "error": "Unknown",
-    "failureType": "Unknown",
-    "code": "Request failed with status code 432"
-  },
-  {
     "url": "edgeinsurance.biz",
     "success": false,
     "error": "Dead Domain/DNS Error",
@@ -2364,13 +1713,6 @@
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
     "code": "getaddrinfo ENOTFOUND www.sustainableracine.org"
-  },
-  {
-    "url": "d-l-roofing-and-construction-llc.business.site",
-    "success": false,
-    "error": "Page Missing",
-    "failureType": "Page Missing",
-    "code": "Request failed with status code 404"
   },
   {
     "url": "sagacitystays.com",
