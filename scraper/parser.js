@@ -41,6 +41,25 @@ export async function scrapeWithCheerio(url) {
 
             const $ = cheerio.load(response.data);
 
+            // FIX: Always initialize phone arrays to prevent "is not defined" errors
+            let phoneCandidates = [];
+            $('script[type="application/ld+json"]').each((i, el) => {
+                try {
+                    const json = JSON.parse($(el).html());
+                    const findPhone = (obj) => {
+                        if (obj.telephone) phoneCandidates.push(obj.telephone);
+                        if (obj.contactPoint?.telephone) phoneCandidates.push(obj.contactPoint.telephone);
+                    };
+                    if (Array.isArray(json)) json.forEach(findPhone);
+                    else if (json['@graph']) json['@graph'].forEach(findPhone);
+                    else findPhone(json);
+                } catch (e) {}
+            });
+
+            const cleanText = $('body').text().replace(/\s+/g, ' ');
+            const foundPhones = extractPhones(cleanText, $); 
+            const finalPhones = [...new Set([...phoneCandidates, ...foundPhones])];
+
             return {
                 url,
                 phones: finalPhones,
@@ -109,7 +128,7 @@ export function extractPhones(text, $) {
             }
         });
 
-        $('a, button, span').each((i, el) => {
+        $('a, button, span, br').each((i, el) => {
             const $el = $(el);
             // Check title, aria-label, and data-attributes
             const attributesToCheck = [
@@ -139,6 +158,8 @@ export function extractPhones(text, $) {
         }
         return null;
     }).filter(Boolean); // Remove nulls
+
+    console.log(validatedNumbers)
 
     return [...new Set(validatedNumbers)];
 }

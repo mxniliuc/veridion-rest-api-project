@@ -9,7 +9,7 @@ import fsp from "fs/promises";
 import { scrapeWithPlaywright } from "./playwright.js";
 import * as cheerio from 'cheerio';
 
-const limit = pLimit(50);
+const limit = pLimit(2);
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 async function runScraper(){
@@ -37,14 +37,27 @@ async function runScraper(){
 
     try {
     const websites = await runScraper();
+    /*let test = await scrapeWithPlaywright("mq3labs.com");
+    const output = `mq3labs.com: ${JSON.stringify(test.html)}\n`;
+    console.log("Writing test site")
+    await fsp.appendFile("../data/cheerio-results", output, 'utf-8');
+    const $ = cheerio.load(test.html);
+    console.log("Finished writing test site")
+    const res = extractPhones(test.text, $);
+    console.log("Test phone number", res) */
     const tasks = websites.map(url => limit(async () => {
     let result = await scrapeWithCheerio(url);
 
-    if(!result.success){
+    console.log(`Cheerio scrape for ${url}`)
+
+
 
         try{
 
         const fallbackResult = await scrapeWithPlaywright(url);
+
+        console.log(`Playwright scrape for ${url}`)
+
         
         if (fallbackResult && fallbackResult.success) {
 
@@ -71,7 +84,7 @@ async function runScraper(){
                 code: error.message
             }
         }
-    }
+    
 
     return result;
 }));
