@@ -49,13 +49,6 @@
     "code": "Request failed with status code 403"
   },
   {
-    "url": "couplescounselingatlanta.com",
-    "success": false,
-    "error": "Unknown",
-    "failureType": "Unknown",
-    "code": "Request failed with status code 409"
-  },
-  {
     "url": "philstreeppc.com",
     "success": false,
     "error": "Dead Domain/DNS Error",
@@ -152,13 +145,6 @@
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
     "code": "getaddrinfo ENOTFOUND www.amwindowcleaning.org"
-  },
-  {
-    "url": "annarborhomesrealtor.com",
-    "success": false,
-    "error": "Unknown",
-    "failureType": "Unknown",
-    "code": "Request failed with status code 403"
   },
   {
     "url": "busiup.com",
@@ -637,13 +623,6 @@
     "code": "getaddrinfo ENOTFOUND www.belozapp.com"
   },
   {
-    "url": "1stamc.com",
-    "success": false,
-    "error": "Unknown",
-    "failureType": "Unknown",
-    "code": "Request failed with status code 403"
-  },
-  {
     "url": "parisfumc.org",
     "success": false,
     "error": "Dead Domain/DNS Error",
@@ -1024,9 +1003,9 @@
   {
     "url": "pestcontrolmodestoca.org",
     "success": false,
-    "error": "Timeout",
-    "failureType": "Timeout",
-    "code": "timeout of 8000ms exceeded"
+    "error": "Dead Domain/DNS Error",
+    "failureType": "Dead Domain/DNS Error",
+    "code": "getaddrinfo ENOTFOUND www.pestcontrolmodestoca.org"
   },
   {
     "url": "lukesmma.com",
@@ -1237,13 +1216,6 @@
     "error": "Dead Domain/DNS Error",
     "failureType": "Dead Domain/DNS Error",
     "code": "getaddrinfo ENOTFOUND www.htiyos.com"
-  },
-  {
-    "url": "mjwm225.com",
-    "success": false,
-    "error": "Unknown",
-    "failureType": "Unknown",
-    "code": "Request failed with status code 403"
   },
   {
     "url": "quality-trucking.com",
@@ -1503,6 +1475,13 @@
     "error": "Unknown",
     "failureType": "Unknown",
     "code": "Request failed with status code 403"
+  },
+  {
+    "url": "imageworksdirect.com",
+    "success": false,
+    "error": "Timeout",
+    "failureType": "Timeout",
+    "code": "timeout of 8000ms exceeded"
   },
   {
     "url": "montcapitalpartners.com",

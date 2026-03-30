@@ -1,5 +1,6 @@
 import { chromium } from 'playwright';
 import fs from "fs/promises";
+import axios from 'axios';
 
 export async function scrapeWithPlaywright(url) {
     const browser = await chromium.launch({ 
@@ -12,26 +13,35 @@ export async function scrapeWithPlaywright(url) {
         const page = await context.newPage();
         const rawDomain = url.replace(/^(?:https?:\/\/)?(?:www\.)?/i, "");
         const targets = [
+            `http://${rawDomain}`,       // Then Naked HTTP
             `https://${rawDomain}`,      // Try Naked HTTPS first for these subdomains
             `https://www.${rawDomain}`,  // Then WWW HTTPS
-            `http://${rawDomain}`,       // Then Naked HTTP
             `http://www.${rawDomain}`    // Then WWW HTTP
         ];
 
+        
         let combinedHTML = "";
         let combinedText = "";
 
         for (const target of targets) {
             try {
                 const response = await page.goto(target, { waitUntil: 'domcontentloaded', timeout: 15000 });
-                console.log(target)
+                console.log("Trying...", target)
+
+                
                 if (!response) {console.log("404");continue;}
+
+                /*await page.evaluate(async () => {
+                    window.scrollTo(0, document.body.scrollHeight);
+                    // Optional: wait a tiny bit for the scroll-triggered JS to finish
+                    await new Promise(resolve => setTimeout(resolve, 1000));
+                });*/
 
                 await page.waitForTimeout(2000); // Wait for JS to render contact info
 
                 const pageTitle = await page.title(); 
                 const bodyText = await page.evaluate(() => document.body.innerText);
-const isJunk = bodyText.length < 250 || pageTitle.toLowerCase().includes("welcome to nginx");
+                const isJunk = bodyText.length < 250 || pageTitle.toLowerCase().includes("welcome to nginx");
                 
 
                 await page.waitForTimeout(1500);
@@ -69,6 +79,7 @@ const isJunk = bodyText.length < 250 || pageTitle.toLowerCase().includes("welcom
                 let homePagePhones = mainPageData.extractedPhones || [];
                 let subPagePhones = [];
                 // LOOP through all discovered deep links
+                
                 for (const link of mainPageData.deepLinks) {
                     console.log(`  -> Deep scanning: ${link}`);
                     try {
@@ -82,6 +93,7 @@ const isJunk = bodyText.length < 250 || pageTitle.toLowerCase().includes("welcom
                         
                         // Force a scroll to trigger any lazy-loaded contact footers
                         //await page.evaluate(() => window.scrollTo(0, document.body.scrollHeight));
+                        
                         await page.waitForTimeout(1500);
 
                         const subPageHTML = await page.content();

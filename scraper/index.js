@@ -37,13 +37,13 @@ async function runScraper(){
 
     try {
     const websites = await runScraper();
-    let test = await scrapeWithPlaywright("kelleyroadrace.com");
-    const output = `kelleyroadrace.com: ${JSON.stringify(test.html)}\n`;
+    let test = await scrapeWithPlaywright("www.erikashome.com");
+    const output = `www.erikashome.com: ${JSON.stringify(test.html)}\n`;
     console.log("Writing test site")
     await fsp.appendFile("../data/cheerio-results", output, 'utf-8');
     const $ = cheerio.load(test.html);
     console.log("Finished writing test site")
-    const res = extractPhones(test.text, $);
+    const res = extractSocials($);
     console.log("Test phone number", res) 
     const tasks = websites.map(url => limit(async () => {
     let result = await scrapeWithCheerio(url);
@@ -66,12 +66,15 @@ async function runScraper(){
             await fsp.appendFile("../data/cheerio-results", output, 'utf-8');
 
             const $ = cheerio.load(fallbackResult.html);
+
+            url = `http://www.${url}`;
+
             
             result = {
                 url,
                 phones: extractPhones(fallbackResult.text, $),
                 socials: extractSocials($), 
-                address: extractAddress($), 
+                //address: extractAddress($), 
                 success: true
             };
         } } catch(error){
@@ -79,7 +82,7 @@ async function runScraper(){
                 url,
                 phones: extractPhones(fallbackResult.text, $),
                 socials: extractSocials($), 
-                address: extractAddress($), 
+                //address: extractAddress($), 
                 success: false,
                 code: error.message
             }

@@ -177,15 +177,51 @@ export function extractPhones(text, $) {
 }
 
 export function extractSocials($) {
-    const socials = { facebook: null, twitter: null, linkedin: null };
+    const socials = { 
+        facebook: null, 
+        twitter: null, 
+        linkedin: null, 
+        instagram: null, 
+        youtube: null 
+    };
     
     $('a').each((i, el) => {
         const href = $(el).attr('href');
-        if (!href) return;
+        if (!href || href === '#' || href.startsWith('javascript:')) return;
 
-        if (href.includes('facebook.com/')) socials.facebook = href;
-        if (href.includes('twitter.com/')) socials.twitter = href;
-        if (href.includes('linkedin.com/company/')) socials.linkedin = href;
+        // Convert to lowercase for easier matching
+        const link = href.toLowerCase();
+
+        // 1. Facebook
+        if (link.includes('facebook.com/') && !link.includes('sharer')) {
+            socials.facebook = href;
+        }
+
+        // 2. Twitter / X (Supports rebranding)
+        if ((link.includes('twitter.com/') || link.includes('x.com/')) && !link.includes('intent/')) {
+            socials.twitter = href;
+        }
+
+        // 3. LinkedIn (Prioritize company pages)
+        if (link.includes('linkedin.com/')) {
+            // If we don't have one yet, or if this is a company/in link (preferred over share links)
+            if (!socials.linkedin || link.includes('/company/') || link.includes('/in/')) {
+                socials.linkedin = href;
+            }
+        }
+
+        // 4. Instagram
+        if (link.includes('instagram.com/')) {
+            socials.instagram = href;
+        }
+
+        // 5. YouTube
+        if (link.includes('youtube.com/') || link.includes('youtu.be/')) {
+            // Filter out common video-player links and keep channels/users
+            if (!link.includes('/embed/') && !link.includes('/watch?')) {
+                socials.youtube = href;
+            }
+        }
     });
     
     return socials;
