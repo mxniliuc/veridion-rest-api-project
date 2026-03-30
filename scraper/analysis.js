@@ -1,3 +1,31 @@
+let startTime = Date.now();
+
+export function logProgress(current, total) {
+    const now = Date.now();
+    const elapsedMs = now - startTime;
+    const elapsedSec = Math.floor(elapsedMs / 1000);
+    
+    // Calculate speed and ETA
+    const processed = current + 1;
+    const msPerSite = elapsedMs / processed;
+    const remainingSites = total - processed;
+    const etaMs = remainingSites * msPerSite;
+    
+    const formatTime = (ms) => {
+        const s = Math.floor(ms / 1000);
+        const m = Math.floor(s / 60);
+        return `${m}m ${s % 60}s`;
+    };
+
+    const percent = ((processed / total) * 100).toFixed(1);
+    
+    console.log(`[Progress] ${processed}/${total} (${percent}%) | Elapsed: ${formatTime(elapsedMs)} | ETA: ${formatTime(etaMs)}`);
+}
+
+export function resetTimer() {
+    startTime = Date.now();
+}
+
 export function performDataAnalysis(results) {
     const totalAttempted = results.length;
     const successfulCrawls = results.filter(r => r.success).length;
