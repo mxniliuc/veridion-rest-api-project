@@ -1,12 +1,19 @@
 import { chromium } from 'playwright';
 import fs from "fs/promises";
 import axios from 'axios';
+import https from "https";
+
+const standardAgent = new https.Agent({
+    rejectUnauthorized: true, 
+});
+
+const permissiveAgent = new https.Agent({
+    rejectUnauthorized: false,
+    minVersion: 'TLSv1',
+    ciphers: 'DEFAULT:@SECLEVEL=1'       
+});
 
 export async function scrapeWithPlaywright(url) {
-    const browser = await chromium.launch({ 
-        headless: true,
-        args: ['--disable-dev-shm-usage', '--no-sandbox', '--disable-http2'] 
-    });
 
     try {
         const context = await browser.newContext({ ignoreHTTPSErrors: true });
@@ -18,7 +25,6 @@ export async function scrapeWithPlaywright(url) {
             `https://www.${rawDomain}`,  // Then WWW HTTPS
             `http://www.${rawDomain}`    // Then WWW HTTP
         ];
-
         
         let combinedHTML = "";
         let combinedText = "";
