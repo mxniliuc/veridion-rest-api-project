@@ -4,7 +4,7 @@ import path from "path";
 import { fileURLToPath } from 'url';
 import pLimit from 'p-limit';
 import { scrapeWithCheerio, extractSocials, extractAddress, extractPhones } from "./parser.js";
-import {performDataAnalysis} from "./analysis.js";
+import {performDataAnalysis, logProgress} from "./analysis.js";
 import fsp from "fs/promises"; 
 import { scrapeWithPlaywright } from "./playwright.js";
 import * as cheerio from 'cheerio';
@@ -37,20 +37,19 @@ async function runScraper(){
 
     try {
     const websites = await runScraper();
-    let test = await scrapeWithPlaywright("www.erikashome.com");
+    /*let test = await scrapeWithPlaywright("www.erikashome.com");
     const output = `www.erikashome.com: ${JSON.stringify(test.html)}\n`;
     console.log("Writing test site")
     await fsp.appendFile("../data/cheerio-results", output, 'utf-8');
     const $ = cheerio.load(test.html);
     console.log("Finished writing test site")
     const res = extractSocials($);
-    console.log("Test phone number", res) 
+    console.log("Test phone number", res) */
+    let completedCount = 0;
     const tasks = websites.map(url => limit(async () => {
     let result = await scrapeWithCheerio(url);
 
     console.log(`Cheerio scrape for ${url}`)
-
-
 
         try{
 
@@ -63,7 +62,7 @@ async function runScraper(){
 
             const output = `${url}: ${JSON.stringify(fallbackResult.html)}\n`;
     
-            await fsp.appendFile("../data/cheerio-results", output, 'utf-8');
+            //await fsp.appendFile("../data/cheerio-results", output, 'utf-8');
 
             const $ = cheerio.load(fallbackResult.html);
 
@@ -86,10 +85,14 @@ async function runScraper(){
                 success: false,
                 code: error.message
             }
+        } finally {
+            completedCount++;
+            logProgress(completedCount, websites.length);
         }
     
 
-    return result;
+        return result;
+    
 }));
     const results = await Promise.all(tasks);
     fsp.writeFile("../data/return-data", JSON.stringify(results, null, 2), 'utf-8');
