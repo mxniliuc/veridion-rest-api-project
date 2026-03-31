@@ -50,11 +50,20 @@ export async function scrapeWithPlaywright(url) {
                 const bodyText = await page.evaluate(() => document.body.innerText);
                 
 
+<<<<<<< HEAD
                 await page.waitForTimeout(1500);
                 
                 const mainPageData = await page.evaluate(() => {
                     const currentUrl = window.location.href.split(/[?#]/)[0].replace(/\/$/, "");
                     const isHome = window.location.pathname === "/" || window.location.pathname === "";
+=======
+                // JUNK DETECTION
+                const JUNK_PATTERNS = /denied|unavailable|forbidden|nginx|8lm mail|access restricted|404|dns|hosting|attention required|403|taken|sorry|problem|critical|cpanel|porkbun|abnormality|suspended|webmaster/i;
+                if ((bodyText.length < 100 || JUNK_PATTERNS.test(pageTitle + bodyText)) && !bodyText.toLowerCase().includes("facility")) {
+                    console.log(`Skipping ${target}`)
+                    continue; 
+                }
+>>>>>>> 87c40f7 (Implemented more efficient file storage through the addition of file streams as well as a single open browser instead of having one open everytime scrapeWithPlaywright was called.)
 
                     const allLinks = Array.from(document.querySelectorAll('a'))
                         .map(a => ({ text: a.innerText.toLowerCase(), href: a.href.split(/[?#]/)[0].replace(/\/$/, "") }))

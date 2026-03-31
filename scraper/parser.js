@@ -64,7 +64,6 @@ export async function scrapeWithCheerio(url) {
                 url,
                 phones: finalPhones,
                 socials: extractSocials($),
-                address: extractAddress($),
                 success: true,
                 methodUsed: step.name 
             };
@@ -227,7 +226,7 @@ export function extractSocials($) {
     return socials;
 }
 
-export function extractAddress($) {
+/*export function extractAddress($) {
     const addressRegex = /\d{1,5}\s+([a-zA-Z0-9\s\.,#-]+)\s+(Street|St|Ave|Avenue|Rd|Road|Suite|Bldg|Blvd|Drive|Dr|Lane|Ln|Way|Court|Ct|Circle|Cir|Pkwy|Parkway)/i;
 
     let address = $('address').first().text().replace(/\s\s+/g, ' ').trim();
@@ -253,4 +252,4 @@ export function extractAddress($) {
     }
     
     return address ? address.trim() : null;
-}
+}*/
