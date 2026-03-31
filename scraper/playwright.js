@@ -1,153 +1,99 @@
 import { chromium } from 'playwright';
-import fs from "fs/promises";
-import axios from 'axios';
-import https from "https";
 
-const standardAgent = new https.Agent({
-    rejectUnauthorized: true, 
-});
+let browser;
 
-const permissiveAgent = new https.Agent({
-    rejectUnauthorized: false,
-    minVersion: 'TLSv1',
-    ciphers: 'DEFAULT:@SECLEVEL=1'       
-});
+export async function scrapeWithPlaywright(url, existingBrowser = null) {
+    // Reuse the browser instance to save 2 seconds per site
+    if (!browser && !existingBrowser) {
+        browser = await chromium.launch({ 
+            headless: true,
+            args: ['--disable-dev-shm-usage', '--no-sandbox', '--disable-http2'] 
+        });
+    }
+    
+    const activeBrowser = existingBrowser || browser;
+    const context = await activeBrowser.newContext({ 
+        ignoreHTTPSErrors: true,
+        userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36'
+    });
+    const page = await context.newPage();
 
-export async function scrapeWithPlaywright(url) {
+    // SPEED: Block images, css, and fonts
+    await page.route('**/*', (route) => {
+        const type = route.request().resourceType();
+        if (['image', 'font', 'stylesheet', 'media'].includes(type)) route.abort();
+        else route.continue();
+    });
 
     try {
-        const context = await browser.newContext({ ignoreHTTPSErrors: true });
-        const page = await context.newPage();
         const rawDomain = url.replace(/^(?:https?:\/\/)?(?:www\.)?/i, "");
-        const targets = [
-            `http://${rawDomain}`,       // Then Naked HTTP
-            `https://${rawDomain}`,      // Try Naked HTTPS first for these subdomains
-            `https://www.${rawDomain}`,  // Then WWW HTTPS
-            `http://www.${rawDomain}`    // Then WWW HTTP
-        ];
-        
+        const targets = [`http://${rawDomain}`, `https://www.${rawDomain}`];
+
         let combinedHTML = "";
         let combinedText = "";
+        let finalUrl = url;
 
         for (const target of targets) {
-            let junk = false;
             try {
                 const response = await page.goto(target, { waitUntil: 'domcontentloaded', timeout: 15000 });
-                console.log("Trying...", target)
+                if (!response) continue;
 
-                
-               //if (!response) {console.log("404");continue;}
+                // Wait for potential dynamic content/Wix hydration
+                await page.waitForTimeout(2000);
 
-                /*await page.evaluate(async () => {
-                    window.scrollTo(0, document.body.scrollHeight);
-                    // Optional: wait a tiny bit for the scroll-triggered JS to finish
-                    await new Promise(resolve => setTimeout(resolve, 1000));
-                });*/
+                // FOOTER FIX: Scroll to bottom to trigger lazy-loaded elements
+                await page.evaluate(() => window.scrollTo(0, document.body.scrollHeight));
+                await page.waitForTimeout(1000);
 
-                await page.waitForTimeout(2000); // Wait for JS to render contact info
-
-                const pageTitle = await page.title(); 
+                const pageTitle = await page.title();
                 const bodyText = await page.evaluate(() => document.body.innerText);
-                
+                const htmlContent = await page.content();
 
-<<<<<<< HEAD
-                await page.waitForTimeout(1500);
-                
-                const mainPageData = await page.evaluate(() => {
-                    const currentUrl = window.location.href.split(/[?#]/)[0].replace(/\/$/, "");
-                    const isHome = window.location.pathname === "/" || window.location.pathname === "";
-=======
                 // JUNK DETECTION
                 const JUNK_PATTERNS = /denied|unavailable|forbidden|nginx|8lm mail|access restricted|404|dns|hosting|attention required|403|taken|sorry|problem|critical|cpanel|porkbun|abnormality|suspended|webmaster/i;
                 if ((bodyText.length < 100 || JUNK_PATTERNS.test(pageTitle + bodyText)) && !bodyText.toLowerCase().includes("facility")) {
                     console.log(`Skipping ${target}`)
                     continue; 
                 }
->>>>>>> 87c40f7 (Implemented more efficient file storage through the addition of file streams as well as a single open browser instead of having one open everytime scrapeWithPlaywright was called.)
 
-                    const allLinks = Array.from(document.querySelectorAll('a'))
-                        .map(a => ({ text: a.innerText.toLowerCase(), href: a.href.split(/[?#]/)[0].replace(/\/$/, "") }))
-                        .filter(l => l.href.startsWith('http') && l.href.includes(window.location.hostname) && l.href !== currentUrl);
+                combinedHTML += htmlContent;
+                combinedText += bodyText;
+                finalUrl = page.url();
 
-                    // Collect BOTH contact and about links
-                    let deepLinks = [];
-                    if (isHome) {
-                        const contactLink = allLinks.find(l => l.text.includes('contact') || l.href.includes('contact'));
-                        const aboutLink = allLinks.find(l => l.text.includes('about') || l.href.includes('about'));
-                        
-                        if (contactLink) deepLinks.push(contactLink.href);
-                        if (aboutLink) deepLinks.push(aboutLink.href);
-                    }
-                    return {
-                        html: document.documentElement.outerHTML,
-                        text: document.body.innerText,
-                        deepLinks: [...new Set(deepLinks)],
-                        isHomePage: isHome
-                    };
+                // DEEP SCAN DISCOVERY
+                const deepLinks = await page.evaluate(() => {
+                    const currentHostname = window.location.hostname;
+                    return Array.from(document.querySelectorAll('a'))
+                        .map(a => a.href)
+                        .filter(href => {
+                            try {
+                                const urlObj = new URL(href);
+                                return urlObj.hostname.includes(currentHostname) && 
+                                       /(contact|about|info)/i.test(href);
+                            } catch (e) { return false; }
+                        });
                 });
 
-                console.log(mainPageData.deepLinks)
+                const uniqueDeepLinks = [...new Set(deepDeepLinks)].slice(0, 2);
 
-                combinedHTML += mainPageData.html;
-                combinedText += mainPageData.text;
-
-                
-                if(!combinedHTML.includes("<input")){
-                if(combinedText.length<50 &&!combinedText.includes("facility")){
-                        junk = true;
-                        console.log(`Skipping ${target}`);
-                        continue;
-                }
-
-
-                const JUNK_PATTERNS = /denied|unavailable|forbidden|nginx|8lm mail|access restricted|404|dns|hosting|attention required|403|taken|sorry|problem|critical|cpanel|porkbun|abnormality|suspended</i;
-                
-                //skip websites without a purchased domain
-                if(JUNK_PATTERNS.test(combinedHTML+combinedText) && !combinedText.includes("facility")){
-                    junk = true;
-                    console.log(`Skipping ${target}`);
-                    continue;
-                }
-                }
-                let homePagePhones = mainPageData.extractedPhones || [];
-                let subPagePhones = [];
-                // LOOP through all discovered deep links
-                if(mainPageData.deepLinks.length!=0){
-                for (const link of mainPageData.deepLinks) {
-                    console.log(`  -> Deep scanning: ${link}`);
+                for (const link of uniqueDeepLinks) {
                     try {
-                        // Using 'networkidle' to combat AJAX/Squarespace loading
-                        console.log("entering try block")
-                        //await page.goto(link, { waitUntil: 'networkidle', timeout: 20000 });
-
                         await page.goto(link, { waitUntil: 'domcontentloaded', timeout: 10000 });
-
-                        console.log("go to works")
-                        
-                        // Force a scroll to trigger any lazy-loaded contact footers
-                        //await page.evaluate(() => window.scrollTo(0, document.body.scrollHeight));
-                        
-                        await page.waitForTimeout(1500);
-
-                        const subPageHTML = await page.content();
-                        const subPageText = await page.evaluate(() => document.body.innerText);
-                        
-                        combinedHTML += "\n\n\n\n" + subPageHTML;
-                        combinedText += "\n --- SUBPAGE --- \n" + subPageText;
-                    } catch (e) {
-                        console.log(`  ! Failed deep scan for ${link}`);
-                    }
+                        await page.evaluate(() => window.scrollTo(0, document.body.scrollHeight));
+                        await page.waitForTimeout(1000);
+                        combinedHTML += "\n\n" + await page.content();
+                        combinedText += "\n --- SUBPAGE --- \n" + await page.evaluate(() => document.body.innerText);
+                    } catch (e) { console.log(`  ! Subpage fail: ${link}`); }
                 }
-                break;} // Exit loop on first valid target
+
+                break; // Found a valid version, stop trying targets
             } catch (e) { continue; }
-            if(junk===true){ return { success: false, error: "Unavailable website"}};
         }
-        await browser.close();
-        
-        if (!combinedHTML) throw new Error("Unreachable or Default Server Page");
-        return { success: true, html: combinedHTML, text: combinedText };
+
+        await context.close();
+        return { success: !!combinedHTML, html: combinedHTML, text: combinedText, finalUrl };
     } catch (error) {
-        await browser.close();
+        await context.close();
         return { success: false, error: error.message };
     }
 }

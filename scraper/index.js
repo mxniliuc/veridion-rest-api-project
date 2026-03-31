@@ -1,104 +1,78 @@
-import fs from "fs";
+import fs, { createWriteStream } from "fs";
 import csv from "csv-parser";
 import path from "path";
 import { fileURLToPath } from 'url';
 import pLimit from 'p-limit';
-import { scrapeWithCheerio, extractSocials, extractAddress, extractPhones } from "./parser.js";
-import {performDataAnalysis, logProgress} from "./analysis.js";
-import fsp from "fs/promises"; 
+import { scrapeWithCheerio, extractSocials, extractPhones } from "./parser.js";
+import { performDataAnalysis, logProgress } from "./analysis.js";
 import { scrapeWithPlaywright } from "./playwright.js";
 import * as cheerio from 'cheerio';
+import { chromium } from 'playwright';
 
-const limit = pLimit(5);
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
-async function runScraper(){
-    return new Promise((resolve, reject) => {
-        let websites = [];
-        const filePath = path.join(__dirname, "../data/sample-websites.csv");
-
-        fs.createReadStream(filePath)
-            .pipe(csv())
-            .on('data', (row) => {
-                if (row.domain) {
-                    websites.push(row.domain);
-                }
-            })
-            .on('end', () => {
-                console.log(`Finished loading ${websites.length} sites.`);
-                resolve(websites); 
-            })
-            .on('error', (err) => {
-                console.error("Error reading websites file");
-                reject(err);
-            });
-        });
-    }
-
-    try {
-    const websites = await runScraper();
-    /*let test = await scrapeWithPlaywright("www.erikashome.com");
-    const output = `www.erikashome.com: ${JSON.stringify(test.html)}\n`;
-    console.log("Writing test site")
-    await fsp.appendFile("../data/cheerio-results", output, 'utf-8');
-    const $ = cheerio.load(test.html);
-    console.log("Finished writing test site")
-    const res = extractSocials($);
-    console.log("Test phone number", res) */
-    let completedCount = 0;
-    const tasks = websites.map(url => limit(async () => {
-    let result = await scrapeWithCheerio(url);
-
-    console.log(`Cheerio scrape for ${url}`)
-
-        try{
-
-        const fallbackResult = await scrapeWithPlaywright(url);
-
-        console.log(`Playwright scrape for ${url}`)
-
-        
-        if (fallbackResult && fallbackResult.success) {
-
-            const output = `${url}: ${JSON.stringify(fallbackResult.html)}\n`;
+async function main() {
+    // Launch browser ONCE for the entire app
+    const browser = await chromium.launch({ headless: true });
     
-            //await fsp.appendFile("../data/cheerio-results", output, 'utf-8');
+    const websites = [];
+    const filePath = path.join(__dirname, "../data/sample-websites.csv");
 
-            const $ = cheerio.load(fallbackResult.html);
+    // Read CSV
+    const readCsv = () => new Promise(res => {
+        fs.createReadStream(filePath).pipe(csv()).on('data', r => websites.push(r.domain)).on('end', res);
+    });
+    await readCsv();
 
-            url = `http://www.${url}`;
+    const successStream = createWriteStream("../data/return-data.jsonl", { flags: 'a' });
+    const errorStream = createWriteStream("../data/failed-crawls.jsonl", { flags: 'a' });
 
-            
-            result = {
-                url,
-                phones: extractPhones(fallbackResult.text, $),
-                socials: extractSocials($), 
-                //address: extractAddress($), 
-                success: true
-            };
-        } } catch(error){
-            result = {
-                url,
-                phones: extractPhones(fallbackResult.text, $),
-                socials: extractSocials($), 
-                //address: extractAddress($), 
-                success: false,
-                code: error.message
+    let completedCount = 0;
+    const limit = pLimit(15); // Process 5 sites at a time
+
+    const tasks = websites.map(url => limit(async () => {
+        
+        let result;
+        try {
+            // STEP 1: Fast Cheerio check
+            result = await scrapeWithCheerio(url);
+
+            // STEP 2: Fallback if Cheerio fails or finds no contact info
+            if (!result.success || result.phones.length === 0) {
+                const browserRes = await scrapeWithPlaywright(url, browser);
+                if (browserRes.success) {
+                    const $ = cheerio.load(browserRes.html);
+                    result = {
+                        url: browserRes.finalUrl || url,
+                        phones: extractPhones(browserRes.text, $),
+                        socials: extractSocials($),
+                        success: true,
+                        method: 'Playwright'
+                    };
+                }
             }
+
+            if (result.success) successStream.write(JSON.stringify(result) + "\n");
+            else errorStream.write(JSON.stringify(result) + "\n");
+
+        } catch (error) {
+            result = { url, success: false, error: error.message };
+            errorStream.write(JSON.stringify(result) + "\n");
         } finally {
             completedCount++;
             logProgress(completedCount, websites.length);
         }
-    
-
         return result;
+    }));
+
+    const finalResults = await Promise.all(tasks);
     
-}));
-    const results = await Promise.all(tasks);
-    fsp.writeFile("../data/return-data", JSON.stringify(results, null, 2), 'utf-8');
-    const failedResults = results.filter(r => !r.success);
-    fsp.writeFile("../data/failed-crawls", JSON.stringify(failedResults, null, 2), 'utf8');
-    const stats = performDataAnalysis(results);
-} catch (error) {
-    console.error("Error reading CSV:", error);
+    successStream.end();
+    errorStream.end();
+    await browser.close();
+    
+    performDataAnalysis(finalResults.filter(r => r !== undefined));
+    console.log("Job Finished.");
 }
+
+main().catch(console.error);
