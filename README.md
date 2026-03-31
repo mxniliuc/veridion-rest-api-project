@@ -16,33 +16,35 @@ Runtime:
 
 Step 1: Data Extraction & Analysis
 
-The Scraper (/scraper)
+The Scraper
 Built for speed and resilience. It handles the "Scaling" requirement by:
 
-1. Concurrency: Utilizing p-limit to process 15+ websites simultaneously.
+1. Concurrency: Utilizing p-limit to process 15+ websites simultaneously and respect the 10 minute crawl time.
 2. Resource Blocking: Aborting requests for images, fonts, and CSS to reduce bandwidth and latency.
-3. Protocol Racing: Concurrently attempting http, https, and www variations to find the fastest resolving path.4. Junk Filtering: Advanced Regex and structural checks to skip "403 Forbidden" shells and parked domains.
+3. Protocol Racing: Concurrently attempting http, https, and www variations to find the fastest resolving path.
+4. Junk Filtering: Advanced Regex and structural checks to skip "403 Forbidden" shells and parked domains.
 
 Data Analysis
 
 Based on the crawl of sample-websites.csv:
 
-1. Coverage: ~90% (Successfully resolved vs. dead/parked domains).
-2. Fill Rates: High extraction rates for Socials and Phones due to deep-scanning subpages (About/Contact).
+1. Crawl Coverage: ~60% (Successfully resolved vs. dead/parked domains).
+2. Phone Number Coverage: ~85%
+3. Social Media Links Coverage: ~55% (High extraction rates for Socials and Phones due to deep-scanning subpages: About/Contact)
 
 Step 2: Data Retrieval & Matching
 
 The Storing Part (merger.js & indexer.js)
 
-I merged the scraped data with sample-websites-company-names.csv. To ensure the API is scalable, data is indexed into Elasticsearch.
+ I merged the scraped data with sample-websites-company-names.csv. To ensure the API is scalable, data is indexed into Elasticsearch.
 
 Mappings: Company names are stored as text for fuzzy matching, while domains and socials are keyword for exact lookups.
 
-The Matching Algorithm (/api)
-The API uses a Weighted Boolean Query to solve the "Match Rate" challenge. Since inputs in API-input-sample.csv are often messy, the algorithm ranks results based on confidence:
+The Matching Algorithm
+ The API uses a Weighted Boolean Query to solve the "Match Rate" challenge. Since inputs in API-input-sample.csv are often messy, the algorithm ranks results based on confidence:
 
 
- Bonus: Accuracy Measurement
+Bonus: Accuracy Measurement
  Accuracy is measured using the Elasticsearch _score. This allows the API to return a confidence level with every match:
  
  1. Verified (Score > 15): Match confirmed via unique digital identifiers (Domain/Social).
@@ -58,10 +60,11 @@ The API uses a Weighted Boolean Query to solve the "Match Rate" challenge. Since
 
 docker run -p 9200:9200 -e "discovery.type=single-node" -e "xpack.security.enabled=false" docker.elastic.co/elasticsearch/elasticsearch:8.12.0
 
-3. Install & Index
+3. Install, Index & Scraper
 
 npm install
-node api/merger.js
+node scraper/index.js
+node scripts/merger.js
 node api/indexer.js
 
 4. Run the API
