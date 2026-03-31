@@ -1,97 +1,108 @@
-import { chromium } from 'playwright';
+import fs from "fs/promises"
 
-let browser;
-
-export async function scrapeWithPlaywright(url, existingBrowser = null) {
-    // Reuse the browser instance to save 2 seconds per site
-    if (!browser && !existingBrowser) {
-        browser = await chromium.launch({ 
-            headless: true,
-            args: ['--disable-dev-shm-usage', '--no-sandbox', '--disable-http2'] 
-        });
-    }
-    
-    const activeBrowser = existingBrowser || browser;
-    const context = await activeBrowser.newContext({ 
+export async function scrapeWithPlaywright(url, existingBrowser) {
+    const context = await existingBrowser.newContext({ 
         ignoreHTTPSErrors: true,
         userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36'
     });
-    const page = await context.newPage();
 
-    // SPEED: Block images, css, and fonts
-    await page.route('**/*', (route) => {
+    // Global interceptor to speed up loading
+    await context.route('**/*', (route) => {
         const type = route.request().resourceType();
-        if (['image', 'font', 'stylesheet', 'media'].includes(type)) route.abort();
+        if (['image', 'font', 'stylesheet', 'media', 'other'].includes(type)) route.abort();
         else route.continue();
     });
 
+    const page = await context.newPage();
+    const rawDomain = url.replace(/^(?:https?:\/\/)?(?:www\.)?/i, "");
+
     try {
-        const rawDomain = url.replace(/^(?:https?:\/\/)?(?:www\.)?/i, "");
-        const targets = [`http://${rawDomain}`, `https://www.${rawDomain}`];
+        // 1. RACE protocols
+        await Promise.any([
+            page.goto(`http://${rawDomain}`, { waitUntil: 'domcontentloaded', timeout: 12000 }),
+            page.goto(`https://www.${rawDomain}`, { waitUntil: 'domcontentloaded', timeout: 12000 })
+        ]).catch(() => {}); 
 
-        let combinedHTML = "";
-        let combinedText = "";
-        let finalUrl = url;
+        await page.waitForTimeout(1500); // Give JS a moment to render
+        
+        // 2. STAGE 1 CLEANING: Get raw data for validation
+        const bodyText = await page.evaluate(() => document.body.innerText.trim());
+        const pageTitle = await page.title();
+        const htmlContent = await page.content();
 
-        for (const target of targets) {
-            try {
-                const response = await page.goto(target, { waitUntil: 'domcontentloaded', timeout: 15000 });
-                if (!response) continue;
-
-                // Wait for potential dynamic content/Wix hydration
-                await page.waitForTimeout(2000);
-
-                // FOOTER FIX: Scroll to bottom to trigger lazy-loaded elements
-                await page.evaluate(() => window.scrollTo(0, document.body.scrollHeight));
-                await page.waitForTimeout(1000);
-
-                const pageTitle = await page.title();
-                const bodyText = await page.evaluate(() => document.body.innerText);
-                const htmlContent = await page.content();
-
-                // JUNK DETECTION
-                const JUNK_PATTERNS = /denied|unavailable|forbidden|nginx|8lm mail|access restricted|404|dns|hosting|attention required|403|taken|sorry|problem|critical|cpanel|porkbun|abnormality|suspended|webmaster/i;
-                if ((bodyText.length < 100 || JUNK_PATTERNS.test(pageTitle + bodyText)) && !bodyText.toLowerCase().includes("facility")) {
-                    console.log(`Skipping ${target}`)
-                    continue; 
-                }
-
-                combinedHTML += htmlContent;
-                combinedText += bodyText;
-                finalUrl = page.url();
-
-                // DEEP SCAN DISCOVERY
-                const deepLinks = await page.evaluate(() => {
-                    const currentHostname = window.location.hostname;
-                    return Array.from(document.querySelectorAll('a'))
-                        .map(a => a.href)
-                        .filter(href => {
-                            try {
-                                const urlObj = new URL(href);
-                                return urlObj.hostname.includes(currentHostname) && 
-                                       /(contact|about|info)/i.test(href);
-                            } catch (e) { return false; }
-                        });
-                });
-
-                const uniqueDeepLinks = [...new Set(deepDeepLinks)].slice(0, 2);
-
-                for (const link of uniqueDeepLinks) {
-                    try {
-                        await page.goto(link, { waitUntil: 'domcontentloaded', timeout: 10000 });
-                        await page.evaluate(() => window.scrollTo(0, document.body.scrollHeight));
-                        await page.waitForTimeout(1000);
-                        combinedHTML += "\n\n" + await page.content();
-                        combinedText += "\n --- SUBPAGE --- \n" + await page.evaluate(() => document.body.innerText);
-                    } catch (e) { console.log(`  ! Subpage fail: ${link}`); }
-                }
-
-                break; // Found a valid version, stop trying targets
-            } catch (e) { continue; }
+        // 3. ENHANCED JUNK DETECTION
+        // Added: \b boundaries for accuracy, and specific tags found in your logs
+        const JUNK_PATTERNS = /\bdenied\b|\bunavailable\b|\bforbidden\b|nginx|8lm mail|access restricted|404|dns|hosting|403|suspended|webmaster|search results|did not match any documents|attention required|get this domain|405|not allowed|inconvenience|sorry|not a bot|critical error|not found/i;
+        
+        // A page is "False" if:
+        // - Text is nearly non-existent (Empty shells like harvardpsc.com)
+        // - It matches known error strings
+        // - It contains H1 headers typical of "Silent 403s"
+        const isInternalError = htmlContent.includes("<h1>403 Forbidden</h1>") || htmlContent.includes("<h1>404 Not Found</h1>");
+        
+        if (bodyText.length < 50 || JUNK_PATTERNS.test(pageTitle + bodyText) || isInternalError) {
+            console.log(`Skipped ${url}`)
+            await fs.appendFile("../data/html-log", `Skipped ${url}`, 'utf-8');
+            await context.close();
+            return { success: false, error: "Junk or Empty page detected" };
         }
 
+        // 4. DEEP DISCOVERY (Only if the homepage is valid)
+        const deepLinks = await page.evaluate(() => {
+            const host = window.location.hostname;
+            return [...new Set(Array.from(document.querySelectorAll('a'))
+                .map(a => a.href)
+                .filter(href => {
+                    try {
+                        const u = new URL(href);
+                        return u.hostname.includes(host) && /(contact|about|info)/i.test(href);
+                    } catch(e) { return false; }
+                })
+            )].slice(0, 2);
+        });
+
+        let combinedHTML = htmlContent;
+        let combinedText = bodyText;
+
+        // 5. PARALLEL DEEP SCAN
+        if (deepLinks.length > 0) {
+            const subpageData = await Promise.all(deepLinks.map(async (link) => {
+                const subPage = await context.newPage();
+                try {
+                    await subPage.goto(link, { waitUntil: 'domcontentloaded', timeout: 8000 });
+                    const subText = await subPage.evaluate(() => document.body.innerText.trim());
+                    // Only return subpage data if it isn't also junk
+                    if (subText.length > 100 && !JUNK_PATTERNS.test(subText)) {
+                        return {
+                            html: await subPage.content(),
+                            text: subText
+                        };
+                    }
+                    return null;
+                } catch (e) { return null; }
+                finally { await subPage.close(); }
+            }));
+
+            subpageData.forEach(data => {
+                if (data) {
+                    combinedHTML += "\n\n" + data.html;
+                    combinedText += "\n --- SUBPAGE --- \n" + data.text;
+                }
+            });
+        }
+
+        await fs.appendFile("../data/html-log", "\n", 'utf-8')
+
+        const test = JSON.stringify(url+combinedHTML+combinedText, null, 2);
+
+        await fs.appendFile("../data/html-log", test, 'utf-8')
+
+        await fs.appendFile("../data/html-log", "\n", 'utf-8')
+
+        const finalUrl = page.url();
         await context.close();
-        return { success: !!combinedHTML, html: combinedHTML, text: combinedText, finalUrl };
+        return { success: true, html: combinedHTML, text: combinedText, finalUrl };
+
     } catch (error) {
         await context.close();
         return { success: false, error: error.message };

@@ -8,6 +8,7 @@ import { performDataAnalysis, logProgress } from "./analysis.js";
 import { scrapeWithPlaywright } from "./playwright.js";
 import * as cheerio from 'cheerio';
 import { chromium } from 'playwright';
+import fsp from "fs/promises";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
@@ -40,15 +41,30 @@ async function main() {
             // STEP 2: Fallback if Cheerio fails or finds no contact info
             if (!result.success || result.phones.length === 0) {
                 const browserRes = await scrapeWithPlaywright(url, browser);
+                console.log(url, browserRes.success);
+                const test = url + JSON.stringify(browserRes, null, 2) + "\n";
+                await fsp.appendFile("../data/html-log", test, 'utf-8');
+
+                
                 if (browserRes.success) {
                     const $ = cheerio.load(browserRes.html);
+                    url = "http://www." + url;
                     result = {
-                        url: browserRes.finalUrl || url,
+                        url: url,
                         phones: extractPhones(browserRes.text, $),
                         socials: extractSocials($),
                         success: true,
                         method: 'Playwright'
                     };
+                }
+                if(browserRes.success==false){
+                    console.log(`${url} turned out false`)
+                    url = "http://www." + url;
+                    result = {
+                        url: url,
+                        success: false, 
+                        error: "Couldn't be scraped"
+                    }
                 }
             }
 
