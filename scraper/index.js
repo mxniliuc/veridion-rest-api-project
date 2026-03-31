@@ -8,18 +8,15 @@ import { performDataAnalysis, logProgress } from "./analysis.js";
 import { scrapeWithPlaywright } from "./playwright.js";
 import * as cheerio from 'cheerio';
 import { chromium } from 'playwright';
-import fsp from "fs/promises";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 async function main() {
-    // Launch browser ONCE for the entire app
     const browser = await chromium.launch({ headless: true });
     
     const websites = [];
     const filePath = path.join(__dirname, "../data/sample-websites.csv");
 
-    // Read CSV
     const readCsv = () => new Promise(res => {
         fs.createReadStream(filePath).pipe(csv()).on('data', r => websites.push(r.domain)).on('end', res);
     });
@@ -29,21 +26,18 @@ async function main() {
     const errorStream = createWriteStream("../data/failed-crawls.jsonl", { flags: 'a' });
 
     let completedCount = 0;
-    const limit = pLimit(15); // Process 5 sites at a time
+    const limit = pLimit(15);
 
     const tasks = websites.map(url => limit(async () => {
         
         let result;
         try {
-            // STEP 1: Fast Cheerio check
             result = await scrapeWithCheerio(url);
 
-            // STEP 2: Fallback if Cheerio fails or finds no contact info
             if (!result.success || result.phones.length === 0) {
                 const browserRes = await scrapeWithPlaywright(url, browser);
-                console.log(url, browserRes.success);
                 const test = url + JSON.stringify(browserRes, null, 2) + "\n";
-                await fsp.appendFile("../data/html-log", test, 'utf-8');
+                //await fsp.appendFile("../data/html-log", test, 'utf-8');
 
                 
                 if (browserRes.success) {
@@ -58,7 +52,6 @@ async function main() {
                     };
                 }
                 if(browserRes.success==false){
-                    console.log(`${url} turned out false`)
                     url = "http://www." + url;
                     result = {
                         url: url,

@@ -30,7 +30,7 @@ export async function scrapeWithCheerio(url) {
     for (const step of protocols) {
         try {
             const response = await axios.get(step.url, {
-                timeout: 8000, // Faster timeout per attempt to keep the loop moving
+                timeout: 8000,
                 httpsAgent: step.agent,
                 headers: {
                     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36',
@@ -41,7 +41,6 @@ export async function scrapeWithCheerio(url) {
 
             const $ = cheerio.load(response.data);
 
-            // FIX: Always initialize phone arrays to prevent "is not defined" errors
             let phoneCandidates = [];
             $('script[type="application/ld+json"]').each((i, el) => {
                 try {
@@ -70,7 +69,6 @@ export async function scrapeWithCheerio(url) {
         } catch (error) {
             lastError = error;
             if (error.response?.status === 404) break;
-            // Silent continue to next protocol
         }
     }
 
@@ -90,12 +88,6 @@ export async function scrapeWithCheerio(url) {
 }
 
 export function extractPhones(text, $) {
-    // This regex looks for:
-    // 1. Optional +1 or 1 and a separator
-    // 2. 3 digits (optional parenthesis)
-    // 3. 3 digits
-    // 4. 4 digits
-    // Supports: 555-555-5555, (555) 555-5555, 555 555 5555, 555.555.5555
     const phoneRegex = /(?:\+?1[-. ]?)?\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})/g;
     
     let allMatches = [];
@@ -120,12 +112,9 @@ export function extractPhones(text, $) {
         $('a[href^="tel:"]').each((i, el) => {
             const $el = $(el);
             
-            // 1. Get the literal number from the href (metadata)
             let telMetadata = $el.attr('href').replace('tel:', '').trim();
             if (telMetadata) allMatches.push(telMetadata);
 
-            // 2. Get the visible text associated with this specific link
-            // This catches cases where the href is just digits but the text is formatted
             const linkText = $el.text().trim();
             const textMatch = linkText.match(phoneRegex);
             if (textMatch) {
@@ -140,8 +129,9 @@ export function extractPhones(text, $) {
         });
 
         $('a, button, span, br').each((i, el) => {
+
             const $el = $(el);
-            // Check title, aria-label, and data-attributes
+
             const attributesToCheck = [
                 $el.attr('title'), 
                 $el.attr('aria-label'), 
@@ -160,17 +150,13 @@ export function extractPhones(text, $) {
     }
 
     const validatedNumbers = allMatches.map(raw => {
-        // We assume 'US' but the library handles '+' prefixes automatically
         const parsed = parsePhoneNumberFromString(raw, 'US');
         
-        // Only return if it's a valid phone number length and format
         if (parsed && parsed.isValid()) {
-            return parsed.formatNational(); // Standardizes to (305) 356-7440
+            return parsed.formatNational(); 
         }
         return null;
-    }).filter(Boolean); // Remove nulls
-
-    console.log(validatedNumbers)
+    }).filter(Boolean); 
 
     return [...new Set(validatedNumbers)];
 }
@@ -188,35 +174,27 @@ export function extractSocials($) {
         const href = $(el).attr('href');
         if (!href || href === '#' || href.startsWith('javascript:')) return;
 
-        // Convert to lowercase for easier matching
         const link = href.toLowerCase();
 
-        // 1. Facebook
         if (link.includes('facebook.com/') && !link.includes('sharer')) {
             socials.facebook = href;
         }
 
-        // 2. Twitter / X (Supports rebranding)
         if ((link.includes('twitter.com/') || link.includes('x.com/')) && !link.includes('intent/')) {
             socials.twitter = href;
         }
 
-        // 3. LinkedIn (Prioritize company pages)
         if (link.includes('linkedin.com/')) {
-            // If we don't have one yet, or if this is a company/in link (preferred over share links)
             if (!socials.linkedin || link.includes('/company/') || link.includes('/in/')) {
                 socials.linkedin = href;
             }
         }
 
-        // 4. Instagram
         if (link.includes('instagram.com/')) {
             socials.instagram = href;
         }
 
-        // 5. YouTube
         if (link.includes('youtube.com/') || link.includes('youtu.be/')) {
-            // Filter out common video-player links and keep channels/users
             if (!link.includes('/embed/') && !link.includes('/watch?')) {
                 socials.youtube = href;
             }
@@ -225,31 +203,3 @@ export function extractSocials($) {
     
     return socials;
 }
-
-/*export function extractAddress($) {
-    const addressRegex = /\d{1,5}\s+([a-zA-Z0-9\s\.,#-]+)\s+(Street|St|Ave|Avenue|Rd|Road|Suite|Bldg|Blvd|Drive|Dr|Lane|Ln|Way|Court|Ct|Circle|Cir|Pkwy|Parkway)/i;
-
-    let address = $('address').first().text().replace(/\s\s+/g, ' ').trim();
-    
-    if (!address) {
-        const footerText = $('footer').text();
-        address = footerText.match(addressRegex)?.[0] || null;
-    }
-
-    if (!address) {
-        const mapLink = $('a[href*="google.com/maps"], a[href*="maps.app.goo.gl"]').first().attr('href');
-        if (mapLink) {
-            try {
-                const urlObj = new URL(mapLink);
-                address = urlObj.searchParams.get('q') || urlObj.searchParams.get('query') || urlObj.searchParams.get('daddr');
-            } catch (e) {  }
-        }
-    }
-
-    if (!address) {
-        const bodyText = $('body').text();
-        address = bodyText.match(addressRegex)?.[0] || null;
-    }
-    
-    return address ? address.trim() : null;
-}*/
