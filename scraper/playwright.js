@@ -30,12 +30,13 @@ export async function scrapeWithPlaywright(url) {
         let combinedText = "";
 
         for (const target of targets) {
+            let junk = false;
             try {
                 const response = await page.goto(target, { waitUntil: 'domcontentloaded', timeout: 15000 });
                 console.log("Trying...", target)
 
                 
-                if (!response) {console.log("404");continue;}
+               //if (!response) {console.log("404");continue;}
 
                 /*await page.evaluate(async () => {
                     window.scrollTo(0, document.body.scrollHeight);
@@ -47,7 +48,6 @@ export async function scrapeWithPlaywright(url) {
 
                 const pageTitle = await page.title(); 
                 const bodyText = await page.evaluate(() => document.body.innerText);
-                const isJunk = bodyText.length < 250 || pageTitle.toLowerCase().includes("welcome to nginx");
                 
 
                 await page.waitForTimeout(1500);
@@ -82,10 +82,28 @@ export async function scrapeWithPlaywright(url) {
                 combinedHTML += mainPageData.html;
                 combinedText += mainPageData.text;
 
+                
+                if(!combinedHTML.includes("<input")){
+                if(combinedText.length<50 &&!combinedText.includes("facility")){
+                        junk = true;
+                        console.log(`Skipping ${target}`);
+                        continue;
+                }
+
+
+                const JUNK_PATTERNS = /denied|unavailable|forbidden|nginx|8lm mail|access restricted|404|dns|hosting|attention required|403|taken|sorry|problem|critical|cpanel|porkbun|abnormality|suspended</i;
+                
+                //skip websites without a purchased domain
+                if(JUNK_PATTERNS.test(combinedHTML+combinedText) && !combinedText.includes("facility")){
+                    junk = true;
+                    console.log(`Skipping ${target}`);
+                    continue;
+                }
+                }
                 let homePagePhones = mainPageData.extractedPhones || [];
                 let subPagePhones = [];
                 // LOOP through all discovered deep links
-                
+                if(mainPageData.deepLinks.length!=0){
                 for (const link of mainPageData.deepLinks) {
                     console.log(`  -> Deep scanning: ${link}`);
                     try {
@@ -111,8 +129,9 @@ export async function scrapeWithPlaywright(url) {
                         console.log(`  ! Failed deep scan for ${link}`);
                     }
                 }
-                break; // Exit loop on first valid target
+                break;} // Exit loop on first valid target
             } catch (e) { continue; }
+            if(junk===true){ return { success: false, error: "Unavailable website"}};
         }
         await browser.close();
         
