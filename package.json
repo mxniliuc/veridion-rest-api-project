@@ -1,6 +1,7 @@
 {
   "name": "veridion-rest-api-project",
   "version": "1.0.0",
+  "type": "module",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -17,6 +18,13 @@
   },
   "homepage": "https://github.com/mxniliuc/veridion-rest-api-project#readme",
   "dependencies": {
-    "express": "^5.2.1"
+    "axios": "^1.13.6",
+    "cheerio": "^1.2.0",
+    "csv-parser": "^3.2.0",
+    "express": "^5.2.1",
+    "fast-csv": "^5.0.5",
+    "libphonenumber-js": "^1.12.41",
+    "p-limit": "^7.3.0",
+    "playwright": "^1.58.2"
   }
 }
